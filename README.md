@@ -1,5 +1,21 @@
-# Visualize HL7 Example and Test Instances (vi7eti)
+# vi7eti
 
-Sources for the project "Visualize HL7 Example and Test Instances (vi7eti)".
+**Visualize HL7 Example and Test Instances (vi7eti)**, pronounced /viːˈsɛtiː/
 
-Original web presence: https://vi7eti.net
+© dr Kai Heitmann, [HL7 Europe](https://hl7europe.org) | [Privacy Policy](https://hl7europe.eu/privacy-policy-for-hl7-europe/) • LGPL-3.0 license
+
+## Disclaimer
+
+This repository and its content is not intended to be used as a source of information for real patient care, medicines etc.
+
+## Table of Contents
+
+[vi7eti – the Story](STORY.md)
+
+[Credits, Courtesy and Contributors](CCC.md)
+
+Progress
+
+## Website
+
+The original web presence is [here](https://vi7eti.net/).
