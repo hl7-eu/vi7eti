@@ -14,4 +14,4 @@ Rendering the content of such example instances is subject to this **vi7eti** (V
 - HL7 Europe Hospital Discharge Letter (HDR) based on the Hospital Discharge Letter (HDR) FHIR Implementation Guide
 - ... more to come
 
-In some of these projects, also Synthetic Realistic Example and Test Data play a role. There is another HL7 Europe activity called **SYNDERAI** (Synthetic Data: Examples – Realistic – using AI, see [here](https://github.com/hl7-eu/SYNDERAI) on GitHub) where test and Example Instances are generated. Please see the GitHub repository for  more information.
+In some of these projects, also Synthetic Realistic Example and Test Data plays a role. There is another HL7 Europe activity called **SYNDERAI** (Synthetic Data: Examples – Realistic – using AI, see [here](https://github.com/hl7-eu/SYNDERAI) on GitHub) where test and Example Instances are generated. Please see the GitHub repository for  more information.
