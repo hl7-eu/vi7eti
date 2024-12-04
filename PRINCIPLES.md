@@ -3,7 +3,7 @@
 
 © dr Kai Heitmann, [HL7 Europe](https://hl7europe.org) | [Privacy Policy](https://hl7europe.eu/privacy-policy-for-hl7-europe/) • LGPL-3.0 license
 
-more to follow...
+In nascent mode, more to follow...
 
 ## Reference Implementation vi7eti
 

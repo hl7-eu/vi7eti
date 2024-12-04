@@ -12,6 +12,8 @@ This repository and its content is not intended to be used as a source of inform
 
 [vi7eti – the Story](STORY.md)
 
+[Principles](PRINCIPLES.md) (nascent)
+
 [Credits, Courtesy and Contributors](CCC.md)
 
 Progress
