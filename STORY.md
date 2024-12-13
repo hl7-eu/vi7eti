@@ -2,7 +2,7 @@
 
 **Visualize HL7 Example and Test Instances (vi7eti)**, pronounced /viːˈsɛtiː/
 
-© dr Kai Heitmann, [HL7 Europe](https://hl7europe.org) | [Privacy Policy](https://hl7europe.eu/privacy-policy-for-hl7-europe/) • LGPL-3.0 license
+© [HL7 Europe](https://hl7europe.org) | Main Contributor: Dr. Kai U. Heitmann | [Privacy Policy](https://hl7europe.eu/privacy-policy-for-hl7-europe/) • LGPL-3.0 license
 
 HL7 Europe](https://hl7europe.org) participates with partners in European [Interoperability Projects](https://hl7europe.org/projects-initiatives/). One outcome of this kind of projects are Interoperability Specifications such as [FHIR](http://hl7.org/fhir/) (Fast Health Interoperability Resources) [Implementation Guides](https://hl7europe.org/standards/#igs) (IG). An IG typically contains example instances in the technical exchange / data format FHIR.
 
