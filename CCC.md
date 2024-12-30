@@ -7,7 +7,7 @@
 
 Copyright © [ART-DECOR](https://art-decor.org/) Expert Group and ART-DECOR Open Tools GmbH • LGPL-3.0 license
 
-more follows
+Material Design Icons by [Pictogrammers](https://pictogrammers.com/) Free License
 
 ## Contributors
 
