@@ -14,7 +14,7 @@ This repository and its content is not intended to be used as a source of inform
 
 [Principles](PRINCIPLES.md) (nascent)
 
-[Examples](Examples.md) (nascent)
+[Examples](EXAMPLES.md) (nascent)
 
 [Credits, Courtesy and Contributors](CCC.md)
 

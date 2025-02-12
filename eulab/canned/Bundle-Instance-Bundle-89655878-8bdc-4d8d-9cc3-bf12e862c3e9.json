@@ -1,0 +1,4557 @@
+{
+  "resourceType": "Bundle",
+  "id": "Instance-Bundle-89655878-8bdc-4d8d-9cc3-bf12e862c3e9",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/laboratory/StructureDefinition/Bundle-eu-lab"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "183700c8-8036-409c-ab37-2bcc18ae90e5"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:8384ef95-c246-4d9c-b316-2ced1238d322",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "8384ef95-c246-4d9c-b316-2ced1238d322",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Composition-eu-lab"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "8d9d5767-4289-4059-9448-990adc537680"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:5c83c44d-c725-4d9c-828b-d9e07f136854"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "26436-6",
+                "system": "http://loinc.org",
+                "display": "Laboratory studies (set)"
+              }
+            ]
+          }
+        ],
+        "type": {
+          "text": "Laboratory Report"
+        },
+        "section": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "code": "26436-6",
+                  "system": "http://loinc.org",
+                  "display": "Laboratory studies (set)"
+                }
+              ],
+              "text": "Laboratory studies"
+            },
+            "section": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "code": "18723-7",
+                      "system": "http://loinc.org",
+                      "display": "Hematology studies (set)"
+                    }
+                  ],
+                  "text": "Hematology"
+                },
+                "entry": [
+                  {
+                    "reference": "urn:uuid:6a0f3261-978f-42b4-85cd-87dfdbe8d6ca"
+                  },
+                  {
+                    "reference": "urn:uuid:99168a07-4ea0-4d0e-88d9-ddc1e81c59eb"
+                  },
+                  {
+                    "reference": "urn:uuid:ac36901b-7712-4aa8-80ea-cbdb2820a6a7"
+                  },
+                  {
+                    "reference": "urn:uuid:2acf6d24-1e25-47ab-b0a2-10cea6c75187"
+                  },
+                  {
+                    "reference": "urn:uuid:a1765e28-4e8a-4360-bae2-903dfa5a9352"
+                  },
+                  {
+                    "reference": "urn:uuid:71f7ef3f-bfe0-48aa-a825-67d53bf8da44"
+                  },
+                  {
+                    "reference": "urn:uuid:e482cd96-5f8c-45c5-bcf1-6d46092de0da"
+                  },
+                  {
+                    "reference": "urn:uuid:fef55d59-0e44-4d7e-b1b0-7b338bc7a1ed"
+                  },
+                  {
+                    "reference": "urn:uuid:b5fed781-444a-42a3-8fe2-00f172de0313"
+                  },
+                  {
+                    "reference": "urn:uuid:fb45a033-cf0a-41e9-b1a1-b25b422635ae"
+                  },
+                  {
+                    "reference": "urn:uuid:22b1732d-c8e4-4e32-9de4-cc87f8bed564"
+                  },
+                  {
+                    "reference": "urn:uuid:954f1287-f0b3-4267-be9c-4f910cbd7ae4"
+                  },
+                  {
+                    "reference": "urn:uuid:6a4f2784-cc7c-4280-9bbf-3ff75a529026"
+                  },
+                  {
+                    "reference": "urn:uuid:df77d817-7b03-47aa-bca4-a64fbf0c2aa4"
+                  },
+                  {
+                    "reference": "urn:uuid:6e41417d-e10e-410b-844f-e0cb38c3dfb9"
+                  },
+                  {
+                    "reference": "urn:uuid:bf7de422-e8d4-48c4-b035-f1fb43493cef"
+                  },
+                  {
+                    "reference": "urn:uuid:7b2019a3-c94f-40b6-996a-4128a688a80d"
+                  },
+                  {
+                    "reference": "urn:uuid:e002e3bf-51ac-4ef5-bae6-45c6bb4c12f6"
+                  },
+                  {
+                    "reference": "urn:uuid:e3519c82-d942-46e8-90af-e6afe72a88f1"
+                  }
+                ],
+                "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3 id=\"section-1\">Hematology</h3><table class=\"hl7__eu__lab__report\"><thead><tr><th>Test</th><th>29 Nov 2024</th><th>Reference Range</th><th>Unit</th></tr></thead><tbody><tr><td>Leukocytes [#/volume] in Blood by Automated count</td><td>3.8</td><td>3.4 - 10.8</td><td>10^3/uL</td></tr><tr><td>Erythrocytes [#/volume] in Blood by Automated count</td><td>5.2</td><td>4.2 - 5.8</td><td>10^6/uL</td></tr><tr><td>Hemoglobin [Mass/volume] in Blood</td><td>12.4</td><td>12 - 15.5</td><td>g/dL</td></tr><tr><td>Hematocrit [Volume Fraction] of Blood by Automated count</td><td>43.7</td><td>37 - 52</td><td>%</td></tr><tr><td>MCV [Entitic volume] by Automated count</td><td>95.4</td><td>80 - 105</td><td>fL</td></tr><tr><td>MCH [Entitic mass] by Automated count</td><td>32.9</td><td>27 - 34</td><td>pg</td></tr><tr><td>MCHC [Mass/volume] by Automated count</td><td>31.7</td><td>31 - 35</td><td>g/dL</td></tr><tr><td>Erythrocyte distribution width [Ratio] by Automated count</td><td>14.0</td><td>11.5 - 16</td><td>%</td></tr><tr><td>Platelets [#/volume] in Blood by Automated count</td><td><strong>110.4 L</strong></td><td>150 - 450</td><td>10^3/uL</td></tr><tr><td>Neutrophils/100 leukocytes in Blood by Automated count</td><td>40.9</td><td>40 - 74.6</td><td>%</td></tr><tr><td>Lymphocytes/100 leukocytes in Blood by Automated count</td><td><strong>17.3 L</strong></td><td>20 - 45</td><td>%</td></tr><tr><td>Monocytes/100 leukocytes in Blood by Automated count</td><td>7.0</td><td>2 - 10</td><td>%</td></tr><tr><td>Eosinophils/100 leukocytes in Blood by Automated count</td><td>5.6</td><td>0 - 7</td><td>%</td></tr><tr><td>Basophils/100 leukocytes in Blood by Automated count</td><td><strong>3.6 H</strong></td><td>0 - 1</td><td>%</td></tr><tr><td>Neutrophils [#/volume] in Blood by Automated count</td><td>3.4</td><td>2 - 7.7</td><td>10^3/uL</td></tr><tr><td>Lymphocytes [#/volume] in Blood by Automated count</td><td>1.1</td><td>1 - 4</td><td>10^3/uL</td></tr><tr><td>Monocytes [#/volume] in Blood by Automated count</td><td><strong>1.0 H</strong></td><td>0.7 - 0.9</td><td>10^3/uL</td></tr><tr><td>Eosinophils [#/volume] in Blood by Automated count</td><td>0.3</td><td>0.1 - 0.5</td><td>10^3/uL</td></tr><tr><td>Basophils [#/volume] in Blood by Automated count</td><td><strong>0.4 H</strong></td><td>0.3 - 0.1</td><td>10^3/uL</td></tr></tbody></table></div>"
+                },
+                "title": "Hematology"
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "code": "18719-5",
+                      "system": "http://loinc.org",
+                      "display": "Chemistry studies (set)"
+                    }
+                  ],
+                  "text": "Chemistry"
+                },
+                "entry": [
+                  {
+                    "reference": "urn:uuid:99a53288-b903-403a-9dfd-d33e40de4ebd"
+                  },
+                  {
+                    "reference": "urn:uuid:89b747ae-ad3a-4673-9877-1ed8fb69dad7"
+                  },
+                  {
+                    "reference": "urn:uuid:17d5278c-9ffd-4828-8200-ec182082befd"
+                  },
+                  {
+                    "reference": "urn:uuid:cd712d78-7a13-41d7-95f3-a5db4d140a1b"
+                  },
+                  {
+                    "reference": "urn:uuid:b20b813a-1d10-4aa5-b387-c613281c860f"
+                  },
+                  {
+                    "reference": "urn:uuid:0681f0b5-a062-46c5-bdd4-fab7af1deb14"
+                  },
+                  {
+                    "reference": "urn:uuid:bca09beb-dcef-4c02-b6dc-59c5468cea8a"
+                  },
+                  {
+                    "reference": "urn:uuid:7f4336ad-fb42-4a40-b749-b98f0699ec71"
+                  },
+                  {
+                    "reference": "urn:uuid:d22121b7-632b-483c-be52-aba2dc733902"
+                  },
+                  {
+                    "reference": "urn:uuid:85d428ba-7288-4449-a3a0-3d47435718d0"
+                  },
+                  {
+                    "reference": "urn:uuid:873cf0ba-a97e-4dad-8b56-85872f911ba6"
+                  },
+                  {
+                    "reference": "urn:uuid:bdd95efc-6f72-45b1-9644-d52037c50ac2"
+                  },
+                  {
+                    "reference": "urn:uuid:e973cea1-cf3f-4369-99ac-f4eb637b235d"
+                  },
+                  {
+                    "reference": "urn:uuid:97b6a341-1d12-4e8e-a16e-419866e9dd9c"
+                  },
+                  {
+                    "reference": "urn:uuid:b148b928-7e93-44bb-bb32-d2ba9bb56fb1"
+                  },
+                  {
+                    "reference": "urn:uuid:295fb8c9-836f-4799-9f16-fd222bb154b0"
+                  },
+                  {
+                    "reference": "urn:uuid:840800d7-8189-4747-b6ad-3321a27d0d51"
+                  },
+                  {
+                    "reference": "urn:uuid:29c72e9f-ba33-4e57-ad22-1b52e0d1e861"
+                  },
+                  {
+                    "reference": "urn:uuid:9bb94348-6966-4a35-bf02-1ded09fe3d77"
+                  },
+                  {
+                    "reference": "urn:uuid:71ef5b1a-09a0-4cdd-8bb8-e8f50e22aa4b"
+                  },
+                  {
+                    "reference": "urn:uuid:1b3d8c0a-65b3-4213-bc8f-b2d8b8db6686"
+                  },
+                  {
+                    "reference": "urn:uuid:d8b21a0c-1713-418f-a921-edfb209c1b59"
+                  }
+                ],
+                "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3 id=\"section-2\">Chemistry</h3><table class=\"hl7__eu__lab__report\"><thead><tr><th>Test</th><th>29 Nov 2024</th><th>Reference Range</th><th>Unit</th></tr></thead><tbody><tr><td>Oxygen saturation in Arterial blood</td><td><strong>75.9 L</strong></td><td>95 - 100</td><td>%</td></tr><tr><td>Oxygen saturation in Arterial blood</td><td><strong>88.9 L</strong></td><td>95 - 100</td><td>%</td></tr><tr><td>Glucose [Mass/volume] in Serum or Plasma</td><td>95.9</td><td>70 - 139</td><td>mg/dL</td></tr><tr><td>Urea nitrogen [Mass/volume] in Serum or Plasma</td><td>7.8</td><td>6 - 20</td><td>mg/dL</td></tr><tr><td>Creatinine [Mass/volume] in Serum or Plasma</td><td><strong>2.5 H</strong></td><td>0.6 - 1.1</td><td>mg/dL</td></tr><tr><td>Calcium [Mass/volume] in Serum or Plasma</td><td>10.1</td><td>8.5 - 10.4</td><td>mg/dL</td></tr><tr><td>Sodium [Moles/volume] in Serum or Plasma</td><td>140.0</td><td>135 - 145</td><td>mmol/L</td></tr><tr><td>Potassium [Moles/volume] in Serum or Plasma</td><td>5.0</td><td>3.5 - 5.3</td><td>mmol/L</td></tr><tr><td>Chloride [Moles/volume] in Serum or Plasma</td><td>103.0</td><td>98 - 107</td><td>mmol/L</td></tr><tr><td>Carbon dioxide, total [Moles/volume] in Serum or Plasma</td><td>25.4</td><td>22 - 29</td><td>mmol/L</td></tr><tr><td>Protein [Mass/volume] in Serum or Plasma</td><td>6.3</td><td>6 - 8.3</td><td>g/dL</td></tr><tr><td>Albumin [Mass/volume] in Serum or Plasma</td><td>3.5</td><td>3.4 - 5</td><td>g/dL</td></tr><tr><td>Bilirubin.total [Mass/volume] in Serum or Plasma</td><td><strong>12.0 H</strong></td><td>0.3 - 1.2</td><td>mg/dL</td></tr><tr><td>Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma</td><td>81.3</td><td>20 - 130</td><td>U/L</td></tr><tr><td>Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td><td>28.4</td><td>7 - 33</td><td>U/L</td></tr><tr><td>Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td><td>17.9</td><td>10 - 40</td><td>U/L</td></tr><tr><td>Ferritin [Mass/volume] in Serum or Plasma</td><td><strong>313.0 H</strong></td><td>30 - 150</td><td>ug/L</td></tr><tr><td>Troponin I.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method</td><td>2.8</td><td>0 - 15</td><td>pg/mL</td></tr><tr><td>Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction</td><td><strong>221.9 H</strong></td><td>100 - 214</td><td>U/L</td></tr><tr><td>Creatine kinase [Enzymatic activity/volume] in Serum or Plasma</td><td>52.1</td><td>30 - 170</td><td>U/L</td></tr><tr><td>C reactive protein [Mass/volume] in Serum or Plasma</td><td>8.1</td><td>0 - 10</td><td>mg/L</td></tr><tr><td>Procalcitonin [Mass/volume] in Serum or Plasma</td><td>0.1</td><td>0 - 0.5</td><td>ng/mL</td></tr></tbody></table></div>"
+                },
+                "title": "Chemistry"
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "code": "18720-3",
+                      "system": "http://loinc.org",
+                      "display": "Coagulation studies (set)"
+                    }
+                  ],
+                  "text": "Coagulation"
+                },
+                "entry": [
+                  {
+                    "reference": "urn:uuid:e24012bb-a446-453f-a890-7e93b7d67f36"
+                  },
+                  {
+                    "reference": "urn:uuid:88d25893-cc42-4f61-85ba-9dfb2a1413b3"
+                  },
+                  {
+                    "reference": "urn:uuid:1a68d735-7b1a-461c-af97-092b4edf6090"
+                  }
+                ],
+                "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3 id=\"section-3\">Coagulation</h3><table class=\"hl7__eu__lab__report\"><thead><tr><th>Test</th><th>29 Nov 2024</th><th>Reference Range</th><th>Unit</th></tr></thead><tbody><tr><td>Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma</td><td>0.2</td><td>0 - 0.5</td><td>ug/mL</td></tr><tr><td>Prothrombin time (PT)</td><td>11.8</td><td>11 - 14</td><td>sec</td></tr><tr><td>INR in Platelet poor plasma by Coagulation assay</td><td>1.3</td><td>0.9 - 2</td><td>{INR}</td></tr></tbody></table></div>"
+                },
+                "title": "Coagulation"
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "code": "18725-2",
+                      "system": "http://loinc.org",
+                      "display": "Microbiology studies"
+                    }
+                  ],
+                  "text": "Microbiology"
+                },
+                "entry": [
+                  {
+                    "reference": "urn:uuid:92683e01-0974-4632-b039-caef740c591b"
+                  },
+                  {
+                    "reference": "urn:uuid:72180f84-d1ec-4be9-a1ff-ab658ef462e9"
+                  },
+                  {
+                    "reference": "urn:uuid:ffb89620-dc19-49dc-854b-c5dab4bd2c6d"
+                  },
+                  {
+                    "reference": "urn:uuid:7542840e-93fa-42ea-9b48-a7864c1341d8"
+                  },
+                  {
+                    "reference": "urn:uuid:104d325a-4bf1-4034-9dc7-a71275ede168"
+                  },
+                  {
+                    "reference": "urn:uuid:68f456f2-1b98-495b-aeda-bf622ab6d8b5"
+                  },
+                  {
+                    "reference": "urn:uuid:663fc220-49cf-4fcf-bca1-0b2ee274d050"
+                  },
+                  {
+                    "reference": "urn:uuid:712338f6-5fb7-441d-b53e-1344dfa9f2ac"
+                  },
+                  {
+                    "reference": "urn:uuid:082318f0-f964-4d7d-94cf-ffe24abed9a2"
+                  }
+                ],
+                "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3 id=\"section-4\">Microbiology</h3><table class=\"hl7__eu__lab__report\"><thead><tr><th>Test</th><th>29 Nov 2024</th><th>Reference Range</th><th>Unit</th></tr></thead><tbody><tr><td>Influenza virus A RNA [Presence] in Respiratory system specimen by NAA with probe detection</td><td>Negative</td><td></td><td></td></tr><tr><td>Influenza virus B RNA [Presence] in Respiratory system specimen by NAA with probe detection</td><td>Negative</td><td></td><td></td></tr><tr><td>Respiratory syncytial virus RNA [Presence] in Respiratory system specimen by NAA with probe detection</td><td>Negative</td><td></td><td></td></tr><tr><td>Parainfluenza virus 1 RNA [Presence] in Respiratory system specimen by NAA with probe detection</td><td>Negative</td><td></td><td></td></tr><tr><td>Parainfluenza virus 2 RNA [Presence] in Respiratory system specimen by NAA with probe detection</td><td>Negative</td><td></td><td></td></tr><tr><td>Parainfluenza virus 3 RNA [Presence] in Respiratory system specimen by NAA with probe detection</td><td>Negative</td><td></td><td></td></tr><tr><td>Rhinovirus RNA [Presence] in Respiratory system specimen by NAA with probe detection</td><td>Negative</td><td></td><td></td></tr><tr><td>Human metapneumovirus RNA [Presence] in Respiratory system specimen by NAA with probe detection</td><td>Negative</td><td></td><td></td></tr><tr><td>Adenovirus A+B+C+D+E DNA [Presence] in Respiratory system specimen by NAA with probe detection</td><td>Negative</td><td></td><td></td></tr></tbody></table></div>"
+                },
+                "title": "Microbiology"
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "code": "18725-2",
+                      "system": "http://loinc.org",
+                      "display": "Microbiology studies"
+                    }
+                  ],
+                  "text": "Microbiology Panel"
+                },
+                "entry": [
+                  {
+                    "reference": "urn:uuid:59939ee8-14ae-46e6-b1af-2aa67d6a3c48"
+                  }
+                ],
+                "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3 id=\"section-5\">Microbiology Panel</h3><table class=\"hl7__eu__lab__report\"><thead><tr><th>Test</th><th>29 Nov 2024</th><th>Reference Range</th><th>Unit</th></tr></thead><tbody><tr><td>SARS-CoV-2 (COVID-19) RNA panel - Respiratory system specimen by NAA with probe detection</td><td>Detected</td><td></td><td></td></tr></tbody></table></div>"
+                },
+                "title": "Microbiology Panel"
+              }
+            ],
+            "title": "Laboratory Report"
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "date": "2024-11-30T13:33:31Z",
+        "title": "Laboratory Report",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7c037c06-a419-4541-ba41-477babe56ff5",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "7c037c06-a419-4541-ba41-477babe56ff5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/DiagnosticReport-eu-lab"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "28d68cc1-a4fb-4367-b4f1-767a7aad5ade"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.composition",
+            "valueReference": {
+              "reference": "urn:uuid:8384ef95-c246-4d9c-b316-2ced1238d322"
+            }
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "18719-5",
+                "system": "http://loinc.org",
+                "display": "Chemistry studies (set)"
+              }
+            ]
+          }
+        ],
+        "specimen": [
+          {
+            "reference": "urn:uuid:5deb0e83-58e3-4a17-834b-8ca9a326d989"
+          },
+          {
+            "reference": "urn:uuid:541cf13c-1417-4e5e-bfd9-04486736e4a2"
+          },
+          {
+            "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+          },
+          {
+            "reference": "urn:uuid:c77afecb-b029-483e-bda0-52b515f677bd"
+          },
+          {
+            "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+          },
+          {
+            "reference": "urn:uuid:543ef1df-0709-4707-a371-aaa3183310b2"
+          }
+        ],
+        "result": [
+          {
+            "reference": "urn:uuid:99a53288-b903-403a-9dfd-d33e40de4ebd"
+          },
+          {
+            "reference": "urn:uuid:92683e01-0974-4632-b039-caef740c591b"
+          },
+          {
+            "reference": "urn:uuid:72180f84-d1ec-4be9-a1ff-ab658ef462e9"
+          },
+          {
+            "reference": "urn:uuid:ffb89620-dc19-49dc-854b-c5dab4bd2c6d"
+          },
+          {
+            "reference": "urn:uuid:7542840e-93fa-42ea-9b48-a7864c1341d8"
+          },
+          {
+            "reference": "urn:uuid:104d325a-4bf1-4034-9dc7-a71275ede168"
+          },
+          {
+            "reference": "urn:uuid:68f456f2-1b98-495b-aeda-bf622ab6d8b5"
+          },
+          {
+            "reference": "urn:uuid:663fc220-49cf-4fcf-bca1-0b2ee274d050"
+          },
+          {
+            "reference": "urn:uuid:712338f6-5fb7-441d-b53e-1344dfa9f2ac"
+          },
+          {
+            "reference": "urn:uuid:082318f0-f964-4d7d-94cf-ffe24abed9a2"
+          },
+          {
+            "reference": "urn:uuid:59939ee8-14ae-46e6-b1af-2aa67d6a3c48"
+          },
+          {
+            "reference": "urn:uuid:89b747ae-ad3a-4673-9877-1ed8fb69dad7"
+          },
+          {
+            "reference": "urn:uuid:6a0f3261-978f-42b4-85cd-87dfdbe8d6ca"
+          },
+          {
+            "reference": "urn:uuid:99168a07-4ea0-4d0e-88d9-ddc1e81c59eb"
+          },
+          {
+            "reference": "urn:uuid:ac36901b-7712-4aa8-80ea-cbdb2820a6a7"
+          },
+          {
+            "reference": "urn:uuid:2acf6d24-1e25-47ab-b0a2-10cea6c75187"
+          },
+          {
+            "reference": "urn:uuid:a1765e28-4e8a-4360-bae2-903dfa5a9352"
+          },
+          {
+            "reference": "urn:uuid:71f7ef3f-bfe0-48aa-a825-67d53bf8da44"
+          },
+          {
+            "reference": "urn:uuid:e482cd96-5f8c-45c5-bcf1-6d46092de0da"
+          },
+          {
+            "reference": "urn:uuid:fef55d59-0e44-4d7e-b1b0-7b338bc7a1ed"
+          },
+          {
+            "reference": "urn:uuid:b5fed781-444a-42a3-8fe2-00f172de0313"
+          },
+          {
+            "reference": "urn:uuid:fb45a033-cf0a-41e9-b1a1-b25b422635ae"
+          },
+          {
+            "reference": "urn:uuid:22b1732d-c8e4-4e32-9de4-cc87f8bed564"
+          },
+          {
+            "reference": "urn:uuid:954f1287-f0b3-4267-be9c-4f910cbd7ae4"
+          },
+          {
+            "reference": "urn:uuid:6a4f2784-cc7c-4280-9bbf-3ff75a529026"
+          },
+          {
+            "reference": "urn:uuid:df77d817-7b03-47aa-bca4-a64fbf0c2aa4"
+          },
+          {
+            "reference": "urn:uuid:6e41417d-e10e-410b-844f-e0cb38c3dfb9"
+          },
+          {
+            "reference": "urn:uuid:bf7de422-e8d4-48c4-b035-f1fb43493cef"
+          },
+          {
+            "reference": "urn:uuid:7b2019a3-c94f-40b6-996a-4128a688a80d"
+          },
+          {
+            "reference": "urn:uuid:e002e3bf-51ac-4ef5-bae6-45c6bb4c12f6"
+          },
+          {
+            "reference": "urn:uuid:e3519c82-d942-46e8-90af-e6afe72a88f1"
+          },
+          {
+            "reference": "urn:uuid:17d5278c-9ffd-4828-8200-ec182082befd"
+          },
+          {
+            "reference": "urn:uuid:cd712d78-7a13-41d7-95f3-a5db4d140a1b"
+          },
+          {
+            "reference": "urn:uuid:b20b813a-1d10-4aa5-b387-c613281c860f"
+          },
+          {
+            "reference": "urn:uuid:0681f0b5-a062-46c5-bdd4-fab7af1deb14"
+          },
+          {
+            "reference": "urn:uuid:bca09beb-dcef-4c02-b6dc-59c5468cea8a"
+          },
+          {
+            "reference": "urn:uuid:7f4336ad-fb42-4a40-b749-b98f0699ec71"
+          },
+          {
+            "reference": "urn:uuid:d22121b7-632b-483c-be52-aba2dc733902"
+          },
+          {
+            "reference": "urn:uuid:85d428ba-7288-4449-a3a0-3d47435718d0"
+          },
+          {
+            "reference": "urn:uuid:873cf0ba-a97e-4dad-8b56-85872f911ba6"
+          },
+          {
+            "reference": "urn:uuid:bdd95efc-6f72-45b1-9644-d52037c50ac2"
+          },
+          {
+            "reference": "urn:uuid:e973cea1-cf3f-4369-99ac-f4eb637b235d"
+          },
+          {
+            "reference": "urn:uuid:97b6a341-1d12-4e8e-a16e-419866e9dd9c"
+          },
+          {
+            "reference": "urn:uuid:b148b928-7e93-44bb-bb32-d2ba9bb56fb1"
+          },
+          {
+            "reference": "urn:uuid:295fb8c9-836f-4799-9f16-fd222bb154b0"
+          },
+          {
+            "reference": "urn:uuid:e24012bb-a446-453f-a890-7e93b7d67f36"
+          },
+          {
+            "reference": "urn:uuid:840800d7-8189-4747-b6ad-3321a27d0d51"
+          },
+          {
+            "reference": "urn:uuid:29c72e9f-ba33-4e57-ad22-1b52e0d1e861"
+          },
+          {
+            "reference": "urn:uuid:9bb94348-6966-4a35-bf02-1ded09fe3d77"
+          },
+          {
+            "reference": "urn:uuid:71ef5b1a-09a0-4cdd-8bb8-e8f50e22aa4b"
+          },
+          {
+            "reference": "urn:uuid:1b3d8c0a-65b3-4213-bc8f-b2d8b8db6686"
+          },
+          {
+            "reference": "urn:uuid:88d25893-cc42-4f61-85ba-9dfb2a1413b3"
+          },
+          {
+            "reference": "urn:uuid:1a68d735-7b1a-461c-af97-092b4edf6090"
+          },
+          {
+            "reference": "urn:uuid:d8b21a0c-1713-418f-a921-edfb209c1b59"
+          }
+        ],
+        "status": "registered",
+        "code": {
+          "coding": [
+            {
+              "code": "11502-2",
+              "system": "http://loinc.org",
+              "display": "Laboratory report"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "310d06a2-ed93-460e-8c00-7bace0f9383a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Patient-eu-lab"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "NI",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "6077-888840-8"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "860201e7-16b6-4599-a918-ecca8ffbea0d"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Eliane"
+            ],
+            "family": "Kerver",
+            "text": "Eliane Kerver"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Nieuweweg 134"
+            ],
+            "use": "home",
+            "type": "physical",
+            "city": "Hoogerheide",
+            "postalCode": "4631 TC",
+            "country": "Netherlands"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+31 06-58675866"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1969-02-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f0c64eec-67ff-4472-894b-eb20b627430e",
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "f0c64eec-67ff-4472-894b-eb20b627430e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/ServiceRequest-eu-lab"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://example.org",
+            "value": "7add8d4b-c103-4997-bb28-2fceaee0109d"
+          }
+        ],
+        "specimen": [
+          {
+            "reference": "urn:uuid:5deb0e83-58e3-4a17-834b-8ca9a326d989"
+          },
+          {
+            "reference": "urn:uuid:541cf13c-1417-4e5e-bfd9-04486736e4a2"
+          },
+          {
+            "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+          },
+          {
+            "reference": "urn:uuid:c77afecb-b029-483e-bda0-52b515f677bd"
+          },
+          {
+            "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+          },
+          {
+            "reference": "urn:uuid:543ef1df-0709-4707-a371-aaa3183310b2"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "code": {
+          "coding": [
+            {
+              "code": "108252007",
+              "system": "http://snomed.info/sct",
+              "display": "Laboratory procedure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "requester": {
+          "reference": "urn:uuid:4bc324d6-7617-4e41-895f-5bf6f8b5cd04"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4bc324d6-7617-4e41-895f-5bf6f8b5cd04",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "4bc324d6-7617-4e41-895f-5bf6f8b5cd04",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/PractitionerRole-eu-lab"
+          ]
+        },
+        "organization": {
+          "reference": "urn:uuid:a2c6e0dc-8881-4326-99f3-05d1b1332978"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2c6e0dc-8881-4326-99f3-05d1b1332978",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "a2c6e0dc-8881-4326-99f3-05d1b1332978",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "a87be826-cf0a-4086-85ed-b84d1f3124fe"
+          }
+        ],
+        "address": [
+          {
+            "city": "Hulst",
+            "postalCode": "4561",
+            "country": "nl"
+          }
+        ],
+        "name": "Liduina"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5c83c44d-c725-4d9c-828b-d9e07f136854",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "5c83c44d-c725-4d9c-828b-d9e07f136854",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/PractitionerRole-eu-lab"
+          ]
+        },
+        "practitioner": {
+          "reference": "urn:uuid:cd513a57-6714-42b5-a786-8d74ab6a3a44"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cd513a57-6714-42b5-a786-8d74ab6a3a44",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "cd513a57-6714-42b5-a786-8d74ab6a3a44",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Practitioner-eu-lab"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "0d93e115-c03a-4f96-af5e-91a0a3dd2e7a"
+          }
+        ],
+        "name": [
+          {
+            "prefix": [
+              "dr"
+            ],
+            "given": [
+              "Ex"
+            ],
+            "family": "Ample"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Boulevard du Jardin Botanique 32"
+            ],
+            "city": "Brussels",
+            "postalCode": "1000"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5deb0e83-58e3-4a17-834b-8ca9a326d989",
+      "resource": {
+        "resourceType": "Specimen",
+        "id": "5deb0e83-58e3-4a17-834b-8ca9a326d989",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab"
+          ]
+        },
+        "collection": {
+          "collectedDateTime": "2024-11-29"
+        },
+        "status": "available",
+        "type": {
+          "coding": [
+            {
+              "code": "122552005",
+              "system": "http://snomed.info/sct",
+              "display": "Arterial blood specimen (specimen)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:541cf13c-1417-4e5e-bfd9-04486736e4a2",
+      "resource": {
+        "resourceType": "Specimen",
+        "id": "541cf13c-1417-4e5e-bfd9-04486736e4a2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab"
+          ]
+        },
+        "collection": {
+          "collectedDateTime": "2024-11-29"
+        },
+        "status": "available",
+        "type": {
+          "coding": [
+            {
+              "code": "258603007",
+              "system": "http://snomed.info/sct",
+              "display": "Respiratory specimen (specimen)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6",
+      "resource": {
+        "resourceType": "Specimen",
+        "id": "b239c4f3-0fa2-495d-842c-14c6d60548a6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab"
+          ]
+        },
+        "collection": {
+          "collectedDateTime": "2024-11-29"
+        },
+        "status": "available",
+        "type": {
+          "coding": [
+            {
+              "code": "258580003",
+              "system": "http://snomed.info/sct",
+              "display": "Whole blood specimen (specimen)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c77afecb-b029-483e-bda0-52b515f677bd",
+      "resource": {
+        "resourceType": "Specimen",
+        "id": "c77afecb-b029-483e-bda0-52b515f677bd",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab"
+          ]
+        },
+        "collection": {
+          "collectedDateTime": "2024-11-29"
+        },
+        "status": "available",
+        "type": {
+          "coding": [
+            {
+              "code": "258580003",
+              "system": "http://snomed.info/sct",
+              "display": "Whole blood specimen (specimen)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5",
+      "resource": {
+        "resourceType": "Specimen",
+        "id": "5db6cb2c-36fa-41c5-af08-6c795fd86ed5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab"
+          ]
+        },
+        "collection": {
+          "collectedDateTime": "2024-11-29"
+        },
+        "status": "available",
+        "type": {
+          "coding": [
+            {
+              "code": "122592007",
+              "system": "http://snomed.info/sct",
+              "display": "Acellular blood (serum or plasma) specimen (specimen)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:543ef1df-0709-4707-a371-aaa3183310b2",
+      "resource": {
+        "resourceType": "Specimen",
+        "id": "543ef1df-0709-4707-a371-aaa3183310b2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab"
+          ]
+        },
+        "collection": {
+          "collectedDateTime": "2024-11-29"
+        },
+        "status": "available",
+        "type": {
+          "coding": [
+            {
+              "code": "119362004",
+              "system": "http://snomed.info/sct",
+              "display": "Platelet poor plasma specimen (specimen) "
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:99a53288-b903-403a-9dfd-d33e40de4ebd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "99a53288-b903-403a-9dfd-d33e40de4ebd",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2708-6",
+              "system": "http://loinc.org",
+              "display": "Oxygen saturation in Arterial blood"
+            }
+          ],
+          "text": "Oxygen saturation in Arterial blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 75.9,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 95,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 100,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5deb0e83-58e3-4a17-834b-8ca9a326d989"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:92683e01-0974-4632-b039-caef740c591b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "92683e01-0974-4632-b039-caef740c591b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "92142-9",
+              "system": "http://loinc.org",
+              "display": "Influenza virus A RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+            }
+          ],
+          "text": "Influenza virus A RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "code": "260385009",
+              "system": "http://snomed.info/sct",
+              "display": "Negative"
+            }
+          ]
+        },
+        "specimen": {
+          "reference": "urn:uuid:541cf13c-1417-4e5e-bfd9-04486736e4a2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:72180f84-d1ec-4be9-a1ff-ab658ef462e9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "72180f84-d1ec-4be9-a1ff-ab658ef462e9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "92141-1",
+              "system": "http://loinc.org",
+              "display": "Influenza virus B RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+            }
+          ],
+          "text": "Influenza virus B RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "code": "260385009",
+              "system": "http://snomed.info/sct",
+              "display": "Negative"
+            }
+          ]
+        },
+        "specimen": {
+          "reference": "urn:uuid:541cf13c-1417-4e5e-bfd9-04486736e4a2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ffb89620-dc19-49dc-854b-c5dab4bd2c6d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ffb89620-dc19-49dc-854b-c5dab4bd2c6d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "92131-2",
+              "system": "http://loinc.org",
+              "display": "Respiratory syncytial virus RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+            }
+          ],
+          "text": "Respiratory syncytial virus RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "code": "260385009",
+              "system": "http://snomed.info/sct",
+              "display": "Negative"
+            }
+          ]
+        },
+        "specimen": {
+          "reference": "urn:uuid:541cf13c-1417-4e5e-bfd9-04486736e4a2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7542840e-93fa-42ea-9b48-a7864c1341d8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7542840e-93fa-42ea-9b48-a7864c1341d8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "92140-3",
+              "system": "http://loinc.org",
+              "display": "Parainfluenza virus 1 RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+            }
+          ],
+          "text": "Parainfluenza virus 1 RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "code": "260385009",
+              "system": "http://snomed.info/sct",
+              "display": "Negative"
+            }
+          ]
+        },
+        "specimen": {
+          "reference": "urn:uuid:541cf13c-1417-4e5e-bfd9-04486736e4a2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:104d325a-4bf1-4034-9dc7-a71275ede168",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "104d325a-4bf1-4034-9dc7-a71275ede168",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "92139-5",
+              "system": "http://loinc.org",
+              "display": "Parainfluenza virus 2 RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+            }
+          ],
+          "text": "Parainfluenza virus 2 RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "code": "260385009",
+              "system": "http://snomed.info/sct",
+              "display": "Negative"
+            }
+          ]
+        },
+        "specimen": {
+          "reference": "urn:uuid:541cf13c-1417-4e5e-bfd9-04486736e4a2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:68f456f2-1b98-495b-aeda-bf622ab6d8b5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "68f456f2-1b98-495b-aeda-bf622ab6d8b5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "92138-7",
+              "system": "http://loinc.org",
+              "display": "Parainfluenza virus 3 RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+            }
+          ],
+          "text": "Parainfluenza virus 3 RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "code": "260385009",
+              "system": "http://snomed.info/sct",
+              "display": "Negative"
+            }
+          ]
+        },
+        "specimen": {
+          "reference": "urn:uuid:541cf13c-1417-4e5e-bfd9-04486736e4a2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:663fc220-49cf-4fcf-bca1-0b2ee274d050",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "663fc220-49cf-4fcf-bca1-0b2ee274d050",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "92130-4",
+              "system": "http://loinc.org",
+              "display": "Rhinovirus RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+            }
+          ],
+          "text": "Rhinovirus RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "code": "260385009",
+              "system": "http://snomed.info/sct",
+              "display": "Negative"
+            }
+          ]
+        },
+        "specimen": {
+          "reference": "urn:uuid:541cf13c-1417-4e5e-bfd9-04486736e4a2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:712338f6-5fb7-441d-b53e-1344dfa9f2ac",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "712338f6-5fb7-441d-b53e-1344dfa9f2ac",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "92134-6",
+              "system": "http://loinc.org",
+              "display": "Human metapneumovirus RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+            }
+          ],
+          "text": "Human metapneumovirus RNA [Presence] in Respiratory system specimen by NAA with probe detection"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "code": "260385009",
+              "system": "http://snomed.info/sct",
+              "display": "Negative"
+            }
+          ]
+        },
+        "specimen": {
+          "reference": "urn:uuid:541cf13c-1417-4e5e-bfd9-04486736e4a2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:082318f0-f964-4d7d-94cf-ffe24abed9a2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "082318f0-f964-4d7d-94cf-ffe24abed9a2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "94040-3",
+              "system": "http://loinc.org",
+              "display": "Adenovirus A+B+C+D+E DNA [Presence] in Respiratory system specimen by NAA with probe detection"
+            }
+          ],
+          "text": "Adenovirus A+B+C+D+E DNA [Presence] in Respiratory system specimen by NAA with probe detection"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "code": "260385009",
+              "system": "http://snomed.info/sct",
+              "display": "Negative"
+            }
+          ]
+        },
+        "specimen": {
+          "reference": "urn:uuid:541cf13c-1417-4e5e-bfd9-04486736e4a2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:59939ee8-14ae-46e6-b1af-2aa67d6a3c48",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "59939ee8-14ae-46e6-b1af-2aa67d6a3c48",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "94531-1",
+              "system": "http://loinc.org",
+              "display": "SARS-CoV-2 (COVID-19) RNA panel - Respiratory system specimen by NAA with probe detection"
+            }
+          ],
+          "text": "SARS-CoV-2 (COVID-19) RNA panel - Respiratory system specimen by NAA with probe detection"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "code": "260373001",
+              "system": "http://snomed.info/sct",
+              "display": "Detected"
+            }
+          ]
+        },
+        "specimen": {
+          "reference": "urn:uuid:541cf13c-1417-4e5e-bfd9-04486736e4a2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:89b747ae-ad3a-4673-9877-1ed8fb69dad7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "89b747ae-ad3a-4673-9877-1ed8fb69dad7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2708-6",
+              "system": "http://loinc.org",
+              "display": "Oxygen saturation in Arterial blood"
+            }
+          ],
+          "text": "Oxygen saturation in Arterial blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 88.9,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 95,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 100,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5deb0e83-58e3-4a17-834b-8ca9a326d989"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6a0f3261-978f-42b4-85cd-87dfdbe8d6ca",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6a0f3261-978f-42b4-85cd-87dfdbe8d6ca",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6690-2",
+              "system": "http://loinc.org",
+              "display": "Leukocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Leukocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 3.8,
+          "unit": "10^3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.4,
+              "code": "10^3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.8,
+              "code": "10^3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:99168a07-4ea0-4d0e-88d9-ddc1e81c59eb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "99168a07-4ea0-4d0e-88d9-ddc1e81c59eb",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "789-8",
+              "system": "http://loinc.org",
+              "display": "Erythrocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Erythrocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.2,
+          "unit": "10^6/uL",
+          "code": "10*6/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.2,
+              "code": "10^6/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.8,
+              "code": "10^6/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ac36901b-7712-4aa8-80ea-cbdb2820a6a7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ac36901b-7712-4aa8-80ea-cbdb2820a6a7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "718-7",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 12.4,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 12,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 15.5,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2acf6d24-1e25-47ab-b0a2-10cea6c75187",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2acf6d24-1e25-47ab-b0a2-10cea6c75187",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "4544-3",
+              "system": "http://loinc.org",
+              "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+            }
+          ],
+          "text": "Hematocrit [Volume Fraction] of Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 43.7,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 37,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 52,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a1765e28-4e8a-4360-bae2-903dfa5a9352",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a1765e28-4e8a-4360-bae2-903dfa5a9352",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "787-2",
+              "system": "http://loinc.org",
+              "display": "MCV [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "MCV [Entitic volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 95.4,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 80,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 105,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:c77afecb-b029-483e-bda0-52b515f677bd"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:71f7ef3f-bfe0-48aa-a825-67d53bf8da44",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "71f7ef3f-bfe0-48aa-a825-67d53bf8da44",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "785-6",
+              "system": "http://loinc.org",
+              "display": "MCH [Entitic mass] by Automated count"
+            }
+          ],
+          "text": "MCH [Entitic mass] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 32.9,
+          "unit": "pg",
+          "code": "pg"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 27,
+              "code": "pg",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 34,
+              "code": "pg",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:c77afecb-b029-483e-bda0-52b515f677bd"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e482cd96-5f8c-45c5-bcf1-6d46092de0da",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e482cd96-5f8c-45c5-bcf1-6d46092de0da",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "786-4",
+              "system": "http://loinc.org",
+              "display": "MCHC [Mass/volume] by Automated count"
+            }
+          ],
+          "text": "MCHC [Mass/volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 31.7,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 31,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 35,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:c77afecb-b029-483e-bda0-52b515f677bd"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fef55d59-0e44-4d7e-b1b0-7b338bc7a1ed",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fef55d59-0e44-4d7e-b1b0-7b338bc7a1ed",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "788-0",
+              "system": "http://loinc.org",
+              "display": "Erythrocyte distribution width [Ratio] by Automated count"
+            }
+          ],
+          "text": "Erythrocyte distribution width [Ratio] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 14,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 11.5,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 16,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:c77afecb-b029-483e-bda0-52b515f677bd"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b5fed781-444a-42a3-8fe2-00f172de0313",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b5fed781-444a-42a3-8fe2-00f172de0313",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "777-3",
+              "system": "http://loinc.org",
+              "display": "Platelets [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelets [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 110.4,
+          "unit": "10^3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 150,
+              "code": "10^3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 450,
+              "code": "10^3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fb45a033-cf0a-41e9-b1a1-b25b422635ae",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fb45a033-cf0a-41e9-b1a1-b25b422635ae",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "770-8",
+              "system": "http://loinc.org",
+              "display": "Neutrophils/100 leukocytes in Blood by Automated count"
+            }
+          ],
+          "text": "Neutrophils/100 leukocytes in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 40.9,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 40,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 74.6,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:22b1732d-c8e4-4e32-9de4-cc87f8bed564",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "22b1732d-c8e4-4e32-9de4-cc87f8bed564",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "736-9",
+              "system": "http://loinc.org",
+              "display": "Lymphocytes/100 leukocytes in Blood by Automated count"
+            }
+          ],
+          "text": "Lymphocytes/100 leukocytes in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 17.3,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 20,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 45,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:954f1287-f0b3-4267-be9c-4f910cbd7ae4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "954f1287-f0b3-4267-be9c-4f910cbd7ae4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5905-5",
+              "system": "http://loinc.org",
+              "display": "Monocytes/100 leukocytes in Blood by Automated count"
+            }
+          ],
+          "text": "Monocytes/100 leukocytes in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 7,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 2,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6a4f2784-cc7c-4280-9bbf-3ff75a529026",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6a4f2784-cc7c-4280-9bbf-3ff75a529026",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "713-8",
+              "system": "http://loinc.org",
+              "display": "Eosinophils/100 leukocytes in Blood by Automated count"
+            }
+          ],
+          "text": "Eosinophils/100 leukocytes in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.6,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 7,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:df77d817-7b03-47aa-bca4-a64fbf0c2aa4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "df77d817-7b03-47aa-bca4-a64fbf0c2aa4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "706-2",
+              "system": "http://loinc.org",
+              "display": "Basophils/100 leukocytes in Blood by Automated count"
+            }
+          ],
+          "text": "Basophils/100 leukocytes in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 3.6,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6e41417d-e10e-410b-844f-e0cb38c3dfb9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6e41417d-e10e-410b-844f-e0cb38c3dfb9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "751-8",
+              "system": "http://loinc.org",
+              "display": "Neutrophils [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Neutrophils [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 3.4,
+          "unit": "10^3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 2,
+              "code": "10^3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 7.7,
+              "code": "10^3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bf7de422-e8d4-48c4-b035-f1fb43493cef",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bf7de422-e8d4-48c4-b035-f1fb43493cef",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "731-0",
+              "system": "http://loinc.org",
+              "display": "Lymphocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Lymphocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 1.1,
+          "unit": "10^3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 1,
+              "code": "10^3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 4,
+              "code": "10^3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7b2019a3-c94f-40b6-996a-4128a688a80d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7b2019a3-c94f-40b6-996a-4128a688a80d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "742-7",
+              "system": "http://loinc.org",
+              "display": "Monocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Monocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 1,
+          "unit": "10^3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.7,
+              "code": "10^3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 0.9,
+              "code": "10^3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e002e3bf-51ac-4ef5-bae6-45c6bb4c12f6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e002e3bf-51ac-4ef5-bae6-45c6bb4c12f6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "711-2",
+              "system": "http://loinc.org",
+              "display": "Eosinophils [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Eosinophils [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 0.3,
+          "unit": "10^3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.1,
+              "code": "10^3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 0.5,
+              "code": "10^3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e3519c82-d942-46e8-90af-e6afe72a88f1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e3519c82-d942-46e8-90af-e6afe72a88f1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "704-7",
+              "system": "http://loinc.org",
+              "display": "Basophils [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Basophils [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 0.4,
+          "unit": "10^3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.3,
+              "code": "10^3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 0.1,
+              "code": "10^3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:b239c4f3-0fa2-495d-842c-14c6d60548a6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:17d5278c-9ffd-4828-8200-ec182082befd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "17d5278c-9ffd-4828-8200-ec182082befd",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2345-7",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 95.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 139,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cd712d78-7a13-41d7-95f3-a5db4d140a1b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cd712d78-7a13-41d7-95f3-a5db4d140a1b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "3094-0",
+              "system": "http://loinc.org",
+              "display": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 7.8,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 6,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 20,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b20b813a-1d10-4aa5-b387-c613281c860f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b20b813a-1d10-4aa5-b387-c613281c860f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2160-0",
+              "system": "http://loinc.org",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 2.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.6,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.1,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0681f0b5-a062-46c5-bdd4-fab7af1deb14",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0681f0b5-a062-46c5-bdd4-fab7af1deb14",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "17861-6",
+              "system": "http://loinc.org",
+              "display": "Calcium [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 10.1,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 8.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.4,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bca09beb-dcef-4c02-b6dc-59c5468cea8a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bca09beb-dcef-4c02-b6dc-59c5468cea8a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2951-2",
+              "system": "http://loinc.org",
+              "display": "Sodium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 140,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 135,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 145,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7f4336ad-fb42-4a40-b749-b98f0699ec71",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7f4336ad-fb42-4a40-b749-b98f0699ec71",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2823-3",
+              "system": "http://loinc.org",
+              "display": "Potassium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.3,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d22121b7-632b-483c-be52-aba2dc733902",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d22121b7-632b-483c-be52-aba2dc733902",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2075-0",
+              "system": "http://loinc.org",
+              "display": "Chloride [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 103,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 98,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 107,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:85d428ba-7288-4449-a3a0-3d47435718d0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "85d428ba-7288-4449-a3a0-3d47435718d0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2028-9",
+              "system": "http://loinc.org",
+              "display": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 25.4,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 22,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 29,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:873cf0ba-a97e-4dad-8b56-85872f911ba6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "873cf0ba-a97e-4dad-8b56-85872f911ba6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2885-2",
+              "system": "http://loinc.org",
+              "display": "Protein [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Protein [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 6.3,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 6,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 8.3,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bdd95efc-6f72-45b1-9644-d52037c50ac2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bdd95efc-6f72-45b1-9644-d52037c50ac2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "1751-7",
+              "system": "http://loinc.org",
+              "display": "Albumin [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Albumin [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 3.5,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.4,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e973cea1-cf3f-4369-99ac-f4eb637b235d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e973cea1-cf3f-4369-99ac-f4eb637b235d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "1975-2",
+              "system": "http://loinc.org",
+              "display": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 12,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.3,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.2,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:97b6a341-1d12-4e8e-a16e-419866e9dd9c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "97b6a341-1d12-4e8e-a16e-419866e9dd9c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6768-6",
+              "system": "http://loinc.org",
+              "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 81.3,
+          "unit": "U/L",
+          "code": "U/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 20,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 130,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b148b928-7e93-44bb-bb32-d2ba9bb56fb1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b148b928-7e93-44bb-bb32-d2ba9bb56fb1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "1742-6",
+              "system": "http://loinc.org",
+              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 28.4,
+          "unit": "U/L",
+          "code": "U/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 33,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:295fb8c9-836f-4799-9f16-fd222bb154b0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "295fb8c9-836f-4799-9f16-fd222bb154b0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "1920-8",
+              "system": "http://loinc.org",
+              "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 17.9,
+          "unit": "U/L",
+          "code": "U/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 10,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 40,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e24012bb-a446-453f-a890-7e93b7d67f36",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e24012bb-a446-453f-a890-7e93b7d67f36",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "48065-7",
+              "system": "http://loinc.org",
+              "display": "Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma"
+            }
+          ],
+          "text": "Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 0.2,
+          "unit": "ug/mL",
+          "code": "ug/mL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "ug/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 0.5,
+              "code": "ug/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:543ef1df-0709-4707-a371-aaa3183310b2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:840800d7-8189-4747-b6ad-3321a27d0d51",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "840800d7-8189-4747-b6ad-3321a27d0d51",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2276-4",
+              "system": "http://loinc.org",
+              "display": "Ferritin [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Ferritin [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 313,
+          "unit": "ug/L",
+          "code": "ug/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 30,
+              "code": "ug/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 150,
+              "code": "ug/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:29c72e9f-ba33-4e57-ad22-1b52e0d1e861",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "29c72e9f-ba33-4e57-ad22-1b52e0d1e861",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "89579-7",
+              "system": "http://loinc.org",
+              "display": "Troponin I.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method"
+            }
+          ],
+          "text": "Troponin I.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 2.8,
+          "unit": "pg/mL",
+          "code": "pg/mL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "pg/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 15,
+              "code": "pg/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9bb94348-6966-4a35-bf02-1ded09fe3d77",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9bb94348-6966-4a35-bf02-1ded09fe3d77",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "14804-9",
+              "system": "http://loinc.org",
+              "display": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction"
+            }
+          ],
+          "text": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 221.9,
+          "unit": "U/L",
+          "code": "U/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 100,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 214,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:71ef5b1a-09a0-4cdd-8bb8-e8f50e22aa4b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "71ef5b1a-09a0-4cdd-8bb8-e8f50e22aa4b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2157-6",
+              "system": "http://loinc.org",
+              "display": "Creatine kinase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatine kinase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 52.1,
+          "unit": "U/L",
+          "code": "U/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 30,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 170,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1b3d8c0a-65b3-4213-bc8f-b2d8b8db6686",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1b3d8c0a-65b3-4213-bc8f-b2d8b8db6686",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "1988-5",
+              "system": "http://loinc.org",
+              "display": "C reactive protein [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "C reactive protein [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 8.1,
+          "unit": "mg/L",
+          "code": "mg/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10,
+              "code": "mg/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:88d25893-cc42-4f61-85ba-9dfb2a1413b3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "88d25893-cc42-4f61-85ba-9dfb2a1413b3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5902-2",
+              "system": "http://loinc.org",
+              "display": "Prothrombin time (PT)"
+            }
+          ],
+          "text": "Prothrombin time (PT)"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 11.8,
+          "unit": "sec",
+          "code": "s"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 11,
+              "code": "sec",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 14,
+              "code": "sec",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:543ef1df-0709-4707-a371-aaa3183310b2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1a68d735-7b1a-461c-af97-092b4edf6090",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1a68d735-7b1a-461c-af97-092b4edf6090",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6301-6",
+              "system": "http://loinc.org",
+              "display": "INR in Platelet poor plasma by Coagulation assay"
+            }
+          ],
+          "text": "INR in Platelet poor plasma by Coagulation assay"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 1.3,
+          "unit": "{INR}",
+          "code": "{INR}"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.9,
+              "code": "{INR}",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 2,
+              "code": "{INR}",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:543ef1df-0709-4707-a371-aaa3183310b2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d8b21a0c-1713-418f-a921-edfb209c1b59",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d8b21a0c-1713-418f-a921-edfb209c1b59",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "33959-8",
+              "system": "http://loinc.org",
+              "display": "Procalcitonin [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Procalcitonin [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 0.1,
+          "unit": "ng/mL",
+          "code": "ng/mL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "ng/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 0.5,
+              "code": "ng/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:310d06a2-ed93-460e-8c00-7bace0f9383a"
+        },
+        "effectiveDateTime": "2024-11-29",
+        "specimen": {
+          "reference": "urn:uuid:5db6cb2c-36fa-41c5-af08-6c795fd86ed5"
+        }
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2024-11-30T13:33:31Z"
+}

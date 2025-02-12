@@ -1,0 +1,373 @@
+<?xml-stylesheet type="text/xsl" href="primary.xsl"?>
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" />
+      <link rel="stylesheet" href="stylesmain.css" />
+      <link rel="stylesheet" href="styles.css" /><script src="main.js"></script><title>Laboratory Report</title>
+   </head>
+   <body>
+      <section class="accordion container">
+         <div class="accordion__container">
+            <div xmlns="" class="disclaimer">
+               Disclaimer: These web pages are not intended to be used as a source of information
+               on patient care.
+               
+               <div>The laboratory reports are clinically reasonable, but synthetic and contain AI generated
+                  content.</div>
+            </div>
+            <div xmlns="" id="popupDialog"><textarea rows="32" cols="70" id="jsonsource"></textarea><button onclick="togglePopup()">
+                  Close
+                  </button></div>
+            <div xmlns=""><button onclick="togglePopup();">Show source</button><button onclick="location.href=window.location.origin+window.location.pathname;">Back to overview</button></div>
+            <div xmlns="" class="testonly">FOR TEST AND EXAMPLE PURPOSES ONLY! This is a live rendition of the original source
+               file.</div>
+            <header class="preamble__header">
+               <h1>Laboratory Report</h1>
+            </header>
+            <div class="preamble__content">
+               <table class="top__header__table">
+                  <tr>
+                     <td width="33%">
+                        <table xmlns="" class="meta__header">
+                           <tr>
+                              <th colspan="2">Patient</th>
+                           </tr>
+                           <tr>
+                              <td>Name:</td>
+                              <td><strong>den Braber</strong>, Ida</td>
+                           </tr>
+                           <tr>
+                              <td>DOB:</td>
+                              <td>22-APR-1944 (Age: 80)</td>
+                           </tr>
+                           <tr>
+                              <td>Gender:</td>
+                              <td>female</td>
+                           </tr>
+                           <tr>
+                              <td>Address:</td>
+                              <td>
+                                 <div>Vekenoord 182</div>
+                                 <div>4824 LM Breda (Netherlands)</div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>ID (ECI):</td>
+                              <td>1778-031914-5</td>
+                           </tr>
+                        </table>
+                     </td>
+                     <td width="33%">
+                        <table xmlns="" class="meta__header">
+                           <thead>
+                              <tr>
+                                 <th colspan="2">Report</th>
+                              </tr>
+                           </thead>
+                           <tr>
+                              <td><strong>Date:</strong></td>
+                              <td><strong>30-NOV-2024</strong></td>
+                           </tr>
+                        </table>
+                        <table xmlns="" class="meta__header">
+                           <thead>
+                              <tr>
+                                 <th>Laboratory</th>
+                              </tr>
+                           </thead>
+                           <tr>
+                              <td>dr <strong>Ample</strong>, Ex
+                                 <div>
+                                    <div>Boulevard du Jardin Botanique 32</div>
+                                    <div>1000 Brussels</div>
+                                 </div>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                     <td width="33%">
+                        <table xmlns="" class="meta__header">
+                           <thead>
+                              <tr>
+                                 <th colspan="2">Requested by</th>
+                              </tr>
+                           </thead>
+                           <tr>
+                              <td>
+                                 <div>Doornbos Fysio Groep</div>
+                                 <div>
+                                    <div>Abdijstraat 26</div>
+                                    <div>4811 Breda (nl)</div>
+                                 </div>
+                              </td>
+                           </tr>
+                        </table>
+                        <table xmlns="" class="meta__header">
+                           <thead>
+                              <tr>
+                                 <th colspan="2">Specimen</th>
+                              </tr>
+                           </thead>
+                           <tr>
+                              <td>Collected:</td>
+                              <td>29-NOV-2024</td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+               </table>
+               <section class="accordion container">
+                  <text xmlns="http://hl7.org/fhir">
+                     
+                     <status value="generated"></status>
+                     
+                     <div xmlns="http://www.w3.org/1999/xhtml">
+                        
+                        <h3 id="section-1">Chemistry</h3>
+                        
+                        <table class="hl7__eu__lab__report">
+                           
+                           <thead>
+                              
+                              <tr>
+                                 
+                                 <th>Test</th>
+                                 
+                                 <th>29 Nov 2024</th>
+                                 
+                                 <th>Reference Range</th>
+                                 
+                                 <th>Unit</th>
+                                 </tr>
+                              </thead>
+                           
+                           <tbody>
+                              
+                              <tr>
+                                 
+                                 <td>Glucose [Mass/volume] in Blood</td>
+                                 
+                                 <td>78.4</td>
+                                 
+                                 <td>70 - 140</td>
+                                 
+                                 <td>mg/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Urea nitrogen [Mass/volume] in Blood</td>
+                                 
+                                 <td>7.3</td>
+                                 
+                                 <td>7 - 20</td>
+                                 
+                                 <td>mg/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Creatinine [Mass/volume] in Blood</td>
+                                 
+                                 <td>
+                                    <strong>2.9 H</strong>
+                                    </td>
+                                 
+                                 <td>0.6 - 1.3</td>
+                                 
+                                 <td>mg/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Calcium [Mass/volume] in Blood</td>
+                                 
+                                 <td>9.0</td>
+                                 
+                                 <td>8.5 - 10.5</td>
+                                 
+                                 <td>mg/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Sodium [Moles/volume] in Blood</td>
+                                 
+                                 <td>141.8</td>
+                                 
+                                 <td>135 - 145</td>
+                                 
+                                 <td>mmol/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Potassium [Moles/volume] in Blood</td>
+                                 
+                                 <td>5.1</td>
+                                 
+                                 <td>3.5 - 5.3</td>
+                                 
+                                 <td>mmol/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Chloride [Moles/volume] in Blood</td>
+                                 
+                                 <td>102.0</td>
+                                 
+                                 <td>98 - 108</td>
+                                 
+                                 <td>mmol/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Carbon dioxide, total [Moles/volume] in Blood</td>
+                                 
+                                 <td>26.0</td>
+                                 
+                                 <td>22 - 29</td>
+                                 
+                                 <td>mmol/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Protein [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>77.3</td>
+                                 
+                                 <td>61 - 79</td>
+                                 
+                                 <td>g/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Albumin [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>4.9</td>
+                                 
+                                 <td>3.5 - 5.5</td>
+                                 
+                                 <td>g/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Globulin [Mass/volume] in Serum by calculation</td>
+                                 
+                                 <td>3.2</td>
+                                 
+                                 <td>2 - 3.9</td>
+                                 
+                                 <td>g/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Bilirubin.total [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>1.1</td>
+                                 
+                                 <td>0.3 - 1.2</td>
+                                 
+                                 <td>mg/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma</td>
+                                 
+                                 <td>38.2</td>
+                                 
+                                 <td>32 - 150</td>
+                                 
+                                 <td>U/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td>
+                                 
+                                 <td>20.3</td>
+                                 
+                                 <td>7 - 60</td>
+                                 
+                                 <td>U/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td>
+                                 
+                                 <td>37.4</td>
+                                 
+                                 <td>10 - 40</td>
+                                 
+                                 <td>U/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Cholesterol [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>
+                                    <strong>209.3 H</strong>
+                                    </td>
+                                 
+                                 <td>0 - 200</td>
+                                 
+                                 <td>mg/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Triglyceride [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>
+                                    <strong>190.1 H</strong>
+                                    </td>
+                                 
+                                 <td>50 - 150</td>
+                                 
+                                 <td>mg/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td>
+                                 
+                                 <td>136.3</td>
+                                 
+                                 <td>0 - 159</td>
+                                 
+                                 <td>mg/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>67.8</td>
+                                 
+                                 <td>50 - 100</td>
+                                 
+                                 <td>mg/dL</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </text>
+               </section>
+            </div>
+         </div>
+      </section>
+   </body>
+</html>

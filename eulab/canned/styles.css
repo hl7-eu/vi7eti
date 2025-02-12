@@ -1,0 +1,80 @@
+h1 {
+    padding-left: 0;
+    margin-top: 1em;
+}
+h3 {
+    color: maroon;
+    margin-top: 1em;
+}
+
+table.hl7__eu__lab__report th {
+    text-align: left;
+}
+table.hl7__eu__lab__report th:nth-child(2) {
+    /* result */
+    text-align: right;
+}
+table.hl7__eu__lab__report th:nth-child(3) {
+    /* reference range */
+    text-align: center;
+}
+table.hl7__eu__lab__report td {
+    padding-top: .4em;
+    padding-bottom: .1em;
+}
+table.hl7__eu__lab__report td:nth-child(1) {
+    /* test */
+    width: 30rem;
+    /*border: 1px solid black;*/
+}
+table.hl7__eu__lab__report td:nth-child(2) {
+    /* result */
+    text-align: end;
+    /*border: 1px solid blue;*/
+}
+table.hl7__eu__lab__report td:nth-child(3) {
+    /* reference range */
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+table.hl7__eu__lab__report td:nth-child(4) {
+    /* unit */
+    text-align: start;
+    /*border: 1px solid red;*/
+}
+
+table.top__header__table {
+    border: none;
+    border-left: 3px solid #eee;
+}
+table.top__header__table td {
+    vertical-align: top;
+}
+table.meta__header {
+    border: none;
+    margin-bottom: 1em;
+}
+table.meta__header th {
+    text-align: left;
+}
+table.meta__header th:nth-child(1) {
+    border-bottom: 1px solid #aaa;
+}
+table.meta__header td {
+    padding-top: .4em;
+    padding-bottom: .1em;
+    vertical-align: top;
+}
+
+#popupDialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+}
