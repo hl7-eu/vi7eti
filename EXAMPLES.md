@@ -19,10 +19,7 @@ In nascent mode, more to follow...
 
 ### Stylesheets and Javascript
 
-- [primary.xsl](epi/canned/primary.xsl)  
-- [stylesmain.css](epi/canned/stylesmain.css) 
-- [main.js](epi/canned/main.js) 
-- [styles.css](epi/canned/styles.css) 
+- see [README.md](epi/canned/README.md)
 
 ## In eulab/canned
 

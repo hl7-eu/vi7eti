@@ -1,10 +1,10 @@
-# The vi7eti Story
-
 **Visualize HL7 Example and Test Instances (vi7eti)**, pronounced /viːˈsɛtiː/
 
 © [HL7 Europe](https://hl7europe.org) | Main Contributor: Dr. Kai U. Heitmann | [Privacy Policy](https://hl7europe.eu/privacy-policy-for-hl7-europe/) • LGPL-3.0 license
 
-HL7 Europe](https://hl7europe.org) participates with partners in European [Interoperability Projects](https://hl7europe.org/projects-initiatives/). One outcome of this kind of projects are Interoperability Specifications such as [FHIR](http://hl7.org/fhir/) (Fast Health Interoperability Resources) [Implementation Guides](https://hl7europe.org/standards/#igs) (IG). An IG typically contains example instances in the technical exchange / data format FHIR.
+# The vi7eti Story
+
+[HL7 Europe](https://hl7europe.org) participates with partners in European [Interoperability Projects](https://hl7europe.org/projects-initiatives/). One outcome of this kind of projects are Interoperability Specifications such as [FHIR](http://hl7.org/fhir/) (Fast Health Interoperability Resources) [Implementation Guides](https://hl7europe.org/standards/#igs) (IG). An IG typically contains example instances in the technical exchange / data format FHIR.
 
 Rendering the content of such example instances is subject to this **vi7eti** (Visualize HL7 Example and Test Instances) endeavor of HL7 Europe. Its primary goal is to act as a reference installation for various types of artifacts found in the following specifications:
 
