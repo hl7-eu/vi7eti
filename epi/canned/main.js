@@ -4,7 +4,7 @@ const accordionHeader = document.getElementsByClassName("accordion__header");
 const accordionContent = document.getElementsByClassName("accordion__content");
 
 for (let i = 0; i < accordionItem.length; i++) {
-    // add a click function to the header area
+    /* add a click function to the header area */
     accordionHeader[i].addEventListener("click", (e) => {
         if(accordionItem[i].classList.contains('accordion__open')){
             accordionItem[i].classList.remove('accordion__open')
@@ -13,15 +13,17 @@ for (let i = 0; i < accordionItem.length; i++) {
             accordionItem[i].classList.add('accordion__open')
             accordionContent[i].style.display = "block";
         }
+        /*  set focus */
+        accordionContent[i].style.focus();
         e.stopPropagation();
-        // close all other accordions
+        /* close all other accordions */
         for (let j = 0; j < accordionItem.length; j++) {
-          if (j != i) {
-            accordionContent[j].style.display = "none";
-            accordionItem[j].classList.remove("accordion__open");
-          }
+            if (j != i) {
+               accordionItem[j].classList.remove("accordion__open");
+               accordionContent[j].style.display = "none";
+            }
         }
-        // Open parent accordion
+        /* Open parent accordion */
         let recursiveNode = accordionItem[i];
         while( (recursiveNode = recursiveNode.parentNode) ){
             if (recursiveNode.classList && recursiveNode.classList.contains('accordion__item')) {
@@ -34,13 +36,21 @@ for (let i = 0; i < accordionItem.length; i++) {
                        break;
                    }
                 }
-                
             }
         }
     }
   );
+
 }
 
+/*  open all accordions (without click) that have the corresponding class */
+for (let i = 0; i < accordionItem.length; i++) {
+  if(accordionItem[i].classList.contains('accordion__initially__open')){
+    accordionItem[i].classList.remove('accordion__initially__open')
+    accordionItem[i].classList.add('accordion__open')
+    accordionContent[i].style.display = "block";
+  }
+}
 
 /*=============== source popup window ===============*/
 function togglePopup() {

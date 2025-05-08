@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="primary.xsl"?>
+<?xml-stylesheet type="text/xsl" href="wrapper.xsl"?>
 <Bundle xmlns="http://hl7.org/fhir">
   <id value="bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1"/>
   <meta>
