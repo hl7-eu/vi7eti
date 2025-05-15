@@ -1,25 +1,30 @@
-# Examples
 **Visualize HL7 Example and Test Instances (vi7eti)**, pronounced /viːˈsɛtiː/
 
 © [HL7 Europe](https://hl7europe.org) | Main Contributor: Dr. Kai U. Heitmann | [Privacy Policy](https://hl7europe.eu/privacy-policy-for-hl7-europe/) • LGPL-3.0 license
 
 In nascent mode, more to follow...
 
+# Examples
+
 ## In epi/canned
 
 ### To be processed by a stylesheet processor
 
 - [Bundle-bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1.xml ](epi/canned/Bundle-bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1.xml)
-- [Bundle-bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1.html ](epi/canned/Bundle-bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1.html)
+- [Bundle-bundlepackageleaflet-en-2f37d696067eeb6daf1111cfc3272672.xml ](epi/canned/Bundle-bundlepackageleaflet-en-2f37d696067eeb6daf1111cfc3272672.xml)
 
 ### HTML renditions
 
-- [Bundle-bundlepackageleaflet-en-2f37d696067eeb6daf1111cfc3272672.html](epi/canned/Bundle-bundlepackageleaflet-en-2f37d696067eeb6daf1111cfc3272672.html) 
 - [Bundle-bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1.html](epi/canned/Bundle-bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1.html)
+
+- [Bundle-bundlepackageleaflet-en-2f37d696067eeb6daf1111cfc3272672.html](epi/canned/Bundle-bundlepackageleaflet-en-2f37d696067eeb6daf1111cfc3272672.html) 
 
 ### Stylesheets and Javascript
 
-- see [README.md](epi/canned/README.md)
+- [primary-cor.xsl](epi/canned/primary-core.xsl)  
+- [stylesmain.css](epi/canned/stylesmain.css) 
+- [main.js](epi/canned/main.js) 
+- [styles.css](epi/canned/styles.css) 
 
 ## In eulab/canned
 
