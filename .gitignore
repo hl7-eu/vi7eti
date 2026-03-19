@@ -1,2 +1,10 @@
+_material/
 
-_archive/
+**/_archive
+**/bin
+**/cache
+**/_*.txt
+**/_*.md
+**/_*.fsh
+**/_*.html
+**/*.zi
