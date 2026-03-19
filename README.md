@@ -10,13 +10,13 @@ This repository and its content is not intended to be used as a source of inform
 
 ## Table of Contents
 
-[vi7eti – the Story](STORY.md)
+[vi7eti – the Story](website/STORY.md)
 
-[Principles](PRINCIPLES.md) (nascent)
+[Principles](website/PRINCIPLES.md) (nascent)
 
-[Examples](EXAMPLES.md) (nascent)
+[Examples](website/EXAMPLES.md) (nascent)
 
-[Credits, Courtesy and Contributors](CCC.md)
+[Credits, Courtesy and Contributors](website/CCC.md)
 
 Progress
 
