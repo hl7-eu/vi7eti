@@ -359,10 +359,7 @@ if (isset($_FILES) and isset($_POST['focus'])) {
             file_put_contents($tmpfile, $forcont);
             if (validInputFile($tmpfile, $ext)) {
                 $focusrendition = processURL("tmp+" . $ext, $tmpfile, $bn, $ext, $d);
-                $focussource    = safeFetchURL($tmpfile);
-                if ($focussource === FALSE) {
-                    handleError(FATAL, "+++ The url could not be fetched or is not permitted.");
-                }
+                $focussource    = file_get_contents($tmpfile);
                 $CURRENTMENU    = ['menu' => 'url', 'dir' => $d];
             } else {
                 handleError(WARNING, "+++ The url ($f) is not reachable or content is invalid.");
@@ -408,10 +405,7 @@ if (isset($_FILES) and isset($_POST['focus'])) {
             file_put_contents($tmpfile, $forcont);
             if (validInputFile($tmpfile, $ext)) {
                 $focusrendition = processURL("tmp+" . $ext, $tmpfile, $bn, $ext, $d);
-                $focussource    = safeFetchURL($tmpfile);
-                if ($focussource === FALSE) {
-                    handleError(FATAL, "+++ The url could not be fetched or is not permitted.");
-                }
+                $focussource    = file_get_contents($tmpfile);
                 $CURRENTMENU    = ['menu' => 'url', 'dir' => $d];
             } else {
                 handleError(WARNING, "+++ The url ($f) is not reachable or content is invalid.");
