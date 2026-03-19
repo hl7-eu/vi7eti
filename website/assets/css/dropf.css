@@ -1,0 +1,42 @@
+/* CSS for file drag and drop zone */
+
+.dropzone-form {
+  border: 0.2rem dashed #aaa;
+  border-radius: 0.75rem;
+  background-color: #333;
+  transition: 0.25s background-color ease-in-out;
+  cursor: pointer;
+  color: #aaa;
+  text-align: center !important;
+  margin: 20px 0;
+}
+
+.dropzone-form button {
+  margin: 20px;
+  font-size: var(--smallest-font-size);
+  border: 1px solid #7550aa;
+  box-shadow: rgba(255, 255, 255, .1) 0 1px 0 0 inset;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #7550aa;
+  outline: none;
+  white-space: nowrap;
+}
+
+.dropzone {
+  font-size: 1rem;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.dropzone i {
+  font-size: 50px;
+}
+
+.dropzone-dragging, .dropzone-form:hover {
+  background-color: #7550aa;
+}
+
+.dropzone-input {
+  display: none;
+}

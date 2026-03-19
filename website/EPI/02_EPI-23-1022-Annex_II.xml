@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    This document was created by the European Medicines Agency (EMA)
+  	Version 1.0.0 published on 17/02/2025
+  
+		Core HL7 FHIR Profiles:
+		1. Bundle Profile http://ema.europa.eu/fhir/StructureDefinition/EUEpiBundle
+    2. Composition Profile (General) http://ema.europa.eu/fhir/StructureDefinition/EUEpiComposition
+   
+		Implementation Guide (IG) Portal: https://epi.ema.europa.eu/fhirig/
+  
+		What's new:
+		1. First release of EMA FHIR profiles - version 1.0.0 February 2025 
+-->
+      <Bundle xmlns="http://hl7.org/fhir">
+        <!-- The logical id of the resource, as used in the URL for the resource. -->
+        <!-- Unique reference number for the Bundle/Composition resources (in EMA systems the id has a GUID format). -->
+        <id value="63b16954-0d4e-ee11-be6e-000d3aaa06fe" />
+        <meta>
+          <!-- The version of the resource. -->
+          <versionId value="1" />
+          <!-- When the resource was last updated (system date). -->
+          <lastUpdated value="2024-11-06T08:41:03.456+00:00" />
+          <!-- An assertion that the content conforms to a resource profile (a StructureDefinition). -->
+          <profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiBundle"/>
+        </meta>
+        <!-- Persistent business identifier of an electronic Product Information (ePI) document. --> 
+        <!-- In EMA systems the business identifier has a GUID format, and in the current implementation matches with the logical resource id.  -->
+        <identifier>
+          <!--  The namespace for the business identifier. The system is an absolute URI that defines a set of identifiers. -->
+          <system value="http://ema.europa.eu/fhir/epiDocument" />
+          <!-- The actual value of the business identifier of an electronic Product Information (ePI) document. -->
+          <value value="63b16954-0d4e-ee11-be6e-000d3aaa06fe" />
+        </identifier>
+        <!-- An electronic Product Information (ePI) document is represented has a Bundle of type document. -->
+        <type value="document" />
+        <!-- Date in which this ePI document was last updated.-->
+        <timestamp value="2024-11-06T08:41:03.456+00:00" />
+        <entry>
+          <!-- Unique reference number for the Bundle/Composition resources (in EMA systems the id has a GUID format). -->
+          <fullUrl value="urn:uuid:63b16954-0d4e-ee11-be6e-000d3aaa06fe" />
+          <resource>
+            <Composition>
+              <meta>
+                <!-- An assertion that the content conforms to EU QRD template profiles. -->
+                <!-- 
+                  In this particular example, the document is a
+                    Annex II
+                    Centrally Approved Product (CAP)
+                    with document sections in English
+                -->
+                <profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiCompositionAnnexII"/>
+                <profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiCompositionCAP"/>
+                <profile value="http://ema.europa.eu/fhir/StructureDefinition/EUQRD-CAP-template-new-Annex-II-en"/>
+              </meta>    
+              <!-- The base language in which the resource is written. The 2 letter codes are defined here https://hl7.org/fhir/valueset-languages.html --> 
+              <!-- Supported values in EU electronic Product Information documents include: 
+
+                   Bulgarian: bg 
+                   Croatian: hr
+                   Czech: cs
+                   Danish": da
+                   Dutch: nl
+                   English: en
+                   Estonian: et
+                   Finnish: fi
+                   French: fr
+                   German: de
+                   Greek: el
+                   Hungarian: hu
+                   Icelandic: is
+                   Irish: ga
+                   Italian: it
+                   Latvian: lv
+                   Lithuanian: lt
+                   Maltese: mt
+                   Norwegian: no
+                   Polish: pl
+                   Portuguese: pt
+                   Romanian: ro
+                   Slovak: sk
+                   Slovenian: sl
+                   Spanish: es
+                   Swedish: sv
+                   
+              -->        
+              <language value="en" />
+              <!-- We identify the resource as an electronic Product Information (ePI) document, with the content in English. -->
+              <text>
+                <status value="generated" />
+                <div xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">electronic Product Information (ePI) document</div>
+              </text>
+              <!-- The status of the document. Codes are defined here http://hl7.org/fhir/R5/valueset-composition-status.html. -->
+              <status value="final" />
+              <!-- The type of the electronic Product Information (ePI) document. Supported codes include:
+                    Summary of Product Characteristics: 100000155532
+                    Annex II:  100000155533
+                    Labelling: 100000155535
+                    Package Leaflet: 100000155538
+              -->
+              <type>
+                <coding>
+                  <system value="http://ema.europa.eu/fhir/CodeSystem/100000155531" />
+                  <code value="100000155533" />
+                  <display value="Annex II" />
+                </coding>
+              </type>
+              <!-- Date in which this ePI document content was last updated or approved by the regulator.-->
+              <date value="2024-11-06" />
+              <!-- Identifies who created or is responsible for the content. -->
+              <author>
+                <identifier>
+                  <value value="European Medicines Agency (EMA)" />
+                </identifier>
+              </author>
+              <!-- A brief summary name describing the ePI document. The title may include: Proprietary Name(s) (Non-proprietary Name(s)) Dose Form, Route of Administration, Type of Document. -->
+              <title value="MedicineX 100 mg, 400 mg hard capsules (Annex II)" />
+              <!-- Root/Level 1 Section. id value is optional, and in EMA systems id has a GUID format. -->
+              <section id="66b16954-0d4e-ee11-be6e-000d3aaa06fe">
+                <!-- The title for this particular section. Section headings are standardized for different types of documents and they give guidance on how the document is organized. -->
+                <title value="ANNEX II" />
+                <!-- Every section has a unique code associated, that identifies the nature of content contained within the section. -->
+                <!-- Section codes are defined in EMA Referentials Management System (RMS) and published in QRD template documents. -->
+                <code>
+                  <coding>
+                    <!-- All document section codes are defined in the RMS list http://ema.europa.eu/fhir/CodeSystem/200000029659 -->
+                    <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                    <code value="200000029850" />
+                    <display value="ANNEX II" />
+                  </coding>
+                </code>
+                <!-- Level 2 Section(s). id value is optional, and in EMA systems id has a GUID format. -->
+                <section id="6db16954-0d4e-ee11-be6e-000d3aaa06fe">
+                  <title value="A. MANUFACTURER(S) RESPONSIBLE FOR BATCH RELEASE" />
+                  <code>
+                    <coding>
+                      <!-- All document section codes are defined in the RMS list http://ema.europa.eu/fhir/CodeSystem/200000029659 -->
+                      <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                      <code value="200000029851" />
+                      <display value="A. [MANUFACTURER(S) OF THE BIOLOGICAL ACTIVE SUBSTANCE(S) AND] MANUFACTURER(S) RESPONSIBLE FOR BATCH RELEASE" />
+                    </coding>
+                  </code>
+<!-- Section's content - in XHTML - goes into the text.div element. 
+                       Content should contain the formatting elements allowed in the FHIR Narrative element https://www.hl7.org/fhir/narrative.html#xhtml 
+                       
+                       Suggested list of HTML elements (and styling properties) is currently under analysis and suggested list below is expected to be revised.
+                        
+                       Suggested HTML elements include: 
+                       
+                         p           paragraph             <p></p>
+                         span        inline container      <span></span>
+                         img         image                 <img />
+                         sup         superscript text      <sup></sup>
+                         sub         subscript text        <sub></sub>
+                         strong      bold text             <strong></strong>
+                         i           italic style          <i></i>
+                         em          emphasized text       <em></em>
+                         s           strikethrough         <s></s>
+                         q           quotation mark        <q></q>
+                         ol          ordered list          <ol></ol>
+												 ul          unordered list        <ul></ul>
+                         a           anchor                <a></a>
+                         table       table                 <table></table>
+
+                      Headings h1 - h6 are not recommended elements in the section content narrative, 
+                      as headings are related with section title and section nested level. 
+
+											Suggested styling properties include:
+
+												 table:
+													   width           auto, 0-numeric value                 <table option-width="150"></table>
+																border       dark, light, black (deprecated)       <table option-border="light"></table>
+																align        auto, left, center, right             <table option-align="auto"></table>
+																scroll       yes, no                               <table option-scroll="yes"></table>
+																preset       blend, strips-rows, strips-columns    <table option-preset="strips-rows"></table>
+																color        default, red, blue, green             <table option-color="red"></table>
+												 tr: (table row)                                   
+                                align        auto, left, center, right             <tr option-align="center"></tr>
+																color        default, red, blue, green             <tr option-color="red"></tr>
+												 td: (table data or cell)                          
+                                align        auto, left, center, right             <td option-align="center"></td>
+																color        default, red, blue, green             <td option-color="red"></td>
+												 img:                                              
+													   width           auto, 0-numeric value                 <img option-width="40" />
+                             align           auto, left, center, right             <img option-align="auto" />
+														 filter          no, grayscale                         <img option-filter="no" />
+												 p:                                                
+                             align           auto, left, center, right             <p option-align="auto"></p>
+														 color           default, red, blue, green             <p option-color="red"></p>
+												 ol:                                          
+                             align           auto, left, center, right             <ol option-align="auto"></ol>
+														 color           default, red, blue, green             <li option-color="red"></li>
+												 ul:                                          
+                             align           auto, left, center, right             <ul option-align="auto"></ul>
+														 color           default, red, blue, green             <li option-color="red"></li>
+												 li:                                          
+														 color           default, red, blue, green             <li option-color="red"></li>
+                       -->
+                  <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml"><p><span>Name and address of the manufacturers responsible for batch release</span></p><p><span>CompanyY Czech Industries s.r.o.</span></p><p><span>Ostravsk&#225; 29, c.p. 305</span></p><p><span>CZ-74770 Opava - Kom&#225;rov </span></p><p><span>Czech Republic</span></p><p><span>&#160;</span></p><p><span>Merckle GmbH</span></p><p><span>Graf-Arco-Str. 3, 89079 Ulm</span></p><p><span>Germany</span></p><p><span>&#160;</span></p><p><span>CompanyY Operations Poland Sp. z.o.o</span></p><p><span>ul. Mogilska 80. 31-546, Krakow</span></p><p><span>Poland</span></p><p><span>&#160;</span></p><p><span>TEVA Pharmaceutical Works Private Limited Company</span></p><p><span>Pallagi &#250;t 13, 4042 Debrecen</span></p><p><span>Hungary</span></p><p><span>&#160;</span></p><p><span>TEVA PHARMA S.L.U.</span></p><p><span>C/C, n. 4, Poligono Industrial Malpica, 50016 Zaragoza</span></p><p><span>Spain</span></p><p><span>&#160;</span></p><p><span>CompanyY Pharma B.V.</span></p><p><span>Swensweg 5, 2031 GA Haarlem</span></p><p><span>The Netherlands</span></p><p><span>&#160;</span></p><p><span>PLIVA Croatia Ltd.</span></p><p><span>Prilaz baruna Filipovica 25</span></p><p><span>10000 Zagreb</span></p><p><span>Croatia</span></p><p><span>&#160;</span></p><p><span>The printed package leaflet of the medicinal product must state the name and address of the manufacturer responsible for the release of the concerned batch.</span></p></div>
+                  </text>
+                </section>
+                <section id="71b16954-0d4e-ee11-be6e-000d3aaa06fe">
+                  <title value="B. CONDITIONS OR RESTRICTIONS REGARDING SUPPLY AND USE" />
+                  <code>
+                    <coding>
+                      <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                      <code value="200000029852" />
+                      <display value="B. CONDITIONS OR RESTRICTIONS REGARDING SUPPLY AND USE" />
+                    </coding>
+                  </code>
+                  <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml"><p><span>Medicinal product subject to restricted medical prescription</span><span> (see Annex I: Summary of Product Characteristics, section 4.2).</span></p></div>
+                  </text>
+                </section>
+                <section id="79b16954-0d4e-ee11-be6e-000d3aaa06fe">
+                  <title value="C. OTHER CONDITIONS AND REQUIREMENTS OF THE MARKETING AUTHORISATION" />
+                  <code>
+                    <coding>
+                      <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                      <code value="200000029854" />
+                      <display value="C. OTHER CONDITIONS AND REQUIREMENTS OF THE MARKETING AUTHORISATION" />
+                    </coding>
+                  </code>
+                  <section id="7db16954-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="Periodic safety update reports (PSURs)" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029855" />
+                        <display value="Periodic safety update reports (PSURs)" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p><span>The </span>requirements for submission of<span> PSURs for this </span>medicinal<span> product are set out in the list of Union reference dates (EURD list) provided for under Article 107c(7) of Directive 2001/83/EC and </span>any subsequent updates <span>published on the European medicines web-portal.</span></p></div>
+                    </text>
+                  </section>
+                </section>
+                <section id="83b16954-0d4e-ee11-be6e-000d3aaa06fe">
+                  <title value="D. CONDITIONS OR RESTRICTIONS WITH REGARD TO THE SAFE AND EFFECTIVE USE OF THE MEDICINAL PRODUCT" />
+                  <code>
+                    <coding>
+                      <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                      <code value="200000029856" />
+                      <display value="D. CONDITIONS OR RESTRICTIONS WITH REGARD TO THE SAFE AND EFFECTIVE USE OF THE MEDICINAL PRODUCT" />
+                    </coding>
+                  </code>
+                  <section id="87b16954-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="Risk management plan (RMP)" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029857" />
+                        <display value="Risk management plan (RMP)" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p><span>Not applicable.</span></p></div>
+                    </text>
+                  </section>
+                </section>
+              </section>
+            </Composition>
+          </resource>
+        </entry>
+      </Bundle>

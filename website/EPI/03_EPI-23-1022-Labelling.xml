@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    This document was created by the European Medicines Agency (EMA)
+  	Version 1.0.0 published on 17/02/2025
+  
+		Core HL7 FHIR Profiles:
+		1. Bundle Profile http://ema.europa.eu/fhir/StructureDefinition/EUEpiBundle
+    2. Composition Profile (General) http://ema.europa.eu/fhir/StructureDefinition/EUEpiComposition
+   
+		Implementation Guide (IG) Portal: https://epi.ema.europa.eu/fhirig/
+  
+		What's new:
+		1. First release of EMA FHIR profiles - version 1.0.0 February 2025 
+-->
+      <Bundle xmlns="http://hl7.org/fhir">
+        <!-- The logical id of the resource, as used in the URL for the resource. -->
+        <!-- Unique reference number for the Bundle/Composition resources (in EMA systems the id has a GUID format). -->
+        <id value="fa00625a-0d4e-ee11-be6e-000d3aaa06fe" />
+        <meta>
+          <!-- The version of the resource. -->
+          <versionId value="1" />
+          <!-- When the resource was last updated (system date). -->
+          <lastUpdated value="2024-11-06T08:41:03.456+00:00" />
+          <!-- An assertion that the content conforms to a resource profile (a StructureDefinition). -->
+          <profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiBundle"/>
+        </meta>
+        <!-- Persistent business identifier of an electronic Product Information (ePI) document. --> 
+        <!-- In EMA systems the business identifier has a GUID format, and in the current implementation matches with the logical resource id.  -->
+        <identifier>
+          <!--  The namespace for the business identifier. The system is an absolute URI that defines a set of identifiers. -->
+          <system value="http://ema.europa.eu/fhir/epiDocument" />
+          <!-- The actual value of the business identifier of an electronic Product Information (ePI) document. -->
+          <value value="fa00625a-0d4e-ee11-be6e-000d3aaa06fe" />
+        </identifier>
+        <!-- An electronic Product Information (ePI) document is represented has a Bundle of type document. -->
+        <type value="document" />
+        <!-- Date in which this ePI document was last updated.-->
+        <timestamp value="2024-11-06T08:41:03.456+00:00" />
+        <entry>
+          <!-- Unique reference number for the Bundle/Composition resources (in EMA systems the id has a GUID format). -->
+          <fullUrl value="urn:uuid:fa00625a-0d4e-ee11-be6e-000d3aaa06fe" />
+          <resource>
+            <Composition>
+              <meta>
+                <!-- An assertion that the content conforms to EU QRD template profiles. -->
+                <!-- 
+                  In this particular example, the document is a
+                    Labelling
+                    Centrally Approved Product (CAP)
+                    with document sections in English
+                -->
+                <profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiCompositionLabeling"/>
+                <profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiCompositionCAP"/>
+                <profile value="http://ema.europa.eu/fhir/StructureDefinition/EUQRD-CAP-template-new-Labeling-en"/>
+              </meta>
+              <!-- The base language in which the resource is written. The 2 letter codes are defined here https://hl7.org/fhir/valueset-languages.html --> 
+              <!-- Supported values in EU electronic Product Information documents include: 
+
+                   Bulgarian: bg 
+                   Croatian: hr
+                   Czech: cs
+                   Danish": da
+                   Dutch: nl
+                   English: en
+                   Estonian: et
+                   Finnish: fi
+                   French: fr
+                   German: de
+                   Greek: el
+                   Hungarian: hu
+                   Icelandic: is
+                   Irish: ga
+                   Italian: it
+                   Latvian: lv
+                   Lithuanian: lt
+                   Maltese: mt
+                   Norwegian: no
+                   Polish: pl
+                   Portuguese: pt
+                   Romanian: ro
+                   Slovak: sk
+                   Slovenian: sl
+                   Spanish: es
+                   Swedish: sv
+                   
+              -->
+              <language value="en" />
+              <!-- We identify the resource as an electronic Product Information (ePI) document, with the content in English. -->
+              <text>
+                <status value="generated" />
+                <div xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">electronic Product Information (ePI) document</div>
+              </text>
+              <!-- The status of the document. Codes are defined here http://hl7.org/fhir/R5/valueset-composition-status.html. -->
+              <status value="final" />
+              <!-- The type of the electronic Product Information (ePI) document. Supported codes include:
+                    Summary of Product Characteristics: 100000155532
+                    Annex II:  100000155533
+                    Labelling: 100000155535
+                    Package Leaflet: 100000155538
+               -->
+              <type>
+                <coding>
+                  <system value="http://ema.europa.eu/fhir/CodeSystem/100000155531" />
+                  <code value="100000155535" />
+                  <display value="Labelling" />
+                </coding>
+              </type>
+              <!-- Date in which this ePI document content was last updated or approved by the regulator.-->
+              <date value="2024-11-06" />
+              <!-- Identifies who created or is responsible for the content. -->
+              <author>
+                <identifier>
+                  <value value="European Medicines Agency (EMA)" />
+                </identifier>
+              </author>
+              <!-- A brief summary name describing the ePI document. The title may include: Proprietary Name(s) (Non-proprietary Name(s)) Dose Form, Route of Administration, Type of Document. -->
+              <title value="MedicineX 100 mg hard capsules (Labelling)" />
+              <!-- Root/Level 1 Section. id value is optional, and in EMA systems id has a GUID format. -->
+              <section id="0501625a-0d4e-ee11-be6e-000d3aaa06fe">
+                <!-- The title for this particular section. Section headings are standardized for different types of documents and they give guidance on how the document is organized. -->
+                <title value="LABELLING" />
+                <!-- Every section has a unique code associated, that identifies the nature of content contained within the section. -->
+                <!-- Section codes are defined in EMA Referentials Management System (RMS) and published in QRD template documents. -->
+                <code>
+                  <coding>
+                    <!-- All document section codes are defined in the RMS list http://ema.europa.eu/fhir/CodeSystem/200000029659 -->
+                    <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                    <code value="200000029861" />
+                    <display value="LABELLING" />
+                  </coding>
+                </code>
+                <!-- Level 2 Section(s). id value is optional, and in EMA systems id has a GUID format. -->
+                <section id="0f01625a-0d4e-ee11-be6e-000d3aaa06fe">
+                  <title value="PARTICULARS TO APPEAR ON THE OUTER PACKAGING Outer carton" />
+                  <code>
+                    <coding>
+                      <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                      <code value="200000029862" />
+                      <display value="PARTICULARS TO APPEAR ON [THE OUTER PACKAGING] [AND] [THE IMMEDIATE PACKAGING] {NATURE/TYPE}" />
+                    </coding>
+                  </code>
+                  <!-- Level 3 Section(s). id value is optional, and in EMA systems id has a GUID format. -->
+                  <section id="1a01625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="1. NAME OF THE MEDICINAL PRODUCT" />
+                    <code>
+                      <coding>
+                        <!-- All document section codes are defined in the RMS list http://ema.europa.eu/fhir/CodeSystem/200000029659 -->
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029863" />
+                        <display value="1. NAME OF THE MEDICINAL PRODUCT" />
+                      </coding>
+                    </code>
+<!-- Section's content - in XHTML - goes into the text.div element. 
+                       Content should contain the formatting elements allowed in the FHIR Narrative element https://www.hl7.org/fhir/narrative.html#xhtml 
+                       
+                       Suggested list of HTML elements (and styling properties) is currently under analysis and suggested list below is expected to be revised.
+                        
+                       Suggested HTML elements include: 
+                       
+                         p           paragraph             <p></p>
+                         span        inline container      <span></span>
+                         img         image                 <img />
+                         sup         superscript text      <sup></sup>
+                         sub         subscript text        <sub></sub>
+                         strong      bold text             <strong></strong>
+                         i           italic style          <i></i>
+                         em          emphasized text       <em></em>
+                         s           strikethrough         <s></s>
+                         q           quotation mark        <q></q>
+                         ol          ordered list          <ol></ol>
+												 ul          unordered list        <ul></ul>
+                         a           anchor                <a></a>
+                         table       table                 <table></table>
+
+                      Headings h1 - h6 are not recommended elements in the section content narrative, 
+                      as headings are related with section title and section nested level. 
+
+											Suggested styling properties include:
+
+												 table:
+													   width           auto, 0-numeric value                 <table option-width="150"></table>
+																border       dark, light, black (deprecated)       <table option-border="light"></table>
+																align        auto, left, center, right             <table option-align="auto"></table>
+																scroll       yes, no                               <table option-scroll="yes"></table>
+																preset       blend, strips-rows, strips-columns    <table option-preset="strips-rows"></table>
+																color        default, red, blue, green             <table option-color="red"></table>
+												 tr: (table row)                                   
+                                align        auto, left, center, right             <tr option-align="center"></tr>
+																color        default, red, blue, green             <tr option-color="red"></tr>
+												 td: (table data or cell)                          
+                                align        auto, left, center, right             <td option-align="center"></td>
+																color        default, red, blue, green             <td option-color="red"></td>
+												 img:                                              
+													   width           auto, 0-numeric value                 <img option-width="40" />
+                             align           auto, left, center, right             <img option-align="auto" />
+														 filter          no, grayscale                         <img option-filter="no" />
+												 p:                                                
+                             align           auto, left, center, right             <p option-align="auto"></p>
+														 color           default, red, blue, green             <p option-color="red"></p>
+												 ol:                                          
+                             align           auto, left, center, right             <ol option-align="auto"></ol>
+														 color           default, red, blue, green             <li option-color="red"></li>
+												 ul:                                          
+                             align           auto, left, center, right             <ul option-align="auto"></ul>
+														 color           default, red, blue, green             <li option-color="red"></li>
+												 li:                                          
+														 color           default, red, blue, green             <li option-color="red"></li>
+                       -->                    
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">Imatinib CompanyY 100&#160;mg hard capsules</p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">ProductX</p></div>
+                    </text>
+                  </section>
+                  <section id="2601625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="2. STATEMENT OF ACTIVE SUBSTANCE(S)" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029864" />
+                        <display value="2. STATEMENT OF ACTIVE SUBSTANCE(S)" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">Each hard capsule contains 100&#160;mg of imatinib (as mesilate).</p></div>
+                    </text>
+                  </section>
+                  <section id="2e01625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="3. LIST OF EXCIPIENTS" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029865" />
+                        <display value="3. LIST OF EXCIPIENTS" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml">[Include content on list of excipients]</div>
+                    </text>
+                  </section>
+                  <section id="3801625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="4. PHARMACEUTICAL FORM AND CONTENTS" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029866" />
+                        <display value="4. PHARMACEUTICAL FORM AND CONTENTS" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">Capsule, hard</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">&#160;</p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">20x1 hard capsules</p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">60 hard capsules</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">60x1 hard capsules</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">120 hard capsules</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">120x1 hard capsules</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">180x1 hard capsules</span></p></div>
+                    </text>
+                  </section>
+                  <section id="4101625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="5. METHOD AND ROUTE(S) OF ADMINISTRATION" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029867" />
+                        <display value="5. METHOD AND ROUTE(S) OF ADMINISTRATION" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">Read the package leaflet before use.</p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">Oral use.</p></div>
+                    </text>
+                  </section>
+                  <section id="4801625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="6. SPECIAL WARNING THAT THE MEDICINAL PRODUCT MUST BE STORED OUT OF THE SIGHT AND REACH OF CHILDREN" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029868" />
+                        <display value="6. SPECIAL WARNING THAT THE MEDICINAL PRODUCT MUST BE STORED OUT OF THE SIGHT AND REACH OF CHILDREN" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">Keep out of the sight and reach of children.</p></div>
+                    </text>
+                  </section>
+                  <section id="5101625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="7. OTHER SPECIAL WARNING(S), IF NECESSARY" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029869" />
+                        <display value="7. OTHER SPECIAL WARNING(S), IF NECESSARY" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml">[Include special warnings]</div>
+                    </text>
+                  </section>
+                  <section id="5c01625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="8. EXPIRY DATE" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029870" />
+                        <display value="8. EXPIRY DATE" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">EXP</p></div>
+                    </text>
+                  </section>
+                  <section id="6401625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="9. SPECIAL STORAGE CONDITIONS" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029871" />
+                        <display value="9. SPECIAL STORAGE CONDITIONS" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml">[Special storage conditions]</div>
+                    </text>
+                  </section>
+                  <section id="6d01625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="10. SPECIAL PRECAUTIONS FOR DISPOSAL OF UNUSED MEDICINAL PRODUCTS OR WASTE MATERIALS DERIVED FROM SUCH MEDICINAL PRODUCTS, IF APPROPRIATE" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029872" />
+                        <display value="10. SPECIAL PRECAUTIONS FOR DISPOSAL OF UNUSED MEDICINAL PRODUCTS OR WASTE MATERIALS DERIVED FROM SUCH MEDICINAL PRODUCTS, IF APPROPRIATE" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml">[Special precautions]</div>
+                    </text>
+                  </section>
+                  <section id="7601625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="11. NAME AND ADDRESS OF THE MARKETING AUTHORISATION HOLDER" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029873" />
+                        <display value="11. NAME AND ADDRESS OF THE MARKETING AUTHORISATION HOLDER" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">CompanyY B.V.</p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">Swensweg 5</p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">2031 GA Haarlem</p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">The Netherlands</p></div>
+                    </text>
+                  </section>
+                  <section id="8301625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="12. MARKETING AUTHORISATION NUMBER(S)" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029874" />
+                        <display value="12. MARKETING AUTHORISATION NUMBER(S)" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">EU/1/12/808/021&#160;&#160;&#160; <span style="background: lightgrey;">20 x 1 hard capsules</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">EU/1/12/808/022&#160;&#160;&#160; 60 hard capsules</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">EU/1/12/808/023&#160;&#160;&#160; 60 x 1 hard capsules</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">EU/1/12/808/024&#160;&#160;&#160; 120 hard capsules</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">EU/1/12/808/025&#160;&#160;&#160; 120 x 1 hard capsules</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">EU/1/12/808/026&#160;&#160;&#160; 180 x 1 hard capsules</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">EU/1/12/808/027&#160;&#160;&#160; 20 x 1 hard capsules</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">EU/1/12/808/028&#160;&#160;&#160; 60 hard capsules</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">EU/1/12/808/029&#160;&#160;&#160; 60 x 1 hard capsules</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">EU/1/12/808/030&#160;&#160;&#160; 120 hard capsules</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">EU/1/12/808/031&#160;&#160;&#160; 120 x 1 hard capsules</span></p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">EU/1/12/808/03</span><span style="background: lightgrey;">2&#160;&#160;&#160; 180 x 1 hard capsules</span></p></div>
+                    </text>
+                  </section>
+                  <section id="8d01625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="13. BATCH NUMBER" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029875" />
+                        <display value="13. BATCH NUMBER[, DONATION AND PRODUCT CODES]" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">Lot</p></div>
+                    </text>
+                  </section>
+                  <section id="9701625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="14. GENERAL CLASSIFICATION FOR SUPPLY" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029876" />
+                        <display value="14. GENERAL CLASSIFICATION FOR SUPPLY" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml">[General classification for supply]</div>
+                    </text>
+                  </section>
+                  <section id="9f01625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="15. INSTRUCTIONS ON USE" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029877" />
+                        <display value="15. INSTRUCTIONS ON USE" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml">[Instructions on use]</div>
+                    </text>
+                  </section>
+                  <section id="a501625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="16. INFORMATION IN BRAILLE" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029878" />
+                        <display value="16. INFORMATION IN BRAILLE" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">Imatinib CompanyY 100&#160;mg hard capsules</p></div>
+                    </text>
+                  </section>
+                  <section id="ae01625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="17. UNIQUE IDENTIFIER - 2D BARCODE" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029879" />
+                        <display value="17. UNIQUE IDENTIFIER - 2D BARCODE" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="margin: 0cm 0cm 0.0001pt; line-height: 13pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="background: lightgrey;">2D barcode carrying the unique identifier included.</span></p></div>
+                    </text>
+                  </section>
+                  <section id="b801625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="18. UNIQUE IDENTIFIER - HUMAN READABLE DATA" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029880" />
+                        <display value="18. UNIQUE IDENTIFIER - HUMAN READABLE DATA" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="margin: 0cm 0cm 0.0001pt; line-height: 13pt; font-size: 11pt; font-family: 'Times New Roman', serif;">PC</p><p style="margin: 0cm 0cm 0.0001pt; line-height: 13pt; font-size: 11pt; font-family: 'Times New Roman', serif;">SN</p><p style="margin: 0cm 0cm 0.0001pt; line-height: 13pt; font-size: 11pt; font-family: 'Times New Roman', serif;">NN</p></div>
+                    </text>
+                  </section>
+                </section>
+                <section id="bf01625a-0d4e-ee11-be6e-000d3aaa06fe">
+                  <title value="MINIMUM PARTICULARS TO APPEAR ON BLISTERS OR STRIPS Blister" />
+                  <code>
+                    <coding>
+                      <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                      <code value="200000029881" />
+                      <display value="MINIMUM PARTICULARS TO APPEAR ON BLISTERS OR STRIPS {NATURE/TYPE}" />
+                    </coding>
+                  </code>
+                  <section id="ca01625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="1. NAME OF THE MEDICINAL PRODUCT" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029882" />
+                        <display value="1. NAME OF THE MEDICINAL PRODUCT" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">Imatinib CompanyY 100&#160;mg hard capsules</p><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">imatinib</p></div>
+                    </text>
+                  </section>
+                  <section id="d301625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="2. NAME OF THE MARKETING AUTHORISATION HOLDER" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029883" />
+                        <display value="2. NAME OF THE MARKETING AUTHORISATION HOLDER" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">CompanyY B.V.</p></div>
+                    </text>
+                  </section>
+                  <section id="dc01625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="3. EXPIRY DATE" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029884" />
+                        <display value="3. EXPIRY DATE" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">EXP</p></div>
+                    </text>
+                  </section>
+                  <section id="e501625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="4. BATCH NUMBER" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029885" />
+                        <display value="4. BATCH NUMBER[, DONATION AND PRODUCT CODES]" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;">Lot</p></div>
+                    </text>
+                  </section>
+                  <section id="ee01625a-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="5. OTHER" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029886" />
+                        <display value="5. OTHER" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml">[Other content]</div>
+                    </text>
+                  </section>
+                </section>
+              </section>
+            </Composition>
+          </resource>
+        </entry>
+      </Bundle>

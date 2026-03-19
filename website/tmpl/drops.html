@@ -1,0 +1,14 @@
+<h3 class="mt-11">Drag & Drop upload zone</h3>
+<form class="dropzone-form" id="dropzone-form" method="post" action="%%SELFSCRIPT%%" enctype="multipart/form-data">
+    <div class="dropzone" id="dropzone">
+        <i class="mdi mdi-cloud-upload"> </i><br/>
+        <label>
+            <span><strong>Choose files</strong> or drag them here.</span>
+            <input class="dropzone-input" type="file" name="files[]" multiple />
+        </label>
+        <div class="file-list"></div>
+    </div>
+    <input type="hidden" id="postId" name="focus" value="%%CLFOCUS%%" />
+    <input type="hidden" id="max_id" name="MAX_FILE_SIZE" value="300000" />
+    <button class="accent-gradient">Submit</button>
+</form>

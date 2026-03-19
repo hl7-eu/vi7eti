@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    This document was created by the European Medicines Agency (EMA)
+  	Version 1.0.0 published on 17/02/2025
+  
+		Core HL7 FHIR Profiles:
+		1. Bundle Profile http://ema.europa.eu/fhir/StructureDefinition/EUEpiBundle
+    2. Composition Profile (General) http://ema.europa.eu/fhir/StructureDefinition/EUEpiComposition
+   
+		Implementation Guide (IG) Portal: https://epi.ema.europa.eu/fhirig/
+  
+		What's new:
+		1. First release of EMA FHIR profiles - version 1.0.0 February 2025 
+-->
+      <Bundle xmlns="http://hl7.org/fhir">
+        <!-- The logical id of the resource, as used in the URL for the resource. -->
+        <!-- Unique reference number for the Bundle/Composition resources (in EMA systems the id has a GUID format). -->
+        <id value="5b4f5a60-0d4e-ee11-be6e-000d3aaa06fe" />
+        <meta>
+          <!-- The version of the resource. -->
+          <versionId value="1" />
+          <!-- When the resource was last updated (system date). -->
+          <lastUpdated value="2024-11-06T08:41:03.456+00:00" />
+          <!-- An assertion that the content conforms to a resource profile (a StructureDefinition). -->
+          <profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiBundle"/>
+        </meta>
+        <!-- Persistent business identifier of an electronic Product Information (ePI) document. --> 
+        <!-- In EMA systems the business identifier has a GUID format, and in the current implementation matches with the logical resource id.  -->
+        <identifier>
+          <!--  The namespace for the business identifier. The system is an absolute URI that defines a set of identifiers. -->
+          <system value="http://ema.europa.eu/fhir/epiDocument" />
+          <!-- The actual value of the business identifier of an electronic Product Information (ePI) document. -->
+          <value value="5b4f5a60-0d4e-ee11-be6e-000d3aaa06fe" />
+        </identifier>
+        <!-- An electronic Product Information (ePI) document is represented has a Bundle of type document. -->
+        <type value="document" />
+        <!-- Date in which this ePI document was last updated.-->
+        <timestamp value="2024-11-06T08:41:03.456+00:00" />
+        <entry>
+          <!-- Unique reference number for the Bundle/Composition resources (in EMA systems the id has a GUID format). -->
+          <fullUrl value="urn:uuid:5b4f5a60-0d4e-ee11-be6e-000d3aaa06fe" />
+          <resource>
+            <Composition>
+              <meta>
+                <!-- An assertion that the content conforms to EU QRD template profiles. -->
+                <!-- 
+                  In this particular example, the document is a
+                    Package Leaflet
+                    Centrally Approved Product (CAP)
+                    with document sections in English
+                -->
+                <profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiCompositionPackageLeaflet"/>
+                <profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiCompositionCAP"/>
+                <profile value="http://ema.europa.eu/fhir/StructureDefinition/EUQRD-CAP-template-new-Package-Leaflet-en"/>
+              </meta>
+              <!-- The base language in which the resource is written. The 2 letter codes are defined here https://hl7.org/fhir/valueset-languages.html --> 
+              <!-- Supported values in EU electronic Product Information documents include: 
+
+                   Bulgarian: bg 
+                   Croatian: hr
+                   Czech: cs
+                   Danish": da
+                   Dutch: nl
+                   English: en
+                   Estonian: et
+                   Finnish: fi
+                   French: fr
+                   German: de
+                   Greek: el
+                   Hungarian: hu
+                   Icelandic: is
+                   Irish: ga
+                   Italian: it
+                   Latvian: lv
+                   Lithuanian: lt
+                   Maltese: mt
+                   Norwegian: no
+                   Polish: pl
+                   Portuguese: pt
+                   Romanian: ro
+                   Slovak: sk
+                   Slovenian: sl
+                   Spanish: es
+                   Swedish: sv
+                   
+              -->
+              <language value="en" />
+              <!-- We identify the resource as an electronic Product Information (ePI) document, with the content in English. -->
+              <text>
+                <status value="generated" />
+                <div xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">electronic Product Information (ePI) document</div>
+              </text>
+              <!-- The status of the document. Codes are defined here http://hl7.org/fhir/R5/valueset-composition-status.html. -->
+              <status value="final" />
+              <!-- The type of the electronic Product Information (ePI) document. Supported codes include:
+                    Summary of Product Characteristics: 100000155532
+                    Annex II:  100000155533
+                    Labelling: 100000155535
+                    Package Leaflet: 100000155538
+               -->
+              <type>
+                <coding>
+                  <system value="http://ema.europa.eu/fhir/CodeSystem/100000155531" />
+                  <code value="100000155538" />
+                  <display value="Package Leaflet" />
+                </coding>
+              </type>
+              <!-- Date in which this ePI document content was last updated or approved by the regulator.-->
+              <date value="2024-11-06" />
+              <!-- Identifies who created or is responsible for the content. -->
+              <author>
+                <identifier>
+                  <value value="European Medicines Agency (EMA)" />
+                </identifier>
+              </author>
+              <!-- A brief summary name describing the ePI document. The title may include: Proprietary Name(s) (Non-proprietary Name(s)) Dose Form, Route of Administration, Type of Document. -->
+              <title value="MedicineX 100 mg hard capsules (Package Leaflet)" />
+              <!-- Root/Level 1 Section. id value is optional, and in EMA systems id has a GUID format. -->
+              <section id="744f5a60-0d4e-ee11-be6e-000d3aaa06fe">
+                <!-- The title for this particular section. Section headings are standardized for different types of documents and they give guidance on how the document is organized. -->
+                <title value="PACKAGE LEAFLET" />
+                <!-- Every section has a unique code associated, that identifies the nature of content contained within the section. -->
+                <!-- Section codes are defined in EMA Referentials Management System (RMS) and published in QRD template documents. -->
+                <code>
+                  <coding>
+                    <!-- All document section codes are defined in the RMS list http://ema.europa.eu/fhir/CodeSystem/200000029659 -->
+                    <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                    <code value="200000029894" />
+                    <display value="PACKAGE LEAFLET" />
+                  </coding>
+                </code>
+                <!-- Level 2 Section(s). id value is optional, and in EMA systems id has a GUID format. -->
+                <section id="7c4f5a60-0d4e-ee11-be6e-000d3aaa06fe">
+                  <!-- The title for this particular section. Section headings are standardized for different types of documents and they give guidance on how the document is organized. -->
+                  <title value="1. What ProductX CompanyY is and what it is used for" />
+                  <!-- Every section has a unique code associated, that identifies the nature of content contained within the section. -->
+                  <!-- Section codes are defined in EMA Referentials Management System (RMS) and published in QRD template documents. -->
+                  <code>
+                    <coding>
+                      <!-- All document section codes are defined in the RMS list http://ema.europa.eu/fhir/CodeSystem/200000029659 -->
+                      <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                      <code value="200000029895" />
+                      <display value="1. What X is and what it is used for" />
+                    </coding>
+                  </code>
+                    <!-- Section's content - in XHTML - goes into the text.div element. 
+                       Content should contain the formatting elements allowed in the FHIR Narrative element https://www.hl7.org/fhir/narrative.html#xhtml 
+                       
+                       Suggested list of HTML elements (and styling properties) is currently under analysis and suggested list below is expected to be revised.
+                        
+                       Suggested HTML elements include: 
+                       
+                         p           paragraph             <p></p>
+                         span        inline container      <span></span>
+                         img         image                 <img />
+                         sup         superscript text      <sup></sup>
+                         sub         subscript text        <sub></sub>
+                         strong      bold text             <strong></strong>
+                         i           italic style          <i></i>
+                         em          emphasized text       <em></em>
+                         s           strikethrough         <s></s>
+                         q           quotation mark        <q></q>
+                         ol          ordered list          <ol></ol>
+												 ul          unordered list        <ul></ul>
+                         a           anchor                <a></a>
+                         table       table                 <table></table>
+
+                      Headings h1 - h6 are not recommended elements in the section content narrative, 
+                      as headings are related with section title and section nested level. 
+
+											Suggested styling properties include:
+
+												 table:
+													   width           auto, 0-numeric value                 <table option-width="150"></table>
+																border       dark, light, black (deprecated)       <table option-border="light"></table>
+																align        auto, left, center, right             <table option-align="auto"></table>
+																scroll       yes, no                               <table option-scroll="yes"></table>
+																preset       blend, strips-rows, strips-columns    <table option-preset="strips-rows"></table>
+																color        default, red, blue, green             <table option-color="red"></table>
+												 tr: (table row)                                   
+                                align        auto, left, center, right             <tr option-align="center"></tr>
+																color        default, red, blue, green             <tr option-color="red"></tr>
+												 td: (table data or cell)                          
+                                align        auto, left, center, right             <td option-align="center"></td>
+																color        default, red, blue, green             <td option-color="red"></td>
+												 img:                                              
+													   width           auto, 0-numeric value                 <img option-width="40" />
+                             align           auto, left, center, right             <img option-align="auto" />
+														 filter          no, grayscale                         <img option-filter="no" />
+												 p:                                                
+                             align           auto, left, center, right             <p option-align="auto"></p>
+														 color           default, red, blue, green             <p option-color="red"></p>
+												 ol:                                          
+                             align           auto, left, center, right             <ol option-align="auto"></ol>
+														 color           default, red, blue, green             <li option-color="red"></li>
+												 ul:                                          
+                             align           auto, left, center, right             <ul option-align="auto"></ul>
+														 color           default, red, blue, green             <li option-color="red"></li>
+												 li:                                          
+														 color           default, red, blue, green             <li option-color="red"></li>
+                       -->
+                  <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml"><p><span>ProductX CompanyY<strong> </strong></span><span>is a medicine containing an active substance called imatinib. This medicine works by inhibiting the growth of abnormal cells in the diseases listed below. These include some types of cancer.</span></p><p><span>&#160;</span></p><p><strong><span>ProductX CompanyY is a treatment for adults and children for:</span></strong></p><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><strong><span>Chronic myeloid leukaemia (CML)</span></strong><span>. </span>Leukaemia is a cancer of white blood cells. These white cells usually help the body to fight infection. Chronic myeloid leukaemia is a form of leukaemia in which certain abnormal white cells (named myeloid cells) start growing out of control.</li><li style="margin: 0cm 0cm 1.65pt 0px; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><strong><span>Philadelphia chromosome positive acute lymphoblastic leukaemia (Ph-positive ALL)</span></strong><span>. Leukaemia is a cancer of white blood cells. These white cells usually help the body to fight infection. Acute lymphoblastic leukaemia is a form of leukaemia in which certain abnormal white cells (named lymphoblasts) start growing out of control. ProductX CompanyY inhibits the growth of these cells. </span></li></ul><p><span>&#160;</span></p><p style="margin: 0cm 0cm 1.65pt; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;"><strong><span>ProductX CompanyY is also a treatment for adults for:</span></strong></p><ul style="margin-top: 0cm; margin-bottom: 1.65pt;"><li style="margin: 0cm 0cm 1.65pt 0px; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><strong><span>Myelodysplastic/myeloproliferative diseases (MDS/MPD). </span></strong><span>These are a group of blood diseases in which some blood cells start growing out of control. ProductX CompanyY inhibits the growth of these cells in a certain subtype of these diseases.</span></li><li style="margin: 0cm 0cm 1.65pt 0px; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><strong><span>Hypereosinophilic syndrome (HES) and/or chronic eosinophilic leukaemia (CEL). </span></strong><span>These are blood diseases in which some blood cells (named eosinophils) start growing out of control. ProductX CompanyY inhibits the growth of these cells in a certain subtype of these diseases.</span></li><li style="margin: 0cm 0cm 1.65pt 0px; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><strong><span style="color: #231f20;">Gastrointestinal stromal tumours (GIST). </span></strong><span style="color: #231f20;">GIST is a cancer of the stomach and bowels. It arises from uncontrolled cell growth of the supporting tissues of these organs.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><strong><span>Dermatofibrosarcoma protuberans (DFSP). </span></strong><span>DFSP is a cancer of the tissue beneath the skin in which some cells start growing out of control. ProductX CompanyY inhibits the growth of these cells.</span></li></ul><p><span>&#160;</span></p><p><span>In the rest of this leaflet, we will use the abbreviations when talking about these diseases.</span></p><p><span>&#160;</span></p><p><span>If you have any questions about how ProductX CompanyY works or why this medicine has been prescribed for you, ask your doctor.</span></p></div>
+                  </text>
+                </section>
+                <section id="844f5a60-0d4e-ee11-be6e-000d3aaa06fe">
+                  <title value="2. What you need to know before you take ProductX CompanyY" />
+                  <code>
+                    <coding>
+                      <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                      <code value="200000029896" />
+                      <display value="2. What you need to know before you [take] [use] X" />
+                    </coding>
+                  </code>
+                  <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml"><p><span>ProductX CompanyY</span><span> will only be prescribed to you by a doctor with experience in medicines to treat blood cancers</span><span style="font-size: 10.0pt; font-family: Helvetica, sans-serif; color: black;"> </span><span>or solid tumours.</span></p><p><span>&#160;</span></p><p><span>Follow all your doctor&#8217;s instructions carefully, even if they differ from the general information contained in this leaflet.</span></p></div>
+                  </text>
+                  <section id="8c4f5a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="Do not take ProductX CompanyY" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029897" />
+                        <display value="Do not [take] [use] X" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>if you are allergic to imatinib or any of the other ingredients of this medicine (listed in section&#160;6).</span></li></ul><p><span>&#160;</span></p><p><span>If this applies to you, <strong>tell your doctor without taking ProductX CompanyY.</strong></span></p><p><span>&#160;</span></p><p><span>If you think you may be allergic but are not sure, ask your doctor for advice.</span></p></div>
+                    </text>
+                  </section>
+                  <section id="954f5a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="Warnings and precautions" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029898" />
+                        <display value="Warnings and precautions" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p><span>Talk to your doctor before taking ProductX CompanyY:</span></p><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>if you have or have ever had a liver, kidney or heart problem.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>if you are taking the medicine levothyroxine because your thyroid has been removed.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>if you have ever had or might now have a hepatitis B infection. This is because </span>ProductX CompanyY<strong> </strong><span>could cause hepatitis B to become active again, which can be fatal in some cases. Patients will be carefully checked by their doctor for signs of this infection before treatment is started.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>if you experience bruising, bleeding, fever, fatigue and confusion when taking ProductX CompanyY, contact your doctor. This may be a sign of damage to blood vessels known as thrombotic microangiopathy (TMA).</span></li></ul><p><span>&#160;</span></p><p><span>If any of these apply to you, <strong>tell your doctor before taking ProductX CompanyY.</strong></span></p><p><span>&#160;</span></p><p><span>You may become more sensitive to the sun while taking ProductX CompanyY. It is important to cover sun-exposed areas of skin and use sunscreen with high sun protection factor (SPF). These precautions are also applicable to children.</span></p><p><span>&#160;</span></p><p><strong><span>During treatment with ProductX CompanyY, tell your doctor straight away </span></strong><span>if you put on weight very quickly. ProductX CompanyY may cause your body to retain water (severe fluid retention).</span></p><p><span>&#160;</span></p><p><span>While you are taking ProductX CompanyY your doctor will regularly check whether the medicine is working. You will also have blood tests and be weighed regularly.</span></p><p>&#160;</p><p><strong><span>Children and adolescents</span></strong></p><p><span>ProductX CompanyY</span><span> </span>is also a treatment for children and adolescents with CML. There<span> is no experience in children with CML below 2 years of age. There is limited experience in children with Ph-positive ALL</span><span style="font-size: 10.0pt; font-family: Helvetica, sans-serif; color: black;"> </span><span>and very limited experience in children with MDS/MPD, DFSP, GIST and HES/CEL.</span></p><p><span>&#160;</span></p><p><span>Some children and adolescents taking ProductX CompanyY may have slower than normal growth. The doctor will monitor the growth at regular visits.</span></p></div>
+                    </text>
+                  </section>
+                  <section id="a54f5a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="Other medicines and ProductX CompanyY" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029900" />
+                        <display value="Other medicines and X" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p><span>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines, including medicines obtained without a prescription (such as paracetamol) and including herbal medicines (such as St. John&#8217;s Wort). Some medicines can interfere with the effect of ProductX CompanyY when taken together. They may increase or decrease the effect of ProductX CompanyY, either leading to increased side effects or making ProductX CompanyY less effective. ProductX CompanyY may do the same to some other medicines.</span></p><p><span>&#160;</span></p><p><span>Tell your doctor if you are using medicines that prevent the formation of blood clots.</span></p></div>
+                    </text>
+                  </section>
+                  <section id="b04f5a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="Pregnancy, breast-feeding and fertility" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029902" />
+                        <display value="Pregnancy [and] [,] breast-feeding [and fertility]" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your doctor for advice before taking this medicine.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>ProductX CompanyY</span><span> is not recommended during pregnancy unless clearly necessary as it may harm your baby. Your doctor will discuss with you the possible risks of taking ProductX CompanyY during pregnancy.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>Women who might become pregnant are advised to use effective contraception during treatment</span><span> and for 15&#160;days after ending treatment</span><span>.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>Do not breast-feed during the treatment with ProductX CompanyY</span><span> and for 15&#160;days after ending treatment, as it may harm your baby</span><span>.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>Patients who are concerned about their fertility while taking ProductX CompanyY are advised to consult with their doctor.</span></li></ul></div>
+                    </text>
+                  </section>
+                  <section id="b94f5a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="Driving and using machines" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029903" />
+                        <display value="Driving and using machines" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p><span>You may feel dizzy or drowsy or get blurred vision while taking this medicine. If this happens, do not drive or use any tools or machines until you are feeling well again.</span></p></div>
+                    </text>
+                  </section>
+                </section>
+                <section id="ca4f5a60-0d4e-ee11-be6e-000d3aaa06fe">
+                  <title value="3. How to take ProductX CompanyY" />
+                  <code>
+                    <coding>
+                      <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                      <code value="200000029905" />
+                      <display value="3. How to [take] [use] X" />
+                    </coding>
+                  </code>
+                  <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml"><p><span>Your doctor has prescribed ProductX CompanyY because you suffer from a serious condition. ProductX CompanyY can help you to fight this condition.</span></p><p><span>&#160;</span></p><p><span>However, always take this medicine exactly as your doctor, pharmacist or nurse has told you. It is important that you do this as long as your doctor, pharmacist or nurse tells you to. Check with your doctor, pharmacist or nurse if you are not sure.</span></p><p><span>&#160;</span></p><p><span>Do not stop taking ProductX CompanyY unless your doctor tells you to. If you are not able to take the medicine as your doctor prescribed or you feel you do not need it anymore, contact your doctor straight away.</span></p></div>
+                  </text>
+                  <section id="50505a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="How much ProductX CompanyY to take" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000044346" />
+                        <display value="Code for custom sub-sections (level 3)" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p><strong><span>Use in adults</span></strong></p><p><span>Your doctor will tell you exactly how many capsules of ProductX CompanyY to take.</span></p><p><span>&#160;</span></p><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><strong><span>If you are being treated for CML:</span></strong></li></ul><p style="margin: 0.05pt -1pt 0.0001pt 1cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;"><span style="color: #231f20;">D</span><span style="color: #231f20;">epending on your condition the usual starting dose is either 400 mg or 600 mg:</span></p><ul style="margin-top: .55pt; margin-bottom: .0001pt;"><li style="margin: 0.55pt -1pt 0.0001pt 13.7953px; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;"><strong><span style="color: #231f20;">400 mg</span></strong><span style="color: #231f20;"> </span><span style="color: #231f20;">t</span><span style="color: #231f20;">o be taken as 4 capsules <strong>once </strong>a day,</span></li><li style="margin: 0.55pt -1pt 0.0001pt 13.7953px; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;"><strong><span style="color: #231f20;">600 mg</span></strong><span style="color: #231f20;"> </span><span style="color: #231f20;">t</span><span style="color: #231f20;">o be taken as 6 capsules <strong>once</strong> a day.</span></li></ul><p><span>&#160;</span></p><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><strong><span>If you are being treated for GIST:</span></strong></li></ul><p style="margin: 0.55pt -1pt 0.0001pt 1cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>The starting dose is 400&#160;mg, to be taken as 4 capsules <strong>onc</strong>e a day.</span></p><p><span>&#160;</span></p><p><span>For CML and GIST, your doctor may prescribe a higher or lower dose depending on how you respond to the treatment. If your daily dose is 800&#160;mg (8&#160;capsules), you should take 4&#160;capsules in the morning and 4&#160;capsules in the evening.</span></p><p><span>&#160;</span></p><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><strong><span>If you are being treated for Ph-positive ALL:</span></strong></li></ul><p style="text-indent: 1cm; line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>The starting dose is 600&#160;mg to be taken as 6 capsules <strong>once </strong>a day.</span></p><p><span>&#160;</span></p><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><strong><span>If you are being treated for MDS/MPD:</span></strong></li></ul><p style="text-indent: 1cm; line-height: normal; margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>The starting dose is 400&#160;mg, to be taken as 4 capsules <strong>onc</strong>e a day.</span></p><p><span>&#160;</span></p><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><strong><span>If you are being treated for HES/CEL:</span></strong></li></ul><p style="margin: 0cm 0cm 0.0001pt 1cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>The starting dose is 100&#160;mg, to be taken as 1 capsule <strong>once </strong>a day. Your doctor may decide to increase the dose to 400&#160;mg, to be taken as 4 capsules <strong>once </strong>a day, depending on how you respond to treatment.</span></p><p><span>&#160;</span></p><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><strong><span>If you are being treated for DFSP:</span></strong></li></ul><p style="margin: 0cm 0cm 0.0001pt 1cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>The dose is 800&#160;mg per day (8 capsules), to be taken as 4 capsules in the morning and 4 capsules in the evening.</span></p></div>
+                    </text>
+                  </section>
+                  <section id="55505a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="Use in children and adolescents" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000044346" />
+                        <display value="Code for custom sub-sections (level 3)" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p><span style="font-size: 11.0pt; font-family: 'Times New Roman', serif; color: black;">The doctor will tell you how many capsules of ProductX CompanyY to give to your child. The amount of ProductX CompanyY given will depend on your child&#8217;s condition, body weight and height. The total daily dose in children and adolescents must not exceed 800&#160;mg </span><span>with CML </span><span style="font-size: 11.0pt; font-family: 'Times New Roman', serif; color: black;">and 600 mg with Ph+ALL. The treatment can either be given to your child as a once&#8209;daily dose or alternatively the daily dose can be split into two administrations (half in the morning and half in the evening).</span></p></div>
+                    </text>
+                  </section>
+                  <section id="5b505a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="When and how to take ProductX CompanyY" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000044346" />
+                        <display value="Code for custom sub-sections (level 3)" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><strong><span>Take ProductX CompanyY with a meal. </span></strong><span>This will help protect you from stomach problems when taking ProductX CompanyY.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><strong><span>Swallow the capsules whole with a large glass of water.</span></strong><span> </span><span>Do not open or crush the capsules unless you have difficulty in swallowing (e.g. in children).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>If you are unable to swallow the capsules, you can open them up and pour the powder into a glass of still water or apple juice.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>If you are a woman who is pregnant or might get pregnant and are trying to open the capsules, you should handle the contents with caution in order to avoid skin-eye contact or inhalation. You should wash your hands immediately after opening the capsules.</span></li></ul></div>
+                    </text>
+                  </section>
+                  <section id="60505a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="How long to take ProductX CompanyY" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000044346" />
+                        <display value="Code for custom sub-sections (level 3)" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p><span>Keep taking ProductX CompanyY every day for as long as your doctor tells you.</span></p></div>
+                    </text>
+                  </section>
+                  <section id="68505a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="If you take more ProductX CompanyY than you should" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000044346" />
+                        <display value="Code for custom sub-sections (level 3)" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p><span>If you have accidentally taken too many capsules, talk to your doctor <strong>straight away</strong>. You may require medical attention. Take the medicine pack with you.</span></p></div>
+                    </text>
+                  </section>
+                  <section id="6d505a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="If you forget to take ProductX CompanyY" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000044346" />
+                        <display value="Code for custom sub-sections (level 3)" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>If you forget a dose, take it as soon as you remember. However if it is nearly time for the next dose, skip the missed dose.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>Then continue with your normal schedule.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>Do not take a double dose to make up a forgotten dose.</span></li></ul><p style="margin: 0cm 0cm 0.0001pt 1cm; text-indent: -1cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>&#160;</span></p><p><span>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</span></p></div>
+                    </text>
+                  </section>
+                </section>
+                <section id="f24f5a60-0d4e-ee11-be6e-000d3aaa06fe">
+                  <title value="4. Possible side effects" />
+                  <code>
+                    <coding>
+                      <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                      <code value="200000029910" />
+                      <display value="4. Possible side effects" />
+                    </coding>
+                  </code>
+                  <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml"><p><span>Like all medicines, this medicine can cause side effects, although not everybody gets them. They are usually mild to moderate.</span></p><p><span>&#160;</span></p><p><strong><span>Some side effects may be serious. Tell your doctor straight away if you get any of the following:</span></strong></p><p><span>&#160;</span></p><p><strong><span>Very common </span></strong><span>(</span><span>may affect more than 1 in 10&#160;people)</span><strong><span> or common </span></strong><span>(</span><span>may affect up to 1 in 10&#160;people</span><span>)</span><span>:</span></p><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Rapid weight gain. ProductX CompanyY may cause your body to retain water (severe fluid retention).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Signs of infection such as fever, severe chills, sore throat or mouth ulcers. ProductX CompanyY can reduce the number of white blood cells, so you might get infections more easily.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Unexpected bleeding or bruising (when you have not hurt yourself).</span></li></ul><p><span>&#160;</span></p><p><strong><span>Uncommon </span></strong><span>(</span><span>may affect up to 1 in 100&#160;people)</span><strong><span> or rare </span></strong><span>(</span><span>may affect up to 1 in 1,000&#160;people)</span><span>:</span></p><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Chest pain, irregular heart rhythm (signs of heart problems).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Cough, having difficulty breathing or painful breathing (signs of lung problems).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Feeling light-headed, dizzy or fainting (signs of low blood pressure).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Feeling sick (nausea), with loss of appetite, dark-coloured urine, yellow skin or eyes (signs of liver problems).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Rash, red skin with blisters on the lips, eyes, skin or mouth, peeling skin, fever, raised red or purple skin patches, itching, burning sensation, pustular eruption (signs of skin problems).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Severe abdominal pain, blood in your vomit, stools or urine, black stools (signs of gastrointestinal disorders).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Severely decreased urine output, feeling thirsty (signs of kidney problems).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Feeling sick (nausea) with diarrhoea and vomiting, abdominal pain or fever (signs of bowel problems).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Severe headache, weakness or paralysis of limbs or face, difficulty speaking, sudden loss of consciousness (signs of nervous system problems</span><span style="font-family: Helvetica, sans-serif; color: black;"> </span><span>such as bleeding or swelling in skull/brain).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Pale skin, feeling tired and breathlessness and having dark urine (signs of low levels of red blood cells).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Eye pain or deterioration in vision</span><span>, bleeding in the eyes</span><span>.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Pain in bones or joints (signs of osteonecrosis).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Blisters on skin or mucous membranes (signs of pemphigus).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Numb or cold toes and fingers (signs of Raynaud&#8217;s syndrome).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Sudden swelling and redness of the skin (signs of a skin infection called cellulitis).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Difficulty hearing.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Muscle weakness and spasms with an abnormal heart rhythm (signs of changes in the amount of potassium in your blood).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Bruising.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Stomach pain with feeling sick (nausea).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Muscle spasms with a fever, red-brown urine, pain or weakness in your muscles (signs of muscle problems).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Pelvic pain sometimes with nausea and vomiting, with unexpected vaginal bleeding, feeling dizzy or fainting due to low blood pressure (signs of problems with your ovaries or womb).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Nausea, shortness of breath, irregular heartbeat, clouding of urine, tiredness and/or joint discomfort associated with abnormal laboratory test results (e.g. high potassium, uric acid and </span>calcium<span> levels and low </span>phosphorous<span> levels in the blood).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Blood clots in small blood vessels (thrombotic microangiopathy).</span></li></ul><p><span>&#160;</span></p><p><strong><span>Not known </span></strong><span>(</span><span>frequency cannot be estimated from the available data):</span></p><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;">Combination of a widespread severe rash, feeling sick, fever, high level of certain white blood cells or yellow skin or eyes (signs of jaundice) with breathlessness, chest pain/discomfort, severely decreased urine output and feeling thirsty etc. (signs of a treatment-related allergic reaction).</li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Chronic renal failure.</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Recurrence (reactivation) of hepatitis B infection when you have had hepatitis B in the past (a liver infection).</span></li></ul><p><span>&#160;</span></p><p><span>If you get any of the above, <strong>tell your doctor straight away.</strong></span></p><p><span>&#160;</span></p><p><strong><span>Other side effects may include:</span></strong></p><p><span>&#160;</span></p><p><strong><span>Very common </span></strong><span>(may affect more than 1 in 10&#160;people)</span><span>:</span></p><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Headache or feeling tired.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Feeling sick (nausea), being sick (vomiting), diarrhoea or indigestion.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Rash.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Muscle cramps or joint, muscle or bone pain, </span><span>during treatment with ProductX CompanyY or after you have stopped taking ProductX CompanyY.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Swelling such as round your ankles or puffy eyes.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Weight gain.</span></li></ul><p><span>If any of these affects you severely, <strong>tell your doctor</strong><strong>.</strong></span></p><p><span>&#160;</span></p><p><strong><span>Common </span></strong><span>(may affect up to 1 in 10&#160;people)</span><span>:</span></p><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Anorexia, weight loss or a disturbed sense of taste.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Feeling dizzy or weak.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Difficulty in sleeping (insomnia).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Discharge from the eye with itching, redness and swelling (conjunctivitis), watery eyes or having blurred vision.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Nose bleeds.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Pain or swelling in your abdomen, flatulence, heartburn or constipation.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Itching.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Unusual hair loss or thinning.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Numbness of the hands or feet.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Mouth ulcers.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Joint pain with swelling.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Dry mouth, dry skin or dry eye.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Decreased or increased skin sensitivity.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Hot flushes, chills or night sweats.</span></li></ul><p><span>If any of these affects you severely, <strong>tell your doctor.</strong></span></p><p style="margin: 0cm 0cm 0.0001pt; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">&#160;</span></p><p><strong><span>Uncommon</span></strong><span> (may affect up to 1 in 100&#160;people):</span></p><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Cough, runny or stuffy nose, feeling of heaviness or pain on pressing the area above the eyes or on the sides of the nose, nasal congestion, sneezing, sore throat, with or without headache (signs of upper respiratory tract infection).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Severe headache felt as a throbbing pain or pulsing sensation, usually on one side of the head and often accompanied by nausea, vomiting and sensitivity to light or sound (signs of migraine).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Flu-like symptoms (influenza).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Pain or burning sensation while passing urine, increased body temperature, pain in groin or pelvic area, red- or brown-coloured or cloudy urine (signs of urinary tract infection).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Pain and swelling of your joints (signs of arthralgia).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>A constant feeling of sadness and loss of interest, which stops you carrying out your normal activities (signs of depression).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>A feeling of apprehension and worry along with physical symptoms such as pounding heart, sweating, trembling, dry mouth (signs of anxiety).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Sleepiness/drowsiness/excessive sleep.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Trembling or shaky movements (tremor).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Memory impairment.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Overwhelming urge to move the legs (restless leg syndrome).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Hearing noises (e.g. ringing, humming) in the ears that have no external source (tinnitus).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>High blood pressure (hypertension).</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Burping/belching.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Inflammation of the lips.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Difficulty swallowing.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Increased sweating.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Skin discolouration.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Brittle nails.</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Red bumps or white-headed pimples around the roots of the hair, possibly with pain, itching or</span><span style="font-size: 11.0pt; color: black;"> burning sensation (signs of inflammation of the hair follicles, also called folliculitis).</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Skin rash with flaking or peeling (exfoliative dermatitis).</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Breast enlargement (may occur in men or women).</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Dull pain and/or feeling of heaviness in the testicles or lower abdomen, pain during urination, sexual intercourse or ejaculation, blood in urine (signs of oedema of the testicles).</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Inability to get or keep an erection (erectile dysfunction).</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Heavy or irregular menstrual periods.</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Difficulty achieving/maintaining sexual arousal.</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Decreased sexual desire.</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Nipple pain.</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Generally feeling unwell (malaise).</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Viral infection such as cold sore.</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Lower back pain resulting from kidney disorder.</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Increased frequency of passing urine.</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Increase in appetite.</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Pain or burning sensation in upper abdomen and/or chest (heartburn), nausea, vomiting, acid reflux, feeling of fullness and bloating, black-coloured stools (signs of stomach ulcer).</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Joint and muscle stiffness.</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Abnormal laboratory test results.</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Painful red lumps on the skin, skin pain, skin reddening (inflammation of fatty tissue under the skin).</span></li></ul><p><span>If any of these affects you severely, <strong>tell your doctor.</strong></span></p><p style="margin: 0cm 0cm 0.0001pt; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">&#160;</span></p><p><strong><span>Rare</span></strong><span> (may affect up to 1 in 1,000&#160;people):</span></p><ul style="margin-top: 0cm; margin-bottom: .0001pt;"><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Confusion.</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Nail discolouration.</span></li></ul><p><span>If any of these affects you severely, <strong>tell your doctor.</strong></span></p><p><span>&#160;</span></p><p><strong><span>Not known </span></strong><span>(</span><span>frequency cannot be estimated from the available data)</span><span>:</span></p><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Reddening and/or swelling on the palms of the hands and soles of the feet which may be accompanied by tingling sensation and burning pain.</span></li><li style="margin: 0cm 0cm 0.0001pt 0px; text-align: left; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; color: black;">Painful and/or blistering skin lesions.</span></li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif;"><span>Slowing of growth in children and adolescents.</span></li></ul><p><span>If any of these affects you severely, <strong>tell your doctor.</strong></span></p></div>
+                  </text>
+                  <section id="06505a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="Reporting of side effects" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029912" />
+                        <display value="Reporting of side effects" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p><span>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects not listed in this leaflet. You can also report side effects directly <span style="background: lightgrey;">via the national reporting system listed in </span></span><a style="color: blue; text-decoration: underline;" href="http://www.ema.europa.eu/docs/en_GB/document_library/Template_or_form/2013/03/WC500139752.doc"><span style="background: lightgrey;">Appendix V</span></a><span>. By reporting side effects, you can help provide more information on the safety of this medicine.</span></p></div>
+                    </text>
+                  </section>
+                </section>
+                <section id="0d505a60-0d4e-ee11-be6e-000d3aaa06fe">
+                  <title value="5. How to store ProductX CompanyY" />
+                  <code>
+                    <coding>
+                      <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                      <code value="200000029913" />
+                      <display value="5. How to store X" />
+                    </coding>
+                  </code>
+                  <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml"><p>Keep this medicine out of the sight and reach of children.</p><p>&#160;</p><p><span style="font-size: 11.0pt;">Do not use </span><span style="font-size: 11.0pt;">this medicine </span><span style="font-size: 11.0pt;">after the expiry date which is stated on the carton and blister after EXP. The expiry date refers to the last day of the month.</span></p><p><span style="font-size: 11.0pt;">&#160;</span></p><p><span style="font-size: 11.0pt;">This medicine does not require any special storage conditions.</span></p><p>&#160;</p><p>Do not use any pack that is damaged or shows signs of tampering.</p><p>&#160;</p><p><span>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.</span></p></div>
+                  </text>
+                </section>
+                <section id="16505a60-0d4e-ee11-be6e-000d3aaa06fe">
+                  <title value="6. Contents of the pack and other information" />
+                  <code>
+                    <coding>
+                      <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                      <code value="200000029914" />
+                      <display value="6. Contents of the pack and other information" />
+                    </coding>
+                  </code>
+                  <section id="20505a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="What ProductX CompanyY contains" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029915" />
+                        <display value="What X contains" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><ul style="margin-bottom: 0cm; margin-top: 0px;"><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;">The active substance is imatinib (as mesilate).</li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;">Each hard capsule of ProductX <span>CompanyY</span><strong> </strong>contains 100&#160;mg imatinib (as mesilate).</li><li style="line-height: normal; margin: 0cm 0cm 0.0001pt 0px; font-size: 11pt; font-family: 'Times New Roman', serif; text-indent: 13.7953px;"><span>The other ingredients are mannitol, crospovidone, magnesium stearate and silica colloidal anhydrous. The capsule shell is composed of gelatin, titanium dioxide (E171), iron oxide yellow (E172) and </span>iron oxide red (E172)<span>. </span>The printing ink is composed of shellac, iron oxide black (E172) and propylene glycol.</li></ul></div>
+                    </text>
+                  </section>
+                  <section id="26505a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="What ProductX CompanyY looks like and contents of the pack" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029916" />
+                        <display value="What X looks like and contents of the pack" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p>ProductX CompanyY<strong> </strong>100&#160;mg hard capsules are non transparent orange capsules with black marking 7629 on capsule body and black marking TEVA on capsule cap. The content of the capsule is white to light yellow granulated powder. The capsules are approximately 19 mm long and 7 mm wide.</p><p>&#160;</p><p>ProductX CompanyY 100&#160;mg hard capsules are available in pack sizes of 60 or 120 hard capsules in blisters.</p><p>ProductX CompanyY 100&#160;mg hard capsules are available in pack sizes of 20x1, 60x1, 120x1 or 180x1&#160;hard capsules in perforated unit dose blisters.</p><p>&#160;</p><p>Not all pack sizes may be marketed.</p></div>
+                    </text>
+                  </section>
+                  <section id="2d505a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="Marketing Authorisation Holder" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029917" />
+                        <display value="Marketing Authorisation Holder and Manufacturer" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p>CompanyY B.V.</p><p>Swensweg 5</p><p>2031 GA Haarlem</p><p>The Netherlands</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">&#160;</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;"><strong>Manufacturer</strong></p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">CompanyY Pharmaceutical Works Private Limited Company</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">Pallagi &#250;t 13</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">Debrecen H-4042</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">Hungary</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">&#160;</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">CompanyY Czech Industries s.r.o.</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">Ostravska 29, c.p. 305</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">74770 Opava-Komarov</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">Czech Republic</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">&#160;</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">TEVA PHARMA, S.L.U.</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">C/C, n. 4, Poligono Industrial Malpica</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">50016 Zaragoza</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">Spain</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">&#160;</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">Merckle GmbH</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">Graf-Arco-Str. 3, 89079 Ulm</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">Germany</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">&#160;</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">CompanyY Operations Poland Sp. z o.o.</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">ul. Mogilska 80, 31-546 Krakow</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">Poland</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">&#160;</p><p>CompanyY Pharma B.V.</p><p>Swensweg 5,</p><p>2031 GA Haarlem</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">The Netherlands</p><p>&#160;</p><p><span>PLIVA Croatia Ltd.</span></p><p><span>Prilaz baruna Filipovica 25</span></p><p><span>10000 Zagreb</span></p><p>Croatia</p><p>&#160;</p><p>&#160;</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">For any information about this medicine, please contact the local representative of the Marketing Authorisation Holder:</p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">&#160;</p><table class="MsoNormalTable" style="width: 683px; border-collapse: collapse; height: 1132.7px;" border="0" cellspacing="0" cellpadding="0"><tbody><tr style="break-inside: avoid; height: 68px;"><td style="width: 337.5px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>Belgi&#235;/Belgique/Belgien</strong></p><p>CompanyY Pharma Belgium N.V./S.A./AG</p><p style="margin: 0cm 1.7pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">T&#233;l/Tel: +32 38207373</p><p style="margin: 0cm 1.7pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">&#160;</p></td><td style="width: 313.75px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>Lietuva</strong></p><p style="margin: 0cm -22.45pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">UAB CompanyY Baltics</p><p>Tel: +370 52660203</p><p>&#160;</p></td></tr><tr style="break-inside: avoid; height: 85px;"><td style="width: 337.5px; padding: 0cm 5.4pt; height: 85px;" valign="top"><p><strong>&#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1080;&#1103;</strong></p><p><span>&#1058;&#1077;&#1074;&#1072; &#1060;&#1072;&#1088;&#1084;&#1072; </span>&#1045;&#1040;&#1044;</p><p>Te&#1083;: +359 24899585</p><p>&#160;</p></td><td style="width: 313.75px; padding: 0cm 5.4pt; height: 85px;" valign="top"><p><strong>Luxembourg/Luxemburg</strong></p><p>CompanyY Pharma Belgium N.V./S.A./AG Belgique/Belgien</p><p>T&#233;l/Tel: +32 38207373</p><p>&#160;</p></td></tr><tr style="break-inside: avoid; height: 71.6562px;"><td style="width: 337.5px; padding: 0cm 5.4pt; height: 71.6562px;" valign="top"><p><strong>&#268;esk&#225; republika</strong></p><p><span style="font-size: 11.0pt;">CompanyY Pharmaceuticals CR, s.r.o.</span></p><p>Tel: +420 251007111</p><p>&#160;</p></td><td style="width: 313.75px; padding: 0cm 5.4pt; height: 71.6562px;" valign="top"><p><strong>Magyarorsz&#225;g</strong></p><p>CompanyY Gy&#243;gyszergy&#225;r Zrt.</p><p>Tel: +36 12886400</p><p>&#160;</p></td></tr><tr style="break-inside: avoid; height: 85px;"><td style="width: 337.5px; padding: 0cm 5.4pt; height: 85px;" valign="top"><p><strong>Danmark</strong></p><p><span style="font-size: 11.0pt;">CompanyY Denmark A/S</span></p><p>Tlf: +45 44985511</p><p>&#160;</p></td><td style="width: 313.75px; padding: 0cm 5.4pt; height: 85px;" valign="top"><p><strong>Malta</strong></p><p>CompanyY Pharmaceuticals Ireland</p><p>L-Irlanda</p><p>Tel: +44 2075407117</p><p>&#160;</p></td></tr><tr style="break-inside: avoid; height: 68px;"><td style="width: 337.5px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>Deutschland</strong></p><p>AbZ-Pharma GmbH</p><p>Tel: +49 73140205</p><p>&#160;</p></td><td style="width: 313.75px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>Nederland</strong></p><p>CompanyY Nederland B.V.</p><p>Tel: +31 8000228400</p><p>&#160;</p></td></tr><tr style="break-inside: avoid; height: 68px;"><td style="width: 337.5px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>Eesti</strong></p><p>UAB CompanyY Baltics Eesti filiaal</p><p>Tel: +372 6610801</p><p>&#160;</p></td><td style="width: 313.75px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>Norge</strong></p><p>CompanyY Norway AS</p><p>Tlf: +47 66775590</p><p>&#160;</p></td></tr><tr style="break-inside: avoid; height: 68px;"><td style="width: 337.5px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>&#917;&#955;&#955;&#940;&#948;&#945;</strong></p><p><span>TEVA HELLAS &#913;.&#917;.</span></p><p>&#932;&#951;&#955;: +30 2118805000</p><p>&#160;</p></td><td style="width: 313.75px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>&#214;sterreich</strong></p><p>ratiopharm Arzneimittel Vertriebs-GmbH</p><p>Tel: +43 1970070</p><p>&#160;</p></td></tr><tr style="break-inside: avoid; height: 68px;"><td style="width: 337.5px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>Espa&#241;a</strong></p><p>CompanyY Pharma, S.L.U.</p><p>Tel: +34 913873280</p><p>&#160;</p></td><td style="width: 313.75px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>Polska</strong></p><p>CompanyY Pharmaceuticals Polska Sp. z o.o.</p><p>Tel: +48 223459300</p><p>&#160;</p></td></tr><tr style="break-inside: avoid; height: 68px;"><td style="width: 337.5px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>France</strong></p><p>CompanyY Sant&#233;</p><p>T&#233;l: +33 155917800</p><p><strong>&#160;</strong></p></td><td style="width: 313.75px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>Portugal</strong></p><p>CompanyY Pharma - Produtos Farmac&#234;uticos, Lda.</p><p>Tel: +351 214767550</p><p>&#160;</p></td></tr><tr style="break-inside: avoid; height: 88.5312px;"><td style="width: 337.5px; padding: 0cm 5.4pt; height: 88.5312px;" valign="top"><strong><span><br style="page-break-before: always;" /></span></strong><p><strong>Hrvatska</strong></p><p>Pliva Hrvatska d.o.o.</p><p>Tel: +385 13720000</p><p><strong>&#160;</strong></p></td><td style="width: 313.75px; padding: 0cm 5.4pt; height: 88.5312px;" valign="top"><p><strong>Rom&#226;nia</strong></p><p>CompanyY Pharmaceuticals S.R.L.</p><p>Tel: +40 212306524</p><p><strong>&#160;</strong></p></td></tr><tr style="break-inside: avoid; height: 88.5156px;"><td style="width: 337.5px; padding: 0cm 5.4pt; height: 88.5156px;" valign="top"><p><strong>Ireland</strong></p><p>CompanyY Pharmaceuticals Ireland</p><p>Tel: +44 2075407117</p></td><td style="width: 313.75px; padding: 0cm 5.4pt; height: 88.5156px;" valign="top"><p><strong>Slovenija</strong></p><p>Pliva Ljubljana d.o.o.</p><p>Tel: +386 15890390</p></td></tr><tr style="break-inside: avoid; height: 68px;"><td style="width: 337.5px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>&#205;sland</strong></p><p>CompanyY Pharma Iceland ehf.</p><p>S&#237;mi: +354 5503300</p><p>&#160;</p></td><td style="width: 313.75px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>Slovensk&#225; republika</strong></p><p>TEVA Pharmaceuticals Slovakia s.r.o.</p><p>Tel: +421 257267911</p><p><strong>&#160;</strong></p></td></tr><tr style="break-inside: avoid; height: 68px;"><td style="width: 337.5px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>Italia</strong></p><p>CompanyY Italia S.r.l.</p><p>Tel: +39 028917981</p><p><strong>&#160;</strong></p></td><td style="width: 313.75px; padding: 0cm 5.4pt; height: 68px;" valign="top"><p><strong>Suomi/Finland</strong></p><p>CompanyY Finland Oy</p><p>Puh/Tel: +358 201805900</p><p>&#160;</p></td></tr><tr style="break-inside: avoid; height: 85px;"><td style="width: 337.5px; padding: 0cm 5.4pt; height: 85px;" valign="top"><p><strong>&#922;&#973;&#960;&#961;&#959;&#962;</strong></p><p><span>TEVA HELLAS &#913;.&#917;.</span></p><p>&#917;&#955;&#955;&#940;&#948;&#945;</p><p>&#932;&#951;&#955;: +30 2118805000</p><p><strong>&#160;</strong></p></td><td style="width: 313.75px; padding: 0cm 5.4pt; height: 85px;" valign="top"><p><strong>Sverige</strong></p><p>CompanyY Sweden AB</p><p>Tel: +46 42121100</p><p><strong>&#160;</strong></p></td></tr><tr style="break-inside: avoid; height: 85px;"><td style="width: 337.5px; padding: 0cm 5.4pt; height: 85px;" valign="top"><p><strong>Latvija</strong></p><p><span style="font-size: 11.0pt;">UAB CompanyY Baltics fili&#257;le Latvij&#257;</span></p><p>Tel: +371 67323666</p><p>&#160;</p></td><td style="width: 313.75px; padding: 0cm 5.4pt; height: 85px;" valign="top"><p><strong>United Kingdom (Northern Ireland)</strong></p><p>CompanyY Pharmaceuticals Ireland</p><p>Ireland</p><p>Tel: +44 2075407117</p><p>&#160;</p></td></tr></tbody></table><p>&#160;</p></div>
+                    </text>
+                  </section>
+                  <section id="36505a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="This leaflet was last revised in" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029919" />
+                        <display value="This leaflet was last revised in [{MM/YYYY}][{month YYYY}]." />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml">[Date of revision]</div>
+                    </text>
+                  </section>
+                  <section id="3d505a60-0d4e-ee11-be6e-000d3aaa06fe">
+                    <title value="Other sources of information" />
+                    <code>
+                      <coding>
+                        <system value="http://ema.europa.eu/fhir/CodeSystem/200000029659" />
+                        <code value="200000029920" />
+                        <display value="Other sources of information" />
+                      </coding>
+                    </code>
+                    <text>
+                      <status value="generated" />
+                      <div xmlns="http://www.w3.org/1999/xhtml"><p style="margin: 0cm -0.1pt 0.0001pt 0cm; line-height: normal; font-size: 11pt; font-family: 'Times New Roman', serif;">Detailed information on this medicine is available on the European Medicines Agency website: <a style="color: blue; text-decoration: underline;" href="http://www.ema.europa.eu">http://www.ema.europa.eu</a></p></div>
+                    </text>
+                  </section>
+                </section>
+              </section>
+            </Composition>
+          </resource>
+        </entry>
+      </Bundle>

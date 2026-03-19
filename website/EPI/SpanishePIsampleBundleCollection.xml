@@ -1,0 +1,1985 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="http://hl7.org/fhir">
+	<id value="199141c4-8689-4252-9ddf-87f649afdf94"/>
+	<meta>
+		<versionId value="1"/>
+		<lastUpdated value="2023-11-06T08:41:03.456+00:00"/>
+		<!--	<profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiBundle"/>-->
+	</meta>
+	<identifier>
+		<system value="http://ema.europa.eu/fhir/epiGuid"/>
+		<value value="199141c4-8689-4252-9ddf-87f649afdf94"/>
+	</identifier>
+	<type value="collection"/>
+	<timestamp value="2025-02-25T17:33:14.892464+01:00"/>
+	<entry>
+		<fullUrl value="urn:uuid:00303f4c-65e3-4f01-bfb4-4776867db1f2"/>
+		<resource>
+			<List>
+				<text>
+					<status value="generated"/>
+					<div xmlns="http://www.w3.org/1999/xhtml">electronic Product Information (ePI) master document list</div>
+				</text>
+				<identifier>
+					<system value="http://ema.europa.eu/fhir/epiId"/>
+					<value value="EPI/24/129"/>
+				</identifier>
+				<status value="current"/>
+				<mode value="working"/>
+				<title value="all sections Spanish document"/>
+				<code>
+					<coding>
+						<system value="http://ema.europa.eu/fhir/CodeSystem/100000155531"/>
+						<code value="100000155539"/>
+						<display value="Combined File of all Documents"/>
+					</coding>
+				</code>
+				<entry>
+					<item>
+						<reference value="urn:uuid:3b23a834-8ed6-46c0-94e7-e1a296e2ea2c"/>
+						<display value="Ficha técnica o resumen de las características del producto"/>
+					</item>
+				</entry>
+				<entry>
+					<item>
+						<reference value="urn:uuid:bd3be333-b521-462d-84dd-e28016ba0627"/>
+						<display value="Prospecto"/>
+					</item>
+				</entry>
+			</List>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:3b23a834-8ed6-46c0-94e7-e1a296e2ea2c"/>
+		<resource>
+			<Bundle>
+				<id value="3b23a834-8ed6-46c0-94e7-e1a296e2ea2c"/>
+				<meta>
+					<versionId value="1"/>
+					<lastUpdated value="2023-11-06T08:41:03.456+00:00"/>
+					<profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiBundle"/>
+				</meta>
+				<identifier>
+					<system value="http://ema.europa.eu/fhir/epiDocument"/>
+					<value value="urn:uuid:3b23a834-8ed6-46c0-94e7-e1a296e2ea2c"/>
+				</identifier>
+				<type value="document"/>
+				<timestamp value="2025-02-25T17:33:14.8824897+01:00"/>
+				<entry>
+					<fullUrl value="urn:uuid:3b23a834-8ed6-46c0-94e7-e1a296e2ea2c"/>
+					<resource>
+						<Composition>
+							<!-- <meta>
+								<profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiCompositionSmPC"/>
+								<profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiComposition"/>
+								<profile value="http://ema.europa.eu/fhir/StructureDefinition/EUQRD-NAP-template-new-ORG-100003943-SmPC-es"/>
+							</meta> -->
+							<language value="es"/>
+							<text>
+								<status value="generated"/>
+								<div xmlns="http://www.w3.org/1999/xhtml">electronic Product Information (ePI) document</div>
+							</text>
+							<status value="final"/>
+							<type>
+								<coding>
+									<system value="http://ema.europa.eu/fhir/CodeSystem/100000155531"/>
+									<code value="100000155532"/>
+									<display value="Ficha técnica o resumen de las características del producto"/>
+								</coding>
+							</type>
+							<date value="2025-02-25"/>
+							<author>
+								<identifier>
+									<value value="Company_name"/>
+								</identifier>
+							</author>
+							<title value="Ficha técnica o resumen de las características del producto"/>
+							<section>
+								<title value="Ficha técnica o resumen de las características del producto"/>
+								<code>
+									<coding>
+										<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+										<code value="200000029791"/>
+										<display value="Ficha técnica o resumen de las características del producto"/>
+									</coding>
+								</code>
+								<text>
+									<status value="generated"/>
+									<div xmlns="http://www.w3.org/1999/xhtml">
+										<p> </p>
+									</div>
+								</text>
+								<section id="36bfdf26-561a-471f-8f4d-8091f7bdfb8b">
+									<title value="1. Nombre del medicamento"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029792"/>
+											<display value="1. NOMBRE DEL MEDICAMENTO"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p>
+												<span>Medicamento Y 3,6 g polvo para suspensión oral</span>
+											</p>
+										</div>
+									</text>
+								</section>
+								<section id="70028000-2653-4e8c-930e-e241da33998e">
+									<title value="2. Composición cualitativa y cuantitativa"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029793"/>
+											<display value="2. COMPOSICIÓN CUALITATIVA Y CUANTITATIVA"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p>
+												<span>Cada sobre contiene:</span>
+											</p>
+											<p>
+												<span>Hidróxido de magnesio ………………………….3,6 g</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+											<p>
+												<span>Excipientes con efecto conocido: sacarosa ………0,4 g</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+											<p>
+												<span>Para consultar la lista completa de excipientes ver sección 6.1.</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+										</div>
+									</text>
+								</section>
+								<section id="e62128cf-5ffb-47c6-b196-d75324fe80d9">
+									<title value="3. Forma farmacéutica"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029797"/>
+											<display value="3. Forma farmacéutica"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p>
+												<span>Polvo para suspensión oral.</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+											<p>
+												<span>Polvo fino de color blanco con sabor y olor a anís, en sobres para suspensión oral.</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+										</div>
+									</text>
+								</section>
+								<section id="d0448436-7479-40f4-ae1e-def2388ba816">
+									<title value="4. Datos clínicos"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029798"/>
+											<display value="4. Datos clínicos"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p> </p>
+										</div>
+									</text>
+									<section id="0cc94a00-df29-40fb-ab92-60f0569a677d">
+										<title value="4.1. Indicaciones terapéuticas"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029799"/>
+												<display value="4.1 Indicaciones terapéuticas"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>Tratamiento sintomático y temporal del estreñimiento ocasional en adultos y adolescentes a partir de 12 años.</span>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="e155e4e1-ccb2-4e73-9316-2b328bd5a9a3">
+										<title value="4.2. Posología y forma de administración"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029800"/>
+												<display value="4.2 Posología y forma de administración"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>Adultos y adolescentes a partir de 12 años:</span>
+												</p>
+											</div>
+										</text>
+										<section id="adea885c-41eb-4bb1-b1d9-fddfd49d8aa7">
+											<title value="4.2.1. Posología"/>
+											<code>
+												<coding>
+													<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+													<code value="200000029801"/>
+													<display value="Posología"/>
+												</coding>
+											</code>
+											<text>
+												<status value="generated"/>
+												<div xmlns="http://www.w3.org/1999/xhtml">
+													<p>
+														<span> </span>
+													</p>
+													<ul>
+														<li>
+															<span>Como laxante: 1 sobre al día en una única toma, preferentemente durante las mañanas en ayunas.</span>
+														</li>
+														<li>
+															<span>Como purgante: de 2 a 3 sobres al día en una única toma o dividido en 2 tomas, según necesidad.</span>
+														</li>
+													</ul>
+													<p>
+														<span> </span>
+													</p>
+												</div>
+											</text>
+										</section>
+										<section id="e2021288-1261-4536-ac62-1d66ec704a3c">
+											<title value="4.2.2. Forma de administración"/>
+											<code>
+												<coding>
+													<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+													<code value="200000029803"/>
+													<display value="Forma de administración"/>
+												</coding>
+											</code>
+											<text>
+												<status value="generated"/>
+												<div xmlns="http://www.w3.org/1999/xhtml">
+													<p>
+														<span> </span>
+													</p>
+													<p>
+														<span>Este medicamento se administra por vía oral.</span>
+													</p>
+													<p>
+														<span>Verter el polvo en un vaso de agua. Es recomendable tomar cada dosis con abundante líquido (200 ml, un vaso lleno). Desleírlo completamente y beberlo.</span>
+													</p>
+													<p>
+														<span> </span>
+													</p>
+													<p>
+														<span>Debido a que el efecto laxante suele manifestarse entre las 3 y 6 horas tras la administración e incluso antes, los laxantes salinos no suelen administrarse al acostarse o a última hora del día a menos que la dosis sea relativamente pequeña y se administre con alimentos.</span>
+													</p>
+													<p>
+														<span> </span>
+													</p>
+													<p>
+														<span>Si el paciente empeora o los síntomas persisten después de 7 días de tratamiento se deberá reevaluar la situación clínica.</span>
+													</p>
+													<p>
+														<span>La administración concomitante del medicamento con alimentos y bebidas no afecta a la eficacia del mismo.</span>
+													</p>
+													<p>
+														<span> </span>
+													</p>
+												</div>
+											</text>
+										</section>
+									</section>
+									<section id="ff2b470e-b206-412e-bf6f-0e5b061c5824">
+										<title value="4.3. Contraindicaciones"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029805"/>
+												<display value="4.3 Contraindicaciones"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<ul>
+													<li>
+														<span>Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la sección 6.1,</span>
+													</li>
+													<li>
+														<span>insuficiencia renal grave o en situaciones de desequilibrio hidroelectrolítico (riesgo de hipermagnesemia),</span>
+													</li>
+													<li>
+														<span>algún síntoma de apendicitis, de obstrucción intestinal,</span>
+													</li>
+													<li>
+														<span>hemorragia gastrointestinal o rectal no diagnosticada, colitis ulcerosa, colostomía, diverticulitis, ileostomía,</span>
+													</li>
+													<li>
+														<span>diarrea crónica.</span>
+													</li>
+												</ul>
+												<p>
+													<span> </span>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="b1affa14-3e9a-410a-b385-f3fad32a3373">
+										<title value="4.4. Advertencias y precauciones especiales de empleo"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029806"/>
+												<display value="4.4 Advertencias y precauciones especiales de empleo"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<ul>
+													<li>
+														<span>Evitar el uso crónico de este medicamento.</span>
+													</li>
+												</ul>
+												<p>
+													<span> </span>
+												</p>
+												<ul>
+													<li>
+														<span>Si los síntomas de estreñimiento empeoran o persisten tras 7 días de tratamiento, se debe evaluar la situación clínica, ya que el estreñimiento puede ser síntoma de una afección orgánica.</span>
+													</li>
+												</ul>
+												<p>
+													<span> </span>
+												</p>
+												<ul>
+													<li>
+														<span>En los casos de estreñimiento crónico de origen no orgánico, su corrección puede favorecerse con medidas generales como: dieta rica en fibra, ingestión de agua en cantidad adecuada, ejercicio físico y regulación del hábito de la defecación.</span>
+													</li>
+												</ul>
+												<p>
+													<span> </span>
+												</p>
+												<ul>
+													<li>
+														<span>En el caso de que el paciente padezca insuficiencia renal no grave, es importante realizar una monitorización de los valores de electrólitos en sangre.</span>
+													</li>
+												</ul>
+												<p>
+													<span> </span>
+												</p>
+												<ul>
+													<li>
+														<span>También se deberá realizar un especial control en pacientes que presenten enfermedades cardíacas, insuficiencia hepática, ancianos o pacientes debilitados.</span>
+													</li>
+												</ul>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<strong>
+														<span>Población pediátrica</span>
+													</strong>
+												</p>
+												<p>
+													<span>En niños de corta edad el uso de hidróxido de magnesio puede causar hipermagnesemia, especialmente en presencia de insuficiencia renal o deshidratación.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>
+														<span>Advertencias sobre excipientes</span>
+													</span>
+													<span>: Este medicamento contiene sacarosa. Los pacientes con intolerancia hereditaria a la fructosa, malabsorción de glucosa o galactosa o insuficiencia de sacarasa-isomaltasa no deben tomar este medicamento.</span>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="5960127a-ff11-4ba5-9fee-041d2074cd3f">
+										<title value="4.5. Interacción con otros medicamentos y otras formas de interacción"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029809"/>
+												<display value="4.5 Interacción con otros medicamentos y otras formas de interacción"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>El hidróxido de magnesio y, en general los medicamentos que modifican el pH gástrico, pueden reducir la biodisponibilidad o retrasar la absorción de otros fármacos o provocar quelación o unión con otros medicamentos. Las modificaciones del pH gástrico pueden dar lugar a alteraciones en la liberación, disolución, solubilidad o ionización de diferentes sustancias que tengan un carácter ácido o básico débil. De igual manera, los medicamentos que incrementan el pH urinario, pueden acelerar la eliminación de fármacos de carácter ácido débil o reducirla en el caso de bases débiles.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>La administración concomitante de hidróxido de magnesio puede aumentar la absorción de los siguientes fármacos:</span>
+												</p>
+												<ul>
+													<li>
+														<span>Antidiabéticos (clorpropamida, glibenclamida, glipizida, tolbutamida)</span>
+													</li>
+													<li>
+														<span>Dicumarol: aunque no se han observado modificaciones del tiempo de protrombina en el hombre. No se produjeron modificaciones en la absorción de warfarina</span>
+													</li>
+													<li>
+														<span>Levodopa</span>
+													</li>
+													<li>
+														<span>Sulfamidas: el incremento del pH aumenta su disolución y absorción.</span>
+													</li>
+												</ul>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>En algunos estudios, se ha descrito reducción de la absorción de otros medicamentos como:</span>
+												</p>
+												<ul>
+													<li>
+														<span>Atenolol: debido a una reducción en la disolución del betabloqueante.</span>
+													</li>
+													<li>
+														<span>Ácido fólico: el uso prolongado con antiácidos que contienen magnesio puede disminuir la absorción del ácido fólico al reducir el pH del intestino delgado.</span>
+													</li>
+													<li>
+														<span>Anticolinérgicos u otros medicamentos con actividad anticolinérgica: puede disminuir la absorción, reduciéndose la eficacia de los anticolinérgicos, y también la excreción urinaria se puede retrasar por alcalinización de la orina, lo que potenciará los efectos secundarios del anticolinérgico.</span>
+													</li>
+													<li>
+														<span>Quinolonas (ciprofloxacino, ofloxacino, pefloxacino, enoxacino): por formación de complejos insolubles no absorbibles.</span>
+													</li>
+													<li>
+														<span>Antagonistas de los receptores histamínicos H2: aumento del grado de ionización de este fármaco a pH más alto.</span>
+													</li>
+													<li>
+														<span>Fosfatos orales: el magnesio puede unirse al fosfato y evitar su absorción.</span>
+													</li>
+													<li>
+														<span>Sales de hierro: por formación de complejos insolubles no absorbibles.</span>
+													</li>
+													<li>
+														<span>Tetraciclinas (clortetraciclina, doxiciclina, tetraciclina): su avidez por los cationes metálicos conlleva la formación de complejos estables que impiden la absorción del antibiótico. Además, es necesario un pH gástrico ácido para la disolución de las tetraciclinas, de forma que la administración de hidróxido de magnesio también reduce la absorción por este mecanismo</span>
+													</li>
+													<li>
+														<span>Digoxina, fenitoína, captopril, ketoconazol, fenotiazinas (especialmente la clorpromazina oral), penicilamina, indometacina, clordiazepóxido, ácido alendrónico y ácido tiludrónico.</span>
+													</li>
+												</ul>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>Estas interacciones se pueden evitar separando la administración del hidróxido de magnesio y de estos fármacos entre 2 y 3 horas.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>La alcalinización de la orina secundaria a la administración del hidróxido de magnesio puede modificar la </span>
+													<span>excreción</span>
+													<span>de algunos</span>
+													<span>medicamentos</span>
+													<span>; </span>
+													<span>habiéndose</span>
+													<span>observado un</span>
+													<span>aumento</span>
+													<span>  de</span>
+													<span>la excreción de</span>
+													<span>salicilatos y una reducción de la eliminación de quinidina, de algunas anfetaminas y de la mecamilamina.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>Se ha descrito que el uso simultáneo de medicamentos que contienen magnesio puede interferir con:</span>
+												</p>
+												<ul>
+													<li>
+														<span>Medicamentos con cubierta entérica: pueden hacer que la cubierta se disuelva con demasiada rapidez, lo que puede producir irritación gástrica o duodenal.</span>
+													</li>
+													<li>
+														<span>Misoprostol: puede agravar la diarrea inducida por misoprostol.</span>
+													</li>
+													<li>
+														<span>Resina de poliestirén sulfonato sódico: puede verse afectada la neutralización del ácido gástrico, dando lugar posiblemente a alcalosis sistémica.</span>
+													</li>
+													<li>
+														<span>Vitamina D, incluyendo calcifediol y calcitriol: se puede producir hipermagnesemia, sobre todo en pacientes con insuficiencia renal crónica.</span>
+													</li>
+												</ul>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>La administración concomitante de hidróxido de magnesio puede disminuir la eficacia de:</span>
+												</p>
+												<ul>
+													<li>
+														<span>Metenamina: al inhibir su conversión a formaldehído.</span>
+													</li>
+													<li>
+														<span>Pancreolipasa.</span>
+													</li>
+													<li>
+														<span>Sucralfato: el antiácido puede interferir con la unión del sucralfato a la mucosa.</span>
+													</li>
+													<li>
+														<span>Acidificantes urinarios, como cloruro de amonio, ácido ascórbico o fosfatos de potasio o sodio: los antiácidos pueden alcalinizar la orina y contrarrestar el efecto de los acidificantes urinarios.</span>
+													</li>
+												</ul>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>Además se han descrito otras interacciones, sin mecanismo conocido, como el incremento de la velocidad de absorción de algunos antiinflamatorios (ibuprofeno, flurbiprofeno, ácido mefenámico o flufenámico).</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+											</div>
+										</text>
+										<section id="0f766e0f-9cf3-ef11-be1f-7c1e5250b110">
+											<title value="Interacciones con pruebas de diagnóstico:"/>
+											<code>
+												<coding>
+													<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+													<code value="200000044333"/>
+												</coding>
+											</code>
+											<text>
+												<status value="generated"/>
+												<div xmlns="http://www.w3.org/1999/xhtml">
+													<p>
+														<strong>
+															<span>Interacciones con pruebas de diagnóstico:</span>
+														</strong>
+													</p>
+													<ul>
+														<li>
+															<span>Pruebas de detección de la secreción ácida gástrica (puede antagonizar el efecto de la pentagastrina y de la histamina).</span>
+														</li>
+														<li>
+															<span>Concentraciones séricas de gastrina (puede aumentar).</span>
+														</li>
+														<li>
+															<span>Concentraciones séricas de potasio (puede disminuir por el uso excesivo y prolongado).</span>
+														</li>
+														<li>
+															<span>pH sistémico y urinario (puede aumentar).</span>
+														</li>
+													</ul>
+												</div>
+											</text>
+											<section id="9b247843-9cf3-ef11-be1f-000d3aaed1e8">
+												<title value="level 5 subsection in SmPC"/>
+												<code>
+													<coding>
+														<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+														<code value="200000044347"/>
+													</coding>
+												</code>
+												<text>
+													<status value="generated"/>
+													<div xmlns="http://www.w3.org/1999/xhtml">
+														<p>example of level 5 subsection in SmPC</p>
+													</div>
+												</text>
+											</section>
+										</section>
+									</section>
+									<section id="66827c14-fff6-48ba-99c5-50155a5e9c63">
+										<title value="4.6. Fertilidad, embarazo y lactancia"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029811"/>
+												<display value="4.6 Fertilidad, embarazo y lactancia"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>Se debe administrar con precaución durante el embarazo evitando el empleo de dosis elevadas o durante periodos de tiempo prolongados, por el riesgo de hipermagnesemia.</span>
+												</p>
+												<p>
+													<span>El magnesio se excreta en pequeñas cantidades por la leche materna, pero no se han observado alteraciones en los lactantes. No existe contraindicación para el uso de este fármaco durante la lactancia, únicamente la misma recomendación anterior de evitar dosis excesivas o consumos prolongados.</span>
+												</p>
+												<p>
+													<span>No se dispone de datos sobre fertilidad en humanos</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="b02da9da-3c82-488e-9491-274c82a135d5">
+										<title value="4.7. Efectos sobre la capacidad para conducir y utilizar máquinas"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029815"/>
+												<display value="4.7 Efectos sobre la capacidad para conducir y utilizar máquinas"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>La influencia de este medicamento sobre la capacidad de conducir y utilizar máquinas es nula o insignificante.</span>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="9c0afe4a-6291-4fd4-a6ed-05889ea607e0">
+										<title value="4.8. Reacciones adversas"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029816"/>
+												<display value="4.8 Reacciones adversas"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>La reacción adversa que más se puede producir es la diarrea y la más grave es la hipermagnesemia.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>Durante el periodo de utilización del hidróxido de magnesio como laxante</span>
+													<span>, purgante y antiácido</span>
+													<span>se han notificado las siguientes reacciones adversas</span>
+													<span>:</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<strong>
+														<span>Trastornos gastrointestinales</span>
+													</strong>
+												</p>
+												<ul>
+													<li>
+														<span>Frecuentes (&gt;1/100 a 1/10)</span>
+														<span>: diarreas</span>
+													</li>
+													<li>
+														<span>Frecuencia no conocida (no puede estimarse a partir de los datos disponibles): Dolor abdominal</span>
+													</li>
+												</ul>
+												<p>
+													<strong>
+														<span> </span>
+													</strong>
+												</p>
+												<p>
+													<strong>
+														<span>Trastornos del metabolismo y de la nutrición</span>
+													</strong>
+												</p>
+												<ul>
+													<li>
+														<span>M</span>
+														<span>uy raras</span>
+														<span>(&lt;1/10.000)</span>
+														<span>:</span>
+														<span>H</span>
+														<span>ipermagnesemia.</span>
+														<span>Se ha observado hipermagnesemia</span>
+														<span>tras la administración prolongada de</span>
+														<span>hidróxido de</span>
+														<span>magnesio en pacientes con insuficiencia renal.</span>
+													</li>
+												</ul>
+												<p>
+													<span> </span>
+												</p>
+											</div>
+										</text>
+										<section id="3b249a4e-69d6-4ad0-84ce-9cf00b937423">
+											<title value="4.8.2. Notificación de sospechas de reacciones adversas:"/>
+											<code>
+												<coding>
+													<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+													<code value="200000029818"/>
+													<display value="Notificación de sospechas de reacciones adversas"/>
+												</coding>
+											</code>
+											<text>
+												<status value="generated"/>
+												<div xmlns="http://www.w3.org/1999/xhtml">
+													<p>
+														<span> </span>
+													</p>
+													<p>
+														<span>Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano:</span>
+														<a href="https://www.notificaram.es">
+															<span>
+																<span>https://www.notificaram.es</span>
+															</span>
+														</a>
+														<span>.</span>
+													</p>
+												</div>
+											</text>
+										</section>
+									</section>
+									<section id="350294e5-4589-4195-901c-d7c55e3e156c">
+										<title value="4.9. Sobredosis"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029819"/>
+												<display value="4.9 Sobredosis"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>Los síntomas comienzan a aparecer cuando la concentración de magnesio sobrepasa los 1,5-2,2 mmol/l e incluyen rubor, sed, hipotensión, náuseas, vómitos, astenia, confusión, mareos, visión borrosa, ataxia y debilidad muscular. Posteriormente se alteran los reflejos osteotendinosos y en situaciones más graves, puede producirse depresión respiratoria, coma y arritmia/parada cardiaca. El tratamiento es sintomático. La administración de diuréticos (furosemida, ácido etacrínico) acelera la eliminación renal de magnesio.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>El tratamiento de la hipermagnesemia, si se produce, consiste en la administración intravenosa de 10- 20 ml de gluconato cálcico al 10% y la instauración de diálisis.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+											</div>
+										</text>
+									</section>
+								</section>
+								<section id="0c6baf52-ba0d-4560-b9bb-c45186fb37b5">
+									<title value="5. Propiedades farmacológicas"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029821"/>
+											<display value="5. Propiedades farmacológicas"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p> </p>
+										</div>
+									</text>
+									<section id="53e10c52-d8b3-4969-9f8c-ca15b0ca3301">
+										<title value="5.1. Propiedades farmacodinámicas"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029822"/>
+												<display value="5.1 Propiedades farmacodinámicas"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>Grupo farmacoterapéutico: Laxantes osmóticos, hidróxido de magnesio. Código ATC: A06AD91.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>La actividad farmaco-terapéutica es laxante y purgante. También posee actividad como antiácido.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>El hidróxido de magnesio es un antiácido capaz de neutralizar el contenido gástrico ácido. Un sobre de Medicamento Y 3,6 g Polvo para solución tiene una capacidad neutralizante de 122,4 mEq El magnesio es el segundo catión intracelular más abundante. Es un electrólito esencial, implicado en la actividad de muchas enzimas, en la transmisión neuroquímica y en la excitabilidad muscular.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>En forma de hidróxido se absorbe poco y con lentitud, actuando como un laxante osmótico salino en la luz intestinal. Atrae agua hacia la luz intestinal, proporcionando la formación de una masa de heces blandas. Además estimula la secreción de colecistoquinina, una hormona que actúa estimulando la motilidad intestinal y la secreción de líquido. Actúa preferentemente al final del intestino delgado y en el intestino grueso. El efecto laxante suele manifestarse entre 3 y 6 horas tras la administración, incluso antes.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>El hidróxido de magnesio es bastante reactivo con los hidrogeniones. En contacto con el ácido clorhídrico reacciona dando lugar a cloruro de magnesio y agua.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>La reducción de la acidez gástrica suprime la actividad proteolítica de la pepsina, pero incrementa la secreción de gastrina. Esto último hace que exista una secreción ácida de rebote después de neutralizado el pH gástrico, que en el caso del hidróxido de magnesio es breve y de bajo grado. El incremento del pH también consigue aumentar la presión del esfínter esofágico inferior.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="bb95eb0a-fea9-464b-8419-268e61decfb3">
+										<title value="5.2. Propiedades farmacocinéticas"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029827"/>
+												<display value="5.2 Propiedades farmacocinéticas"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>El hidróxido de magnesio es insoluble, lo que limita la absorción intestinal del catión. La transformación en cloruro de magnesio tras el contacto con el jugo gástrico permite cierta absorción de este compuesto, entre un 15 y un 30% en el intestino delgado, que en condiciones normales se elimina por el riñón. El resto, es decir, la mayor parte se elimina por las heces sin transformar, aunque también lo hace en forma de cloruro, bicarbonato y en menor medida en forma de jabones, fosfatos y otros compuestos insolubles.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>La distribución del magnesio es amplia, un 50% se encuentra en el hueso, un tercio del mismo constituye una reserva intercambiable. El 45% presenta una localización intracelular, mientras que el 5% restante se encuentra en el líquido extracelular.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>La concentración de magnesio en el líquido intracelular y extracelular es de unos 15 mmol/l y 0,75- 1,1 mmol/l, respectivamente. En plasma un tercio se encuentra unido a las proteínas mientras que el resto se encuentra ionizado. Se excreta en la leche materna y en la saliva en pequeñas cantidades.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>La eliminación de magnesio se produce de forma fundamental por riñón, aunque únicamente un 3-5% del ión filtrado es excretado por la orina. La mayor parte de la reabsorción se produce en los túbulos proximales. La excreción renal de magnesio se puede ver incrementada por muchos diuréticos.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="9694a1ee-49f0-41a6-82e5-b7448701a934">
+										<title value="5.3. Datos preclínicos sobre seguridad"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029834"/>
+												<display value="5.3 Datos preclínicos sobre seguridad"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>La toxicidad de hidróxido de magnesio tras su ingesta por vía oral es poco común, debido a la reducida absorción del magnesio y a que se excreta eficazmente por los riñones. Incluso las sales de magnesio solubles, generalmente se absorben lentamente, por lo que la administración oral no origina más que un efecto purgante. No existen datos reportados respecto a carcinogenicidad, mutagenicidad ni toxicidad reproductiva o sobre el desarrollo.</span>
+												</p>
+											</div>
+										</text>
+									</section>
+								</section>
+								<section id="ec6d923f-8548-4eea-99a1-c21b3a19dff3">
+									<title value="6. Datos farmacéuticos"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029836"/>
+											<display value="6. Datos farmacéuticos"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p> </p>
+										</div>
+									</text>
+									<section id="0bef02ca-333c-45c2-890e-7601b6d56d3c">
+										<title value="6.1. Lista de excipientes"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029837"/>
+												<display value="6.1 Lista de excipientes"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>Sacarosa (0,4 g por sobre)</span>
+												</p>
+												<p>
+													<span>Esencia de anís</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="8728504d-03a8-46f3-8323-ce7214bc1f2b">
+										<title value="6.2. Incompatibilidades"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029838"/>
+												<display value="6.2 Incompatibilidades"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>No procede.</span>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="5417b93a-b641-46cc-a4e0-7848a0a21c44">
+										<title value="6.3. Periodo de validez"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029839"/>
+												<display value="6.3 Periodo de validez"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>5 años.</span>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="95eb13f1-b92a-4815-aa3c-182aab92c8bb">
+										<title value="6.4. Precauciones especiales de conservación"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029840"/>
+												<display value="6.4 Precauciones especiales de conservación"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>No se precisan condiciones especiales de conservación</span>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="abc5557a-7dad-470c-8e9d-7929dc4922b7">
+										<title value="6.5. Naturaleza y contenido del envase"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029841"/>
+												<display value="6.5 Naturaleza y contenido del envase [y de los equipos especiales para su utilización, administración o implantación]"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>Estuche de cartón con 20 sobres termosoldados de 4g</span>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="e8ced165-55d8-4211-83f9-96a57892cecc">
+										<title value="6.6. Precauciones especiales de eliminación y otras manipulaciones"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029842"/>
+												<display value="6.6 Precauciones especiales de eliminación [y otras manipulaciones]"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local (o se procederá a su devolución a la farmacia.)</span>
+												</p>
+											</div>
+										</text>
+									</section>
+								</section>
+								<section id="4e6b8b53-20b8-4129-84d5-c189aefa0239">
+									<title value="7. Titular de la autorización de comercialización"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029844"/>
+											<display value="7. Titular de la autorización de comercialización"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p>
+												<span>Laboratorios Salud Viva</span>
+											</p>
+											<p>
+												<span>Calle del Mediterráneo, nº 12-18, 2ª planta</span>
+											</p>
+											<p>
+												<span>46023 Valencia</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+										</div>
+									</text>
+								</section>
+								<section id="4ca163b5-bc59-43af-900d-6c6a6ce2276e">
+									<title value="8. Número(s) de autorización de comercialización"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029845"/>
+											<display value="8. Número(s) de autorización de comercialización"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p>
+												<span>02002</span>
+											</p>
+										</div>
+									</text>
+								</section>
+								<section id="1d5292c4-51cc-4cd8-bad4-851e5eb53708">
+									<title value="9. Fecha de la primera autorización/ renovación de la autorización"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029846"/>
+											<display value="9. Fecha de la primera autorización/renovación de la autorización"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p>
+												<span>Fecha de la primera autorización: 12 Abril 2022</span>
+											</p>
+											<p>
+												<span>Fecha de la última renovación: 15 Mayo 2024</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+										</div>
+									</text>
+								</section>
+								<section id="60303356-df28-4a54-a6fb-b42c11a28c3b">
+									<title value="10. Fecha de la revisión del texto"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029847"/>
+											<display value="10. Fecha de la revisión del texto"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p>
+												<em>
+													<span>Diciembre 2024</span>
+												</em>
+											</p>
+										</div>
+									</text>
+								</section>
+							</section>
+						</Composition>
+					</resource>
+				</entry>
+			</Bundle>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:bd3be333-b521-462d-84dd-e28016ba0627"/>
+		<resource>
+			<Bundle>
+				<id value="bd3be333-b521-462d-84dd-e28016ba0627"/>
+				<meta>
+					<versionId value="1"/>
+					<lastUpdated value="2023-11-06T08:41:03.456+00:00"/>
+					<profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiBundle"/>
+				</meta>
+				<identifier>
+					<system value="http://ema.europa.eu/fhir/epiDocument"/>
+					<value value="bd3be333-b521-462d-84dd-e28016ba0627"/>
+				</identifier>
+				<type value="document"/>
+				<timestamp value="2025-02-25T17:33:14.883488+01:00"/>
+				<entry>
+					<fullUrl value="urn:uuid:bd3be333-b521-462d-84dd-e28016ba0627"/>
+					<resource>
+						<Composition>
+							<!-- <meta>
+								<profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiCompositionPackageLeaflet"/>
+								<profile value="http://ema.europa.eu/fhir/StructureDefinition/EUEpiComposition"/>
+								<profile value="http://ema.europa.eu/fhir/StructureDefinition/EUQRD-NAP-template-new-ORG-100003943-Package-Leaflet-es"/>
+							</meta> -->
+							<language value="es"/>
+							<text>
+								<status value="generated"/>
+								<div xmlns="http://www.w3.org/1999/xhtml">electronic Product Information (ePI) document</div>
+							</text>
+							<status value="final"/>
+							<type>
+								<coding>
+									<system value="http://ema.europa.eu/fhir/CodeSystem/100000155531"/>
+									<code value="100000155538"/>
+									<display value="Prospecto"/>
+								</coding>
+							</type>
+							<date value="2025-02-25"/>
+							<author>
+								<identifier>
+									<value value="Company_name"/>
+								</identifier>
+							</author>
+							<title value="Prospecto"/>
+							<section>
+								<title value="Prospecto"/>
+								<code>
+									<coding>
+										<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+										<code value="200000029894"/>
+										<display value="Prospecto"/>
+									</coding>
+								</code>
+								<text>
+									<status value="generated"/>
+									<div xmlns="http://www.w3.org/1999/xhtml">
+										<p>
+											<strong>
+												<span>Prospecto: información para el usuario</span>
+											</strong>
+										</p>
+										<p>
+											<strong>
+												<span> </span>
+											</strong>
+										</p>
+										<p>
+											<strong>
+												<span>Medicamento Y 3,6 g Polvo para suspensión oral</span>
+											</strong>
+										</p>
+										<p>
+											<span>Hidróxido de magnesio</span>
+										</p>
+										<p>
+											<span> </span>
+										</p>
+										<p>
+											<span> </span>
+										</p>
+										<p>
+											<span> </span>
+										</p>
+										<p>
+											<strong>
+												<span>Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento porque contiene información importante para usted.</span>
+											</strong>
+										</p>
+										<ul>
+											<li>
+												<span>Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las indicadas por su médico, farmacéutico o enfermero.</span>
+											</li>
+											<li>
+												<span>Conserve este prospecto, ya que puede tener que volver a leerlo.</span>
+											</li>
+											<li>
+												<span>Si necesita consejo o más información, consulte a su farmacéutico.</span>
+											</li>
+											<li>
+												<span>Si experimenta efectos adversos, consulte a su médico, farmacéutico o enfermero, incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.</span>
+											</li>
+										</ul>
+										<p>
+											<span> </span>
+										</p>
+										<p>
+											<span>Debe consultar a un médico si empeora o si no mejora después de 7 días de tratamiento.</span>
+										</p>
+										<p>
+											<span> </span>
+										</p>
+										<p>
+											<strong>
+												<span> </span>
+											</strong>
+										</p>
+										<p>
+											<strong>
+												<span>
+													<span>Contenido del prospecto:</span>
+												</span>
+											</strong>
+										</p>
+										<p>
+											<span> </span>
+										</p>
+										<ol>
+											<li>
+												<span>Qué es Medicamento Y y para qué se utiliza.</span>
+											</li>
+											<li>
+												<span>Qué necesita saber antes empezar a tomar Medicamento Y</span>
+											</li>
+											<li>
+												<span>Cómo tomar Medicamento Y</span>
+											</li>
+											<li>
+												<span>Posibles efectos adversos.</span>
+											</li>
+											<li>
+												<span>Conservación de Medicamento Y</span>
+											</li>
+											<li>
+												<span>Contenido del envase e información adicional</span>
+											</li>
+										</ol>
+										<p>
+											<span> </span>
+										</p>
+									</div>
+								</text>
+								<section id="339bee83-c6f7-47d7-aa57-e75fae452de1">
+									<title value="1. Qué es Medicamento Y y para qué se utiliza"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029895"/>
+											<display value="1. Qué es X y para qué se utiliza"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p>
+												<span>Medicamento Y es un medicamento con actividad laxante.</span>
+											</p>
+											<p>
+												<span>Está indicado para el tratamiento sintomático del estreñimiento ocasional en adultos y adolescentes a partir de 12 años.</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+											<p>
+												<span>Debe consultar a un médico si empeora o si no mejora después de 7 días de tratamiento.</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+										</div>
+									</text>
+								</section>
+								<section id="d98346ae-8411-4992-920b-0e34125e55ea">
+									<title value="2. Qué necesita saber antes de empezar a tomar Medicamento Y"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029896"/>
+											<display value="2. Qué necesita saber antes de empezar a [tomar][usar] X"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p> </p>
+										</div>
+									</text>
+									<section id="2d2d2874-6b8e-466a-9abf-724fab0c8b1e">
+										<title value="No tome Medicamento Y:"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029897"/>
+												<display value="No [tome][use] X"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span> </span>
+												</p>
+												<ul>
+													<li>
+														<span>Si es alérgico al hidróxido de magnesio o a cualquiera de los demás componentes de este medicamento (incluidos en la sección 6).</span>
+													</li>
+													<li>
+														<span>Si padece:</span>
+													</li>
+													<li>
+														<ul>
+															<li>
+																<span>una enfermedad de riñón grave</span>
+															</li>
+															<li>
+																<span>alguna enfermedad que provoque desequilibrio hidroelectrolítico (sales y agua presentes en el organismo)</span>
+															</li>
+															<li>
+																<span>apendicitis, obstrucción intestinal, hemorragia gastrointestinal o rectal no diagnosticada, colitis ulcerosa (enfermedad inflamatoria del colon), colostomía (procedimiento quirúrgico en el que se saca el extremo del intestino grueso a través de la pared del abdomen), diverticulitis (inflamación en la pared intestinal, formando bolsas anormales), ileostomía (procedimiento quirúrgico en el que se saca el extremo del intestino delgado a través de la pared del abdomen)</span>
+															</li>
+															<li>
+																<span>diarrea crónica.</span>
+															</li>
+														</ul>
+													</li>
+												</ul>
+												<p>
+													<strong>
+														<span> </span>
+													</strong>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="5edff650-e073-4789-8028-10b0e1a79c70">
+										<title value="Advertencias y precauciones"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029898"/>
+												<display value="Advertencias y precauciones"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>Consulte a su médico o farmacéutico antes de empezar a tomar este medicamento:</span>
+												</p>
+												<ul>
+													<li>
+														<span>Si padece alguna enfermedad del riñón, aunque no sea grave, o enfermedades del hígado o del corazón</span>
+													</li>
+													<li>
+														<span>Si está deshidratado</span>
+													</li>
+													<li>
+														<span>Si es mayor de 65 años</span>
+													</li>
+													<li>
+														<span>Si está debilitado.</span>
+													</li>
+												</ul>
+												<p>
+													<span>Si los síntomas empeoran o persisten después de 7 días de tratamiento contínuo debe consultar con su médico.</span>
+												</p>
+												<p>
+													<span>Consulte a su médico tan pronto como sea posible si tiene algún síntoma como dolor abdominal de origen desconocido, algún síntoma que indique hemorragia (como por ejemplo deposiciones negras o vómitos como posos de café),retortijones, vientre hinchado o dolorido, náuseas, vómitos y diarrea.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="ab405cae-b7a3-4edf-a12a-7f8b1987c989">
+										<title value="Niños"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029899"/>
+												<display value="Niños [y adolescentes]"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>En niños de corta edad, el uso de hidróxido de magnesio puede causar hipermagnesemia, especialmente en presencia de insuficiencia renal o deshidratación.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<strong>
+														<span> </span>
+													</strong>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="622b6b92-ad79-4906-89f6-4f9d717c0e91">
+										<title value="Toma de Medicamento Y con otros medicamentos"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029900"/>
+												<display value="Otros medicamentos y X"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>Comunique a su médico o farmacéutico si está utilizando, ha utilizado recientemente o podría tener que utilizar cualquier otro medicamento.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>La administración conjunta de Medicamento Y con otros medicamentos puede alterar la absorción o la acción de otros medicamentos utilizados para el tratamiento de:</span>
+												</p>
+												<ul>
+													<li>
+														<span>Diabetes: clorpropamida, glibenclamida, glipizida, tolbutamida</span>
+													</li>
+													<li>
+														<span>Infecciones: sulfamidas, quinolonas (ciprofloxacino, ofloxacino, pefloxacino, enoxacino), tetraciclinas (clortetraciclina, doxiciclina, tetraciclina), ketoconazol, metenamina</span>
+													</li>
+													<li>
+														<span>Problemas de la coagulación de la sangre: dicumarol</span>
+													</li>
+													<li>
+														<span>Anemia: sales de hierro, ácido fólico</span>
+													</li>
+													<li>
+														<span>Parkinson: levodopa</span>
+													</li>
+													<li>
+														<span>Espasmos o contracciones de estómago, intestino y vejiga (medicamentos anticolinérgicos)</span>
+													</li>
+													<li>
+														<span>Enfermedades cardiovasculares: atenolol, digoxina, captopril, quinidina</span>
+													</li>
+													<li>
+														<span>Enfermedades psiquiátricas: fenotiazinas (especialmente la clorpromazina oral), clordiazepóxido, anfetaminas</span>
+													</li>
+													<li>
+														<span>Epilepsia: fenitoína</span>
+													</li>
+													<li>
+														<span>Enfermedades del aparato digestivo: medicamentos utilizados para la acidez (cimetidina, etc), misoprostol, pancreolipasa, sucralfato</span>
+													</li>
+													<li>
+														<span>Inflamación: indometacina, penicilamina, salicilatos, ibuprofeno, flurbiprofeno, ácido mefenámico o flufenámico</span>
+													</li>
+													<li>
+														<span>Enfermedades metabólicas: fosfatos orales, ácido alendrónico y ácido tiludrónico, resina de poliestirén sulfonato sódico, vitamina D, incluyendo calcifediol y calcitriol</span>
+													</li>
+													<li>
+														<span>Abandono del hábito de fumar: mecamilamina</span>
+													</li>
+													<li>
+														<span>Otros: medicamentos con cubierta entérica, acidificantes urinarios, como cloruro de amonio, ácido ascórbico o fosfatos de potasio o sodio.</span>
+													</li>
+												</ul>
+												<p>
+													<span>
+														<span>Interferencia con pruebas de diagnóstico</span>
+													</span>
+												</p>
+												<p>
+													<span>Si le van a hacer alguna prueba diagnóstica (análisis de sangre, orina, etc.) comunique a su médico o farmacéutico que está en tratamiento con Medicamento Y, ya que puede alterar los resultados.</span>
+												</p>
+												<p>
+													<span>No tome este medicamento durante las 24 horas anteriores a la realización de la prueba de secreción ácida gástrica, concentraciones séricas de gastrina (hormona que regula la secreción de ácidos en el estómago), concentraciones séricas de potasio y determinación del pH sérico y urinario.</span>
+												</p>
+												<p>
+													<strong>
+														<span> </span>
+													</strong>
+												</p>
+												<p>
+													<strong>
+														<span>Toma de Medicamento Y con los alimentos y bebidas</span>
+													</strong>
+												</p>
+												<p>
+													<span>Este medicamento se puede tomar con o sin alimentos y bebidas.</span>
+												</p>
+												<p>
+													<strong>
+														<span> </span>
+													</strong>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="1e7e4f4d-6498-4d47-a6da-8cc56ee34c06">
+										<title value="Embarazo y lactancia"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029902"/>
+												<display value="Embarazo [y][,] lactancia [y fertilidad]"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>Si está embarazada o en periodo de lactancia, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte a su médico o farmacéutico antes de utilizar este medicamento.</span>
+												</p>
+												<p>
+													<strong>
+														<span> </span>
+													</strong>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="f77ba06a-c457-4337-adc0-795c91628cdf">
+										<title value="Conducción y uso de máquinas"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029903"/>
+												<display value="Conducción y uso de máquinas"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>El uso de este medicamento no afecta a la capacidad para conducir y/o utilizar máquinas.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>Medicamento Y 3,6 g Polvo para suspensión oral en sobres contiene sacarosa. Si su médico le ha indicado que padece una intolerancia a ciertos azúcares, consulte con él antes de tomar este medicamento.</span>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="403e08d6-9bf3-ef11-be1f-7c1e5250b110">
+										<title value="Interacciones del hidróxido de magnesio con otros medicamentos"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000044346"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<strong>
+														<span>Interacciones del hidróxido de magnesio con otros medicamentos</span>
+													</strong>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>Algunos medicamentos pueden verse afectados por el hidróxido de magnesio o pueden afectar a la eficacia del hidróxido de magnesio. En caso de duda, pregunte a su médico o farmacéutico – salicilatos.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>Separe la toma de Medicamento Y de la toma de otros medicamentos entre 2 y 3 horas.</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+											</div>
+										</text>
+									</section>
+								</section>
+								<section id="3c3140f4-8855-4543-99d3-71a5c7f2190f">
+									<title value="3. Cómo tomar Medicamento Y"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029905"/>
+											<display value="3. Cómo [tomar][usar] X"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p>
+												<span>Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las indicadas por su médico o farmacéutico. En caso de duda, pregunte a su médico o farmacéutico.</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+											<p>
+												<span>La dosis recomendada para adultos y adolescentes a partir de 12 años es de1sobre al día.</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+											<p>
+												<span>
+													<span>Como tomar</span>
+												</span>
+											</p>
+											<p>
+												<span>Este medicamento se toma por vía oral.</span>
+											</p>
+											<p>
+												<span>Poner 200 ml de agua en un vaso y añadir el contenido del sobre. Agitar con una cucharilla hasta que no quede medicamento en el fondo del vaso y beber inmediatamente.</span>
+											</p>
+											<p>
+												<span>Es recomendable beber abundante líquido durante el día.</span>
+											</p>
+											<p>
+												<span>Tomar preferentemente por la mañana en ayunas.</span>
+											</p>
+											<p>
+												<span>Si no mejora o los síntomas persisten después de 7 días de tratamiento continuo, debe consultar a un médico.</span>
+											</p>
+											<p>
+												<strong>
+													<span> </span>
+												</strong>
+											</p>
+											<p>
+												<strong>
+													<span>Si toma más Medicamento Y del que debiera</span>
+												</strong>
+											</p>
+											<p>
+												<span>Los síntomas de una sobredosis son: rubor, sed, hipotensión, náuseas, vómitos, cansancio generalizado, confusión, mareos, visión borrosa, descoordinación y debilidad muscular.</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+											<p>
+												<span>En caso de sobredosis o ingestión accidental consulte a su médico, farmacéutico o llame al Servicio de Información Toxicológica, teléfono 915620420 indicando el medicamento y la cantidad ingerida.</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+										</div>
+									</text>
+								</section>
+								<section id="3416e3ef-3693-4946-b4ad-45e583a23f2f">
+									<title value="4. Posibles efectos adversos"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029910"/>
+											<display value="4. Posibles efectos adversos"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p>
+												<span>Al igual que todos los medicamentos, Medicamento Y puede producir efectos adversos, aunque no todas las personas los sufran.</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+											<p>
+												<span>Durante el periodo de utilización del hidróxido de magnesio como laxante y como antiácido se han observado los siguientes efectos adversos cuya frecuencia no se ha podido establecer con exactitud:</span>
+											</p>
+											<ul>
+												<li>
+													<span>con más frecuencia: diarreas</span>
+												</li>
+												<li>
+													<span>con una frecuencia no conocida: dolor abdominal</span>
+												</li>
+												<li>
+													<span>con una frecuencia muy rara: Hipermagnesemia  Se ha observado hipermagnesemia tras la administración prolongada en  pacientes con insuficiencia renal.</span>
+												</li>
+											</ul>
+										</div>
+									</text>
+									<section id="3ab658dc-552e-4c7d-a717-05ba68273c47">
+										<title value="Comunicación de efectos adversos:"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029912"/>
+												<display value="Comunicación de efectos adversos"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<strong>
+														<span>Si experimenta cualquier tipo de efecto adverso, consulte a su médico, farmacéutico o enfermero, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano:</span>
+													</strong>
+													<strong>
+														<span>https://www.notificaram.es</span>
+													</strong>
+													<strong>
+														<span>. Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</span>
+													</strong>
+												</p>
+											</div>
+										</text>
+									</section>
+								</section>
+								<section id="2899e3fa-492c-4d5d-9153-67d6bd1ce3c6">
+									<title value="5. Conservación de Medicamento Y"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029913"/>
+											<display value="5. Conservación de X"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p>
+												<span>Mantener este medicamento fuera de la vista y del alcance de los niños.</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+											<p>
+												<span>No requiere condiciones especiales de conservación</span>
+											</p>
+											<p>
+												<span>No utilice este medicamento después de la fecha de caducidad que aparece en el envase después de CAD.La fecha de caducidad es el último día del mes que se indica.</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+											<p>
+												<span>Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesita en el Punto SIGRE</span>
+												<span>de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma, ayudará a proteger el medio ambiente.</span>
+											</p>
+											<p>
+												<span> </span>
+											</p>
+										</div>
+									</text>
+								</section>
+								<section id="19081be7-1dc5-4829-a55f-07292ff279d5">
+									<title value="6. Contenido del envase e información adicional"/>
+									<code>
+										<coding>
+											<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+											<code value="200000029914"/>
+											<display value="6. Contenido del envase e información adicional"/>
+										</coding>
+									</code>
+									<text>
+										<status value="generated"/>
+										<div xmlns="http://www.w3.org/1999/xhtml">
+											<p> </p>
+										</div>
+									</text>
+									<section id="40a3c0b7-e7b9-4ccc-a8d4-ca9e38b5c673">
+										<title value="Composición de Medicamento Y 3,6 g Polvo para suspensión oral en sobres"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029915"/>
+												<display value="Composición de X"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>Cada sobre contiene 3,6g de hidróxido de magnesio, como principio activo.</span>
+												</p>
+												<p>
+													<span>Los demás componentes (excipientes) son: sacarosa (0,4 g) y esencia de anís.</span>
+												</p>
+												<p>
+													<strong>
+														<span> </span>
+													</strong>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="03881ddf-3eca-4503-bef1-356639a694c0">
+										<title value="Aspecto del producto y contenido del envase"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029916"/>
+												<display value="Aspecto del producto y contenido del envase"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>Medicamento Y 3,6 g Polvo para Suspensión oral es un polvo fino de color blanco con sabor y olor a anís, que se presenta en estuches con 20 sobres.</span>
+												</p>
+												<p>
+													<strong>
+														<span> </span>
+													</strong>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="9422237e-98d5-4385-9bc9-4f5f361112ac">
+										<title value="Titular de la autorización de comercialización:"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029917"/>
+												<display value="Titular de la autorización de comercialización y responsable de la fabricación"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>Laboratorios Salud Viva</span>
+												</p>
+												<p>
+													<span>Calle del Mediterráneo, nº 12-18, 2ª planta</span>
+												</p>
+												<p>
+													<span>46023 Valencia</span>
+												</p>
+												<strong>
+													<span>Responsable de la fabricación:</span>
+												</strong>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>Farmacia Innovadora, S.L.</span>
+												</p>
+												<p>
+													<span>Av. de los Descubrimientos, km 3, nº 15-25, 4ª planta</span>
+												</p>
+												<p>
+													<span>28045 Madrid (Madrid)</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>o</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+												<p>
+													<span>Distribuciones FarmaPlus, S.L.</span>
+												</p>
+												<p>
+													<span>Polígono Industrial La Estrella, C/ Mayor, km 7, nº 22-30, 3ª planta</span>
+												</p>
+												<p>
+													<span>29004 Málaga (Málaga)</span>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="c1a0ef7e-20cb-45cb-bcdc-20919993888c">
+										<title value="Fecha de la última revisión de este prospecto: Diciembre 2022"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029919"/>
+												<display value="Fecha de la última revisión de este prospecto: [{MM/AAAA}][{mes AAAA}]."/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<strong>
+														<span> </span>
+													</strong>
+												</p>
+											</div>
+										</text>
+									</section>
+									<section id="bbbcae48-8d1c-4245-aec5-d45f754515f6">
+										<title value="Otras fuentes de información"/>
+										<code>
+											<coding>
+												<system value="http://ema.europa.eu/fhir/CodeSystem/200000029659"/>
+												<code value="200000029920"/>
+												<display value="Otras fuentes de información"/>
+											</coding>
+										</code>
+										<text>
+											<status value="generated"/>
+											<div xmlns="http://www.w3.org/1999/xhtml">
+												<p>
+													<span>La información detallada y actualizada de este medicamento está disponible en la página web de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS)</span>
+													<a href="http://www.aemps.gob.es/">
+														<span>
+															<span>http://www.aemps.gob.es/</span>
+														</span>
+													</a>
+												</p>
+												<p>
+													<span> </span>
+												</p>
+											</div>
+										</text>
+									</section>
+								</section>
+							</section>
+						</Composition>
+					</resource>
+				</entry>
+			</Bundle>
+		</resource>
+	</entry>
+</Bundle>

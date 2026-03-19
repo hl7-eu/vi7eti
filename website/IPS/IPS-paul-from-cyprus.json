@@ -1,0 +1,406 @@
+{
+  "resourceType": "Bundle",
+  "id": "8340591b-ea80-48f5-ae5a-60fbd2c4c4ac",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-10-22T14:22:27.540+00:00",
+    "source": "#QF7M0NFy0Hph0AP7"
+  },
+  "identifier": {
+    "system": "urn:ietf:rfc:4122",
+    "value": "7431aea4-f955-4ef7-9183-9243add9ed60"
+  },
+  "type": "document",
+  "timestamp": "2024-10-22T14:22:27.333+00:00",
+  "entry": [ {
+    "fullUrl": "urn:uuid:698d437a-2d62-45a9-a3ea-35ab5ee76f06",
+    "resource": {
+      "resourceType": "Composition",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><h1>Allergies and Intolerances</h1><div><div><h5>Allergies And Intolerances</h5><table class=\"hapiPropertyTable\"><thead><tr><th>Allergen</th><th>Status</th><th>Category</th><th>Reaction</th><th>Severity</th><th>Comments</th><th>Onset</th></tr></thead><tbody><tr id=\"AllergyIntolerance-urn:uuid:54d526fb-f149-4db2-8267-b42476609ef7\"><td> No information about allergies </td><td> active </td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></div></div></div><div><h1>Medication List</h1><div><div><h5>Medication Summary: Medication Requests</h5><table class=\"hapiPropertyTable\"><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Comments</th><th>Authored Date</th></tr></thead><tbody><tr id=\"MedicationRequest-https://hapi.fhir.org/baseR4/MedicationRequest/45088517/_history/1\"><td> Infliximab </td><td>Active</td><td></td><td></td><td></td><td></td></tr><tr id=\"MedicationRequest-https://hapi.fhir.org/baseR4/MedicationRequest/45088518/_history/1\"><td> Azathioprine </td><td>Active</td><td></td><td> Take 100mg daily </td><td></td><td></td></tr><tr id=\"MedicationRequest-https://hapi.fhir.org/baseR4/MedicationRequest/45088519/_history/1\"><td> Ferrous sulfate 325 mg </td><td>Active</td><td></td><td> Take 325 mg daily </td><td></td><td></td></tr><tr id=\"MedicationRequest-https://hapi.fhir.org/baseR4/MedicationRequest/45088520/_history/1\"><td> Loperamide </td><td>Active</td><td></td><td> Take as needed </td><td></td><td></td></tr></tbody></table></div></div></div><div><h1>Problem List</h1><div><div><h5>Problem List</h5><table class=\"hapiPropertyTable\"><thead><tr><th>Medical Problems</th><th>Status</th><th>Comments</th><th>Onset Date</th></tr></thead><tbody><tr id=\"Condition-https://hapi.fhir.org/baseR4/Condition/45088514/_history/1\"><td> Crohn's disease </td><td> active </td><td></td><td> Wed Jan 01 00:00:00 UTC 2014 </td></tr><tr id=\"Condition-https://hapi.fhir.org/baseR4/Condition/45088516/_history/1\"><td> Iron deficiency anemia </td><td> active </td><td></td><td> Tue Jan 01 00:00:00 UTC 2019 </td></tr></tbody></table></div></div></div><div><h1>History of Procedures</h1><div><div><h5>History Of Procedures</h5><table class=\"hapiPropertyTable\"><thead><tr><th>Procedure</th><th>Comments</th><th>Date</th></tr></thead><tbody><tr id=\"Procedure-https://hapi.fhir.org/baseR4/Procedure/45088515/_history/1\"><td> Small bowel resection </td><td></td><td> Mon Jan 01 00:00:00 UTC 2018 </td></tr></tbody></table></div></div></div></div>"
+      },
+      "status": "final",
+      "type": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "60591-5",
+          "display": "Patient Summary Document"
+        } ]
+      },
+      "subject": {
+        "reference": "https://hapi.fhir.org/baseR4/Patient/45088513"
+      },
+      "date": "2024-10-22T14:22:05.325+00:00",
+      "author": [ {
+        "reference": "urn:uuid:052e9dea-b625-4557-85d8-047160870f84"
+      } ],
+      "title": "Patient Summary as of 10/22/2024",
+      "confidentiality": "N",
+      "section": [ {
+        "title": "Allergies and Intolerances",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "48765-2",
+            "display": "Allergies and adverse reactions Document"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><thead><tr><th>Allergen</th><th>Status</th><th>Category</th><th>Reaction</th><th>Severity</th><th>Comments</th><th>Onset</th></tr></thead><tbody><tr id=\"AllergyIntolerance-urn:uuid:54d526fb-f149-4db2-8267-b42476609ef7\"><td> No information about allergies </td><td> active </td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:54d526fb-f149-4db2-8267-b42476609ef7"
+        } ]
+      }, {
+        "title": "Medication List",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "10160-0",
+            "display": "History of Medication use Narrative"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Comments</th><th>Authored Date</th></tr></thead><tbody><tr id=\"MedicationRequest-https://hapi.fhir.org/baseR4/MedicationRequest/45088517/_history/1\"><td> Infliximab </td><td>Active</td><td></td><td></td><td></td><td></td></tr><tr id=\"MedicationRequest-https://hapi.fhir.org/baseR4/MedicationRequest/45088518/_history/1\"><td> Azathioprine </td><td>Active</td><td></td><td> Take 100mg daily </td><td></td><td></td></tr><tr id=\"MedicationRequest-https://hapi.fhir.org/baseR4/MedicationRequest/45088519/_history/1\"><td> Ferrous sulfate 325 mg </td><td>Active</td><td></td><td> Take 325 mg daily </td><td></td><td></td></tr><tr id=\"MedicationRequest-https://hapi.fhir.org/baseR4/MedicationRequest/45088520/_history/1\"><td> Loperamide </td><td>Active</td><td></td><td> Take as needed </td><td></td><td></td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "https://hapi.fhir.org/baseR4/MedicationRequest/45088517"
+        }, {
+          "reference": "https://hapi.fhir.org/baseR4/MedicationRequest/45088518"
+        }, {
+          "reference": "https://hapi.fhir.org/baseR4/MedicationRequest/45088519"
+        }, {
+          "reference": "https://hapi.fhir.org/baseR4/MedicationRequest/45088520"
+        } ]
+      }, {
+        "title": "Problem List",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11450-4",
+            "display": "Problem list - Reported"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><thead><tr><th>Medical Problems</th><th>Status</th><th>Comments</th><th>Onset Date</th></tr></thead><tbody><tr id=\"Condition-https://hapi.fhir.org/baseR4/Condition/45088514/_history/1\"><td> Crohn's disease </td><td> active </td><td></td><td>01-JAN-2014 </td></tr><tr id=\"Condition-https://hapi.fhir.org/baseR4/Condition/45088516/_history/1\"><td> Iron deficiency anemia </td><td> active </td><td></td><td>01-JAN-2019 </td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "https://hapi.fhir.org/baseR4/Condition/45088514"
+        }, {
+          "reference": "https://hapi.fhir.org/baseR4/Condition/45088516"
+        } ]
+      }, {
+        "title": "History of Procedures",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "47519-4",
+            "display": "History of Procedures Document"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><thead><tr><th>Procedure</th><th>Comments</th><th>Date</th></tr></thead><tbody><tr id=\"Procedure-https://hapi.fhir.org/baseR4/Procedure/45088515/_history/1\"><td> Small bowel resection </td><td></td><td>01-JAN-2018 </td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "https://hapi.fhir.org/baseR4/Procedure/45088515"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/45088513",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "45088513",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2024-10-22T14:21:38.559+00:00",
+        "source": "#KRAJVP5Ai41Gkxzb"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Paul <b>CHARLAMBOUS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>123456789</td></tr><tr><td>Date of birth</td><td><span>12 March 1985</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "http://hospital.smarthealth.org/mrn",
+        "value": "123456789"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Charlambous",
+        "given": [ "Paul" ]
+      } ],
+      "gender": "male",
+      "birthDate": "1985-03-12"
+    }
+  }, {
+    "fullUrl": "urn:uuid:54d526fb-f149-4db2-8267-b42476609ef7",
+    "resource": {
+      "resourceType": "AllergyIntolerance",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:698d437a-2d62-45a9-a3ea-35ab5ee76f06#AllergyIntolerance-urn:uuid:54d526fb-f149-4db2-8267-b42476609ef7"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+          "code": "no-allergy-info",
+          "display": "No information about allergies"
+        } ]
+      },
+      "patient": {
+        "reference": "Patient/45088513"
+      }
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/MedicationRequest/45088517",
+    "resource": {
+      "resourceType": "MedicationRequest",
+      "id": "45088517",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2024-10-22T14:21:38.559+00:00",
+        "source": "#KRAJVP5Ai41Gkxzb"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:698d437a-2d62-45a9-a3ea-35ab5ee76f06#MedicationRequest-https://hapi.fhir.org/baseR4/MedicationRequest/45088517/_history/1"
+      } ],
+      "status": "active",
+      "intent": "order",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://www.whocc.no/atc",
+          "code": "L04AB02",
+          "display": "Infliximab"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/45088513"
+      },
+      "dosageInstruction": [ {
+        "timing": {
+          "repeat": {
+            "frequency": 1,
+            "period": 8,
+            "periodUnit": "wk"
+          }
+        },
+        "doseAndRate": [ {
+          "doseQuantity": {
+            "value": 5,
+            "unit": "mg/kg"
+          }
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/MedicationRequest/45088518",
+    "resource": {
+      "resourceType": "MedicationRequest",
+      "id": "45088518",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2024-10-22T14:21:38.559+00:00",
+        "source": "#KRAJVP5Ai41Gkxzb"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:698d437a-2d62-45a9-a3ea-35ab5ee76f06#MedicationRequest-https://hapi.fhir.org/baseR4/MedicationRequest/45088518/_history/1"
+      } ],
+      "status": "active",
+      "intent": "order",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://www.whocc.no/atc",
+          "code": "L04AX01",
+          "display": "Azathioprine"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/45088513"
+      },
+      "dosageInstruction": [ {
+        "text": "Take 100mg daily"
+      } ]
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/MedicationRequest/45088519",
+    "resource": {
+      "resourceType": "MedicationRequest",
+      "id": "45088519",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2024-10-22T14:21:38.559+00:00",
+        "source": "#KRAJVP5Ai41Gkxzb"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:698d437a-2d62-45a9-a3ea-35ab5ee76f06#MedicationRequest-https://hapi.fhir.org/baseR4/MedicationRequest/45088519/_history/1"
+      } ],
+      "status": "active",
+      "intent": "order",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "1040647",
+          "display": "Ferrous sulfate 325 mg"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/45088513"
+      },
+      "dosageInstruction": [ {
+        "text": "Take 325 mg daily"
+      } ]
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/MedicationRequest/45088520",
+    "resource": {
+      "resourceType": "MedicationRequest",
+      "id": "45088520",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2024-10-22T14:21:38.559+00:00",
+        "source": "#KRAJVP5Ai41Gkxzb"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:698d437a-2d62-45a9-a3ea-35ab5ee76f06#MedicationRequest-https://hapi.fhir.org/baseR4/MedicationRequest/45088520/_history/1"
+      } ],
+      "status": "active",
+      "intent": "order",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197361",
+          "display": "Loperamide"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/45088513"
+      },
+      "dosageInstruction": [ {
+        "text": "Take as needed"
+      } ]
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Condition/45088514",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "45088514",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2024-10-22T14:21:38.559+00:00",
+        "source": "#KRAJVP5Ai41Gkxzb"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:698d437a-2d62-45a9-a3ea-35ab5ee76f06#Condition-https://hapi.fhir.org/baseR4/Condition/45088514/_history/1"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "34000006",
+          "display": "Crohn's disease"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/45088513"
+      },
+      "onsetDateTime": "2014-01-01"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Condition/45088516",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "45088516",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2024-10-22T14:21:38.559+00:00",
+        "source": "#KRAJVP5Ai41Gkxzb"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:698d437a-2d62-45a9-a3ea-35ab5ee76f06#Condition-https://hapi.fhir.org/baseR4/Condition/45088516/_history/1"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "64859006",
+          "display": "Iron deficiency anemia"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/45088513"
+      },
+      "onsetDateTime": "2019-01-01"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Procedure/45088515",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "45088515",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2024-10-22T14:21:38.559+00:00",
+        "source": "#KRAJVP5Ai41Gkxzb"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:698d437a-2d62-45a9-a3ea-35ab5ee76f06#Procedure-https://hapi.fhir.org/baseR4/Procedure/45088515/_history/1"
+      } ],
+      "status": "completed",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "387713003",
+          "display": "Small bowel resection"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/45088513"
+      },
+      "performedDateTime": "2018-01-01",
+      "reasonReference": [ {
+        "reference": "Condition/45088514"
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:052e9dea-b625-4557-85d8-047160870f84",
+    "resource": {
+      "resourceType": "Organization",
+      "name": "eHealthLab - University of Cyprus",
+      "address": [ {
+        "line": [ "1 University Avenue" ],
+        "city": "Nicosia",
+        "postalCode": "2109",
+        "country": "CY"
+      } ]
+    }
+  } ]
+}

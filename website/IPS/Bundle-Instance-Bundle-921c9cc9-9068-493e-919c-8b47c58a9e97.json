@@ -1,0 +1,1908 @@
+{
+  "resourceType": "Bundle",
+  "id": "Instance-Bundle-921c9cc9-9068-493e-919c-8b47c58a9e97",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "c1687b15-e311-4ab9-90ae-afd9c7a61428"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:9ea3f30a-a6aa-4815-ab46-a7f6c1617c2c",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "9ea3f30a-a6aa-4815-ab46-a7f6c1617c2c",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "efead504-501b-42fc-a3e6-9ca818fa0032"
+        },
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:16697520-968e-484a-8820-f5f9b55bbd66"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known problems or disabilities</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:d4f32bac-94ea-4f1a-877c-83b9789db762"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td><td></td><td></td><td></td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:55db02ec-99f4-4356-b99d-801833d4d336"
+              },
+              {
+                "reference": "urn:uuid:55db02ec-99f4-4356-b99d-801833d4d336"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Hepatitis A virus antigen only vaccine product</td><td><span class=\"nb\">20-Nov-2024</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">20-Nov-2024</span></td></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">20-Nov-2024</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">04-Aug-2021</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:2cbcb53b-73dc-4bc7-84bf-7db75889422f"
+              },
+              {
+                "reference": "urn:uuid:d7b6c995-04e8-465b-910f-d756f94449c1"
+              },
+              {
+                "reference": "urn:uuid:4212d17c-fea9-462f-afcd-a062f199afa7"
+              },
+              {
+                "reference": "urn:uuid:f6ab80ce-be5e-4497-8dd9-9afae45ba50c"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known allergies or intolerances</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:3afe7a9c-dac4-455f-b427-166ce26ead79"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2024-11-20</th><th>2022-11-16</th></tr><tr><td>Body Height</td><td>170.3 cm</td><td>170.3 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>4 {score}</td><td>1 {score}</td></tr><tr><td>Body Weight</td><td>81.4 kg</td><td>81.4 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>28.1 kg/m2</td><td>28.1 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>81 mm[Hg]</td><td>85 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>132 mm[Hg]</td><td>128 mm[Hg]</td></tr><tr><td>Heart rate</td><td>94 /min</td><td>78 /min</td></tr><tr><td>Respiratory rate</td><td>15 /min</td><td>13 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9f7be7d8-1372-4fc5-adb3-947ab1f8242e"
+              },
+              {
+                "reference": "urn:uuid:1cc4b94c-d514-42e7-a05e-e27b00498572"
+              },
+              {
+                "reference": "urn:uuid:9c7cea91-da64-4ca1-852e-29fc2de4b7f2"
+              },
+              {
+                "reference": "urn:uuid:e23fcece-33b7-41e1-940f-82b2cfa4198d"
+              },
+              {
+                "reference": "urn:uuid:af2a122e-344d-446b-baa7-d836e561f7d9"
+              },
+              {
+                "reference": "urn:uuid:9c11d618-ff45-4557-8a85-8f26f862d478"
+              },
+              {
+                "reference": "urn:uuid:ad8cf37d-2b33-44be-a9d3-a901c45d3021"
+              },
+              {
+                "reference": "urn:uuid:26ad4777-8d58-4eb8-aa61-8e816a90b9a1"
+              },
+              {
+                "reference": "urn:uuid:4dc46edc-2a09-4d6b-ae06-76ae3a5684b5"
+              },
+              {
+                "reference": "urn:uuid:1c503775-9117-451c-8f37-6780d2de8acb"
+              },
+              {
+                "reference": "urn:uuid:392deb9f-9559-4936-98d4-5898c127c4cb"
+              },
+              {
+                "reference": "urn:uuid:5d29a9c0-c3dd-4288-8335-95f9b7b2bee8"
+              },
+              {
+                "reference": "urn:uuid:2736fcb8-197a-44ff-a8d6-1c4df3621cde"
+              },
+              {
+                "reference": "urn:uuid:f63e366d-87f6-40f3-a5a5-d18971e6bd03"
+              },
+              {
+                "reference": "urn:uuid:6b76f613-c57f-4534-9205-5383d955f4a8"
+              },
+              {
+                "reference": "urn:uuid:ef19495d-2608-4d47-8f85-c1cc2e8cfbeb"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>20-NOV-2024</th><th>Reference Range</th><th>Unit</th></tr></thead><tbody><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td>153.6</td><td>125 - 200</td><td>mg/dL</td></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>117.2</td><td>0 - 150</td><td>mg/dL</td></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>99.9</td><td>0 - 130</td><td>mg/dL</td></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td><strong>30.2 L</strong></td><td>40 - 60</td><td>mg/dL</td></tr></tbody></table></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:5943bc47-ced0-41a5-8b85-d5df66908ba4"
+              },
+              {
+                "reference": "urn:uuid:582991bc-c190-47ac-ac41-abde10dcf5ac"
+              },
+              {
+                "reference": "urn:uuid:9a7bb281-125c-4e19-b9ac-4e27ffa8db45"
+              },
+              {
+                "reference": "urn:uuid:933db3cb-a441-4cae-a786-f45305acef19"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            },
+            "title": "Relevant diagnostic tests/laboratory data"
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "custodian": {
+          "reference": "urn:uuid:f52894d0-fca7-4b2c-ae0a-7812d6724b8d"
+        },
+        "date": "2024-11-20",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "424ee858-fe7d-4562-be8a-8ed054fd76b3",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "7761-016195-0"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "43462c2d-ce80-8062-1fef-70cb0fef9e8c"
+          }
+        ],
+        "name": [
+          {
+            "family": "Smith"
+          },
+          {
+            "given": [
+              "Bradley"
+            ]
+          },
+          {
+            "text": "Bradley Smith"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "7 Benjamin crest"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "L3",
+            "city": "Port Lawrence",
+            "country": "United Kingdom"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+442074960046"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "GB",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Bradley Smith</td><td>male</td><td>02-Nov-1986</td></tr></table></div>"
+        },
+        "gender": "male",
+        "birthDate": "1986-11-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:16697520-968e-484a-8820-f5f9b55bbd66",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "16697520-968e-484a-8820-f5f9b55bbd66",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id 16697520-968e-484a-8820-f5f9b55bbd66</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:abe0fe18-c977-4057-ad0f-0ca294e09148"
+        },
+        "organization": {
+          "reference": "urn:uuid:f52894d0-fca7-4b2c-ae0a-7812d6724b8d"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:abe0fe18-c977-4057-ad0f-0ca294e09148",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "abe0fe18-c977-4057-ad0f-0ca294e09148",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f52894d0-fca7-4b2c-ae0a-7812d6724b8d",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "f52894d0-fca7-4b2c-ae0a-7812d6724b8d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "22689fdb-7025-4521-87cf-3cf44ffc2bfe"
+          }
+        ],
+        "address": [
+          {
+            "city": "Liverpool",
+            "postalCode": "L5 7",
+            "country": "United Kingdom"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Kirkdale Mediacal Centre</table></div>"
+        },
+        "name": "Kirkdale Mediacal Centre"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d4f32bac-94ea-4f1a-877c-83b9789db762",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d4f32bac-94ea-4f1a-877c-83b9789db762",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "160245001",
+              "system": "http://snomed.info/sct",
+              "display": "No current problems or disability (situation)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known problems or disabilities</td></tr></table></div>"
+        },
+        "subject": {
+          "reference": "Patient/424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown\""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:55db02ec-99f4-4356-b99d-801833d4d336",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "55db02ec-99f4-4356-b99d-801833d4d336",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td><td></td><td></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:55db02ec-99f4-4356-b99d-801833d4d336",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "55db02ec-99f4-4356-b99d-801833d4d336",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td><td></td><td></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2cbcb53b-73dc-4bc7-84bf-7db75889422f",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "2cbcb53b-73dc-4bc7-84bf-7db75889422f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "871751006",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Hepatitis A virus antigen"
+            },
+            {
+              "code": "J07BC02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Hepatitis A vaccines"
+            },
+            {
+              "code": "52",
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "display": "Hep A  adult"
+            }
+          ],
+          "text": "Hepatitis A virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hepatitis A virus antigen only vaccine product</td><td><span class=\"nb\">20-Nov-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "occurrenceDateTime": "2024-11-20",
+        "lotNumber": "WX-vjcS",
+        "expirationDate": "2025-06-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d7b6c995-04e8-465b-910f-d756f94449c1",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "d7b6c995-04e8-465b-910f-d756f94449c1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            },
+            {
+              "code": "113",
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "display": "Td (adult)  5 Lf tetanus toxoid  preservative free  adsorbed"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">20-Nov-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "occurrenceDateTime": "2024-11-20",
+        "lotNumber": "YP-5FmJvFsdX",
+        "expirationDate": "2025-02-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4212d17c-fea9-462f-afcd-a062f199afa7",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4212d17c-fea9-462f-afcd-a062f199afa7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            },
+            {
+              "code": "140",
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "display": "Influenza  seasonal  injectable  preservative free"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">20-Nov-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "occurrenceDateTime": "2024-11-20",
+        "lotNumber": "MM-bB2B9by",
+        "expirationDate": "2025-07-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f6ab80ce-be5e-4497-8dd9-9afae45ba50c",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "f6ab80ce-be5e-4497-8dd9-9afae45ba50c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            },
+            {
+              "code": "208",
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "display": "SARS-COV-2 (COVID-19) vaccine  mRNA  spike protein  LNP  preservative free  30 mcg/0.3mL dose"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">04-Aug-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "occurrenceDateTime": "2021-08-04",
+        "lotNumber": "FE-QyVYNYusi",
+        "expirationDate": "2021-11-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3afe7a9c-dac4-455f-b427-166ce26ead79",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "3afe7a9c-dac4-455f-b427-166ce26ead79",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/allergyIntolerance-eu-eps"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "716186003",
+              "system": "http://snomed.info/sct",
+              "display": "No known allergy (situation)"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known allergies or intolerances</td></tr></table></div>"
+        },
+        "patient": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9f7be7d8-1372-4fc5-adb3-947ab1f8242e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9f7be7d8-1372-4fc5-adb3-947ab1f8242e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 170.3,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>20-Nov-2024</td><td>170.3 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2024-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1cc4b94c-d514-42e7-a05e-e27b00498572",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1cc4b94c-d514-42e7-a05e-e27b00498572",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 4,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>20-Nov-2024</td><td>4 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2024-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9c7cea91-da64-4ca1-852e-29fc2de4b7f2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9c7cea91-da64-4ca1-852e-29fc2de4b7f2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 81.4,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>20-Nov-2024</td><td>81.4 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2024-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e23fcece-33b7-41e1-940f-82b2cfa4198d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e23fcece-33b7-41e1-940f-82b2cfa4198d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 28.1,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>20-Nov-2024</td><td>28.1 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2024-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:af2a122e-344d-446b-baa7-d836e561f7d9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "af2a122e-344d-446b-baa7-d836e561f7d9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 81,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>20-Nov-2024</td><td>81 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2024-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9c11d618-ff45-4557-8a85-8f26f862d478",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9c11d618-ff45-4557-8a85-8f26f862d478",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 132,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>20-Nov-2024</td><td>132 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2024-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ad8cf37d-2b33-44be-a9d3-a901c45d3021",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ad8cf37d-2b33-44be-a9d3-a901c45d3021",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 94,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>20-Nov-2024</td><td>94 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2024-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:26ad4777-8d58-4eb8-aa61-8e816a90b9a1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "26ad4777-8d58-4eb8-aa61-8e816a90b9a1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 15,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>20-Nov-2024</td><td>15 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2024-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4dc46edc-2a09-4d6b-ae06-76ae3a5684b5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4dc46edc-2a09-4d6b-ae06-76ae3a5684b5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 170.3,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>16-Nov-2022</td><td>170.3 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2022-11-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1c503775-9117-451c-8f37-6780d2de8acb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1c503775-9117-451c-8f37-6780d2de8acb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>16-Nov-2022</td><td>1 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2022-11-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:392deb9f-9559-4936-98d4-5898c127c4cb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "392deb9f-9559-4936-98d4-5898c127c4cb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 81.4,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>16-Nov-2022</td><td>81.4 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2022-11-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5d29a9c0-c3dd-4288-8335-95f9b7b2bee8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5d29a9c0-c3dd-4288-8335-95f9b7b2bee8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 28.1,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>16-Nov-2022</td><td>28.1 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2022-11-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2736fcb8-197a-44ff-a8d6-1c4df3621cde",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2736fcb8-197a-44ff-a8d6-1c4df3621cde",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 85,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>16-Nov-2022</td><td>85 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2022-11-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f63e366d-87f6-40f3-a5a5-d18971e6bd03",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f63e366d-87f6-40f3-a5a5-d18971e6bd03",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 128,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>16-Nov-2022</td><td>128 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2022-11-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6b76f613-c57f-4534-9205-5383d955f4a8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6b76f613-c57f-4534-9205-5383d955f4a8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 78,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>16-Nov-2022</td><td>78 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2022-11-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ef19495d-2608-4d47-8f85-c1cc2e8cfbeb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ef19495d-2608-4d47-8f85-c1cc2e8cfbeb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 13,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>16-Nov-2022</td><td>13 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "$9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2022-11-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5943bc47-ced0-41a5-8b85-d5df66908ba4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5943bc47-ced0-41a5-8b85-d5df66908ba4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2093-3",
+              "system": "http://loinc.org",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 153.6,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 125,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 200,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2024-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:582991bc-c190-47ac-ac41-abde10dcf5ac",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "582991bc-c190-47ac-ac41-abde10dcf5ac",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2571-8",
+              "system": "http://loinc.org",
+              "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Triglyceride [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 117.2,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 150,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2024-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9a7bb281-125c-4e19-b9ac-4e27ffa8db45",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9a7bb281-125c-4e19-b9ac-4e27ffa8db45",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "18262-6",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+            }
+          ],
+          "text": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 99.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 130,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2024-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:933db3cb-a441-4cae-a786-f45305acef19",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "933db3cb-a441-4cae-a786-f45305acef19",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2085-9",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 30.2,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 40,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 60,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:424ee858-fe7d-4562-be8a-8ed054fd76b3",
+          "display": "Bradley Smith"
+        },
+        "effectiveDateTime": "2024-11-20"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2025-10-18T19:24:03Z"
+}

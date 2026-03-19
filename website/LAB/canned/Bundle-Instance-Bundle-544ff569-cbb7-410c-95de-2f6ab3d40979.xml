@@ -1,0 +1,1699 @@
+<?xml-stylesheet type="text/xsl" href="primary.xsl"?>
+<Bundle xmlns="http://hl7.org/fhir">
+   <id value="Instance-Bundle-544ff569-cbb7-410c-95de-2f6ab3d40979"/>
+   <meta>
+      <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Bundle-eu-lab"/>
+   </meta>
+   <identifier>
+      <system value="urn:oid:2.16.840.1.113883.2.51.999"/>
+      <value value="b0911b72-8227-4902-94d0-161b417fb9cc"/>
+      <assigner>
+         <display value="HL7 Europe"/>
+      </assigner>
+   </identifier>
+   <type value="document"/>
+   <timestamp value="2024-11-30T13:32:49Z"/>
+   <entry>
+      <fullUrl value="urn:uuid:9b731670-f66c-4334-a24e-853ed273e678"/>
+      <resource>
+         <Composition>
+            <id value="9b731670-f66c-4334-a24e-853ed273e678"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Composition-eu-lab"/>
+            </meta>
+            <identifier>
+               <system value="urn:oid:2.16.840.1.113883.2.51.999"/>
+               <value value="3cb06cf4-32c8-4408-b34e-4b68c30c343e"/>
+               <assigner>
+                  <display value="HL7 Europe"/>
+               </assigner>
+            </identifier>
+            <status value="final"/>
+            <type>
+               <text value="Laboratory Report"/>
+            </type>
+            <category>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="26436-6"/>
+                  <display value="Laboratory studies (set)"/>
+               </coding>
+            </category>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <date value="2024-11-30T13:32:49Z"/>
+            <author>
+               <reference value="urn:uuid:191aa8fb-cba6-4ec0-907f-d67f3228cd8d"/>
+            </author>
+            <title value="Laboratory Report"/>
+            <confidentiality value="N"/>
+            <section>
+               <title value="Laboratory Report"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="26436-6"/>
+                     <display value="Laboratory studies (set)"/>
+                  </coding>
+                  <text value="Laboratory studies"/>
+               </code>
+               <section>
+                  <title value="Chemistry"/>
+                  <code>
+                     <coding>
+                        <system value="http://loinc.org"/>
+                        <code value="18719-5"/>
+                        <display value="Chemistry studies (set)"/>
+                     </coding>
+                     <text value="Chemistry"/>
+                  </code>
+                  <text>
+                     <status value="generated"/>
+                     <div xmlns="http://www.w3.org/1999/xhtml">
+                        <h3 id="section-1">Chemistry</h3>
+                        <table class="hl7__eu__lab__report">
+                           <thead>
+                              <tr>
+                                 <th>Test</th>
+                                 <th>29 Nov 2024</th>
+                                 <th>Reference Range</th>
+                                 <th>Unit</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Glucose [Mass/volume] in Blood</td>
+                                 <td>78.4</td>
+                                 <td>70 - 140</td>
+                                 <td>mg/dL</td>
+                              </tr>
+                              <tr>
+                                 <td>Urea nitrogen [Mass/volume] in Blood</td>
+                                 <td>7.3</td>
+                                 <td>7 - 20</td>
+                                 <td>mg/dL</td>
+                              </tr>
+                              <tr>
+                                 <td>Creatinine [Mass/volume] in Blood</td>
+                                 <td>
+                                    <strong>2.9 H</strong>
+                                 </td>
+                                 <td>0.6 - 1.3</td>
+                                 <td>mg/dL</td>
+                              </tr>
+                              <tr>
+                                 <td>Calcium [Mass/volume] in Blood</td>
+                                 <td>9.0</td>
+                                 <td>8.5 - 10.5</td>
+                                 <td>mg/dL</td>
+                              </tr>
+                              <tr>
+                                 <td>Sodium [Moles/volume] in Blood</td>
+                                 <td>141.8</td>
+                                 <td>135 - 145</td>
+                                 <td>mmol/L</td>
+                              </tr>
+                              <tr>
+                                 <td>Potassium [Moles/volume] in Blood</td>
+                                 <td>5.1</td>
+                                 <td>3.5 - 5.3</td>
+                                 <td>mmol/L</td>
+                              </tr>
+                              <tr>
+                                 <td>Chloride [Moles/volume] in Blood</td>
+                                 <td>102.0</td>
+                                 <td>98 - 108</td>
+                                 <td>mmol/L</td>
+                              </tr>
+                              <tr>
+                                 <td>Carbon dioxide, total [Moles/volume] in Blood</td>
+                                 <td>26.0</td>
+                                 <td>22 - 29</td>
+                                 <td>mmol/L</td>
+                              </tr>
+                              <tr>
+                                 <td>Protein [Mass/volume] in Serum or Plasma</td>
+                                 <td>77.3</td>
+                                 <td>61 - 79</td>
+                                 <td>g/dL</td>
+                              </tr>
+                              <tr>
+                                 <td>Albumin [Mass/volume] in Serum or Plasma</td>
+                                 <td>4.9</td>
+                                 <td>3.5 - 5.5</td>
+                                 <td>g/dL</td>
+                              </tr>
+                              <tr>
+                                 <td>Globulin [Mass/volume] in Serum by calculation</td>
+                                 <td>3.2</td>
+                                 <td>2 - 3.9</td>
+                                 <td>g/L</td>
+                              </tr>
+                              <tr>
+                                 <td>Bilirubin.total [Mass/volume] in Serum or Plasma</td>
+                                 <td>1.1</td>
+                                 <td>0.3 - 1.2</td>
+                                 <td>mg/dL</td>
+                              </tr>
+                              <tr>
+                                 <td>Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma</td>
+                                 <td>38.2</td>
+                                 <td>32 - 150</td>
+                                 <td>U/L</td>
+                              </tr>
+                              <tr>
+                                 <td>Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td>
+                                 <td>20.3</td>
+                                 <td>7 - 60</td>
+                                 <td>U/L</td>
+                              </tr>
+                              <tr>
+                                 <td>Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td>
+                                 <td>37.4</td>
+                                 <td>10 - 40</td>
+                                 <td>U/L</td>
+                              </tr>
+                              <tr>
+                                 <td>Cholesterol [Mass/volume] in Serum or Plasma</td>
+                                 <td>
+                                    <strong>209.3 H</strong>
+                                 </td>
+                                 <td>0 - 200</td>
+                                 <td>mg/dL</td>
+                              </tr>
+                              <tr>
+                                 <td>Triglyceride [Mass/volume] in Serum or Plasma</td>
+                                 <td>
+                                    <strong>190.1 H</strong>
+                                 </td>
+                                 <td>50 - 150</td>
+                                 <td>mg/dL</td>
+                              </tr>
+                              <tr>
+                                 <td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td>
+                                 <td>136.3</td>
+                                 <td>0 - 159</td>
+                                 <td>mg/dL</td>
+                              </tr>
+                              <tr>
+                                 <td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td>
+                                 <td>67.8</td>
+                                 <td>50 - 100</td>
+                                 <td>mg/dL</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </text>
+                  <entry>
+                     <reference value="urn:uuid:9ab07d0d-847e-4713-b1a4-0445cda824a0"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:078bd33e-6405-4414-94e4-1491d9bef664"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:59dfb4ab-6b1e-436c-9efb-bbfa0336f1bc"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:35073574-f1fb-49ba-b029-4c90cdffb16a"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:be5873cb-33fa-422f-99a4-e6404b92c6ac"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:22a76c9a-87bf-4c7c-bdfa-4dcc23d42935"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:4055431b-f10b-4fab-9f05-e19c498986b2"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:7d2fd19f-8d59-47f8-88ac-389ff6a91323"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:9bb3253d-96bb-44bf-9fc1-6e55136c18f5"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:dadfdc36-7689-4dca-a454-00b016553fa5"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:5a0bd2bb-0b2a-43a9-a487-53c5b1ce25f2"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:95d932c6-a0d9-451f-ab44-56df03b054db"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:763fe913-1828-4f42-a0a9-fb110b86af1b"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:a954473d-d182-4b6b-a859-07fb1a9d2b35"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:0027ea11-2a99-4d74-93a6-51401379fe6a"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:a19bd339-1a65-45c7-a637-469082a38d4f"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:81bbe39e-0c09-4537-832f-2c1c0dbce03b"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:59f37241-8dc6-4ff2-8c77-38a191ffbb5a"/>
+                  </entry>
+                  <entry>
+                     <reference value="urn:uuid:add8c11a-4f64-4ebf-9125-2ccfa15d8666"/>
+                  </entry>
+               </section>
+            </section>
+         </Composition>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:370601ad-e645-4ace-a26a-93ad453aefba"/>
+      <resource>
+         <DiagnosticReport>
+            <id value="370601ad-e645-4ace-a26a-93ad453aefba"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/DiagnosticReport-eu-lab"/>
+            </meta>
+            <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.composition">
+               <valueReference>
+                  <reference value="urn:uuid:9b731670-f66c-4334-a24e-853ed273e678"/>
+               </valueReference>
+            </extension>
+            <identifier>
+               <system value="urn:oid:2.16.840.1.113883.2.51.999"/>
+               <value value="ff1a4809-d48e-40b8-85d3-e2ba597f7613"/>
+               <assigner>
+                  <display value="HL7 Europe"/>
+               </assigner>
+            </identifier>
+            <status value="registered"/>
+            <category>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="18719-5"/>
+                  <display value="Chemistry studies (set)"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="11502-2"/>
+                  <display value="Laboratory report"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <specimen>
+               <reference value="urn:uuid:170a1ffe-efb1-4e67-8055-814fd0fa6e21"/>
+            </specimen>
+            <specimen>
+               <reference value="urn:uuid:117177ce-09fc-4836-ab3a-db4ed5245984"/>
+            </specimen>
+            <specimen>
+               <reference value="urn:uuid:6f7361f3-c920-4ee8-88ed-dc684930ebd8"/>
+            </specimen>
+            <result>
+               <reference value="urn:uuid:9ab07d0d-847e-4713-b1a4-0445cda824a0"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:078bd33e-6405-4414-94e4-1491d9bef664"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:59dfb4ab-6b1e-436c-9efb-bbfa0336f1bc"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:35073574-f1fb-49ba-b029-4c90cdffb16a"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:be5873cb-33fa-422f-99a4-e6404b92c6ac"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:22a76c9a-87bf-4c7c-bdfa-4dcc23d42935"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:4055431b-f10b-4fab-9f05-e19c498986b2"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:7d2fd19f-8d59-47f8-88ac-389ff6a91323"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:9bb3253d-96bb-44bf-9fc1-6e55136c18f5"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:dadfdc36-7689-4dca-a454-00b016553fa5"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:5a0bd2bb-0b2a-43a9-a487-53c5b1ce25f2"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:95d932c6-a0d9-451f-ab44-56df03b054db"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:763fe913-1828-4f42-a0a9-fb110b86af1b"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:a954473d-d182-4b6b-a859-07fb1a9d2b35"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:0027ea11-2a99-4d74-93a6-51401379fe6a"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:a19bd339-1a65-45c7-a637-469082a38d4f"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:81bbe39e-0c09-4537-832f-2c1c0dbce03b"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:59f37241-8dc6-4ff2-8c77-38a191ffbb5a"/>
+            </result>
+            <result>
+               <reference value="urn:uuid:add8c11a-4f64-4ebf-9125-2ccfa15d8666"/>
+            </result>
+         </DiagnosticReport>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+      <resource>
+         <Patient>
+            <id value="87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Patient-eu-lab"/>
+            </meta>
+            <identifier>
+               <type>
+                  <coding>
+                     <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                     <code value="NI"/>
+                  </coding>
+               </type>
+               <system value="http://ec.europa.eu/identifier/eci"/>
+               <value value="1778-031914-5"/>
+            </identifier>
+            <identifier>
+               <type>
+                  <coding>
+                     <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                     <code value="MR"/>
+                  </coding>
+               </type>
+               <system value="http://local.setting.eu/identifier"/>
+               <value value="42f5ea83-5d11-46a8-aa93-80932a5cd816"/>
+            </identifier>
+            <name>
+               <text value="Ida den Braber"/>
+               <family value="den Braber"/>
+               <given value="Ida"/>
+            </name>
+            <telecom>
+               <system value="phone"/>
+               <value value="+31 06-27118511"/>
+            </telecom>
+            <gender value="female"/>
+            <birthDate value="1944-04-22"/>
+            <address>
+               <use value="home"/>
+               <type value="physical"/>
+               <line value="Vekenoord 182"/>
+               <city value="Breda"/>
+               <postalCode value="4824 LM"/>
+               <country value="Netherlands"/>
+            </address>
+         </Patient>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:0cff260d-aabf-4a69-889f-85c8d89391dd"/>
+      <resource>
+         <ServiceRequest>
+            <id value="0cff260d-aabf-4a69-889f-85c8d89391dd"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/ServiceRequest-eu-lab"/>
+            </meta>
+            <identifier>
+               <system value="http://example.org"/>
+               <value value="1e7249ce-8dec-4eef-b416-145fc6de0aa7"/>
+            </identifier>
+            <status value="active"/>
+            <intent value="order"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="108252007"/>
+                  <display value="Laboratory procedure"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <requester>
+               <reference value="urn:uuid:ed1eb7e3-9e75-496c-a798-239cad9131d3"/>
+            </requester>
+            <specimen>
+               <reference value="urn:uuid:170a1ffe-efb1-4e67-8055-814fd0fa6e21"/>
+            </specimen>
+            <specimen>
+               <reference value="urn:uuid:117177ce-09fc-4836-ab3a-db4ed5245984"/>
+            </specimen>
+            <specimen>
+               <reference value="urn:uuid:6f7361f3-c920-4ee8-88ed-dc684930ebd8"/>
+            </specimen>
+         </ServiceRequest>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:ed1eb7e3-9e75-496c-a798-239cad9131d3"/>
+      <resource>
+         <PractitionerRole>
+            <id value="ed1eb7e3-9e75-496c-a798-239cad9131d3"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/PractitionerRole-eu-lab"/>
+            </meta>
+            <organization>
+               <reference value="urn:uuid:d3074794-c874-4b7d-9595-770ee3507ac5"/>
+            </organization>
+         </PractitionerRole>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:d3074794-c874-4b7d-9595-770ee3507ac5"/>
+      <resource>
+         <Organization>
+            <id value="d3074794-c874-4b7d-9595-770ee3507ac5"/>
+            <meta>
+               <profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"/>
+            </meta>
+            <identifier>
+               <system value="urn:oid:2.16.840.1.113883.2.51.999"/>
+               <value value="fc6f7626-8e04-4c9e-ba65-5975051adaf5"/>
+               <assigner>
+                  <display value="HL7 Europe"/>
+               </assigner>
+            </identifier>
+            <name value="Doornbos Fysio Groep"/>
+            <address>
+               <line value="Abdijstraat 26"/>
+               <city value="Breda"/>
+               <postalCode value="4811"/>
+               <country value="nl"/>
+            </address>
+         </Organization>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:191aa8fb-cba6-4ec0-907f-d67f3228cd8d"/>
+      <resource>
+         <PractitionerRole>
+            <id value="191aa8fb-cba6-4ec0-907f-d67f3228cd8d"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/PractitionerRole-eu-lab"/>
+            </meta>
+            <practitioner>
+               <reference value="urn:uuid:1aa4353a-e22b-4e81-9e05-71ee6c20c770"/>
+            </practitioner>
+         </PractitionerRole>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:1aa4353a-e22b-4e81-9e05-71ee6c20c770"/>
+      <resource>
+         <Practitioner>
+            <id value="1aa4353a-e22b-4e81-9e05-71ee6c20c770"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Practitioner-eu-lab"/>
+            </meta>
+            <identifier>
+               <system value="urn:oid:2.16.840.1.113883.2.51.999"/>
+               <value value="a4887dc5-c686-43bd-a840-cef7230ba5cd"/>
+               <assigner>
+                  <display value="HL7 Europe"/>
+               </assigner>
+            </identifier>
+            <name>
+               <family value="Ample"/>
+               <given value="Ex"/>
+               <prefix value="dr"/>
+            </name>
+            <address>
+               <line value="Boulevard du Jardin Botanique 32"/>
+               <city value="Brussels"/>
+               <postalCode value="1000"/>
+            </address>
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:170a1ffe-efb1-4e67-8055-814fd0fa6e21"/>
+      <resource>
+         <Specimen>
+            <id value="170a1ffe-efb1-4e67-8055-814fd0fa6e21"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab"/>
+            </meta>
+            <status value="available"/>
+            <type>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="258580003"/>
+                  <display value="Whole blood specimen (specimen)"/>
+               </coding>
+            </type>
+            <collection>
+               <collectedDateTime value="2024-11-29"/>
+            </collection>
+         </Specimen>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:117177ce-09fc-4836-ab3a-db4ed5245984"/>
+      <resource>
+         <Specimen>
+            <id value="117177ce-09fc-4836-ab3a-db4ed5245984"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab"/>
+            </meta>
+            <status value="available"/>
+            <type>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="122592007"/>
+                  <display value="Acellular blood (serum or plasma) specimen (specimen)"/>
+               </coding>
+            </type>
+            <collection>
+               <collectedDateTime value="2024-11-29"/>
+            </collection>
+         </Specimen>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:6f7361f3-c920-4ee8-88ed-dc684930ebd8"/>
+      <resource>
+         <Specimen>
+            <id value="6f7361f3-c920-4ee8-88ed-dc684930ebd8"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab"/>
+            </meta>
+            <status value="available"/>
+            <type>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="119364003"/>
+                  <display value="Serum specimen (specimen)"/>
+               </coding>
+            </type>
+            <collection>
+               <collectedDateTime value="2024-11-29"/>
+            </collection>
+         </Specimen>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:9ab07d0d-847e-4713-b1a4-0445cda824a0"/>
+      <resource>
+         <Observation>
+            <id value="9ab07d0d-847e-4713-b1a4-0445cda824a0"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2339-0"/>
+                  <display value="Glucose [Mass/volume] in Blood"/>
+               </coding>
+               <text value="Glucose [Mass/volume] in Blood"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="78.4"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:170a1ffe-efb1-4e67-8055-814fd0fa6e21"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="70"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="140"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:078bd33e-6405-4414-94e4-1491d9bef664"/>
+      <resource>
+         <Observation>
+            <id value="078bd33e-6405-4414-94e4-1491d9bef664"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="6299-2"/>
+                  <display value="Urea nitrogen [Mass/volume] in Blood"/>
+               </coding>
+               <text value="Urea nitrogen [Mass/volume] in Blood"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="7.3"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:170a1ffe-efb1-4e67-8055-814fd0fa6e21"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="7"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="20"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:59dfb4ab-6b1e-436c-9efb-bbfa0336f1bc"/>
+      <resource>
+         <Observation>
+            <id value="59dfb4ab-6b1e-436c-9efb-bbfa0336f1bc"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="38483-4"/>
+                  <display value="Creatinine [Mass/volume] in Blood"/>
+               </coding>
+               <text value="Creatinine [Mass/volume] in Blood"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="2.9"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <interpretation>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+                  <code value="H"/>
+                  <display value="High"/>
+               </coding>
+            </interpretation>
+            <specimen>
+               <reference value="urn:uuid:170a1ffe-efb1-4e67-8055-814fd0fa6e21"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="0.6"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="1.3"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:35073574-f1fb-49ba-b029-4c90cdffb16a"/>
+      <resource>
+         <Observation>
+            <id value="35073574-f1fb-49ba-b029-4c90cdffb16a"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="49765-1"/>
+                  <display value="Calcium [Mass/volume] in Blood"/>
+               </coding>
+               <text value="Calcium [Mass/volume] in Blood"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="9"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:170a1ffe-efb1-4e67-8055-814fd0fa6e21"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="8.5"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="10.5"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:be5873cb-33fa-422f-99a4-e6404b92c6ac"/>
+      <resource>
+         <Observation>
+            <id value="be5873cb-33fa-422f-99a4-e6404b92c6ac"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2947-0"/>
+                  <display value="Sodium [Moles/volume] in Blood"/>
+               </coding>
+               <text value="Sodium [Moles/volume] in Blood"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="141.8"/>
+               <unit value="mmol/L"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mmol/L"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:170a1ffe-efb1-4e67-8055-814fd0fa6e21"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="135"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mmol/L"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="145"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mmol/L"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:22a76c9a-87bf-4c7c-bdfa-4dcc23d42935"/>
+      <resource>
+         <Observation>
+            <id value="22a76c9a-87bf-4c7c-bdfa-4dcc23d42935"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="6298-4"/>
+                  <display value="Potassium [Moles/volume] in Blood"/>
+               </coding>
+               <text value="Potassium [Moles/volume] in Blood"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="5.1"/>
+               <unit value="mmol/L"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mmol/L"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:170a1ffe-efb1-4e67-8055-814fd0fa6e21"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="3.5"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mmol/L"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="5.3"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mmol/L"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:4055431b-f10b-4fab-9f05-e19c498986b2"/>
+      <resource>
+         <Observation>
+            <id value="4055431b-f10b-4fab-9f05-e19c498986b2"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2069-3"/>
+                  <display value="Chloride [Moles/volume] in Blood"/>
+               </coding>
+               <text value="Chloride [Moles/volume] in Blood"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="102"/>
+               <unit value="mmol/L"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mmol/L"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:170a1ffe-efb1-4e67-8055-814fd0fa6e21"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="98"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mmol/L"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="108"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mmol/L"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:7d2fd19f-8d59-47f8-88ac-389ff6a91323"/>
+      <resource>
+         <Observation>
+            <id value="7d2fd19f-8d59-47f8-88ac-389ff6a91323"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="20565-8"/>
+                  <display value="Carbon dioxide, total [Moles/volume] in Blood"/>
+               </coding>
+               <text value="Carbon dioxide, total [Moles/volume] in Blood"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="26"/>
+               <unit value="mmol/L"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mmol/L"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:170a1ffe-efb1-4e67-8055-814fd0fa6e21"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="22"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mmol/L"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="29"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mmol/L"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:9bb3253d-96bb-44bf-9fc1-6e55136c18f5"/>
+      <resource>
+         <Observation>
+            <id value="9bb3253d-96bb-44bf-9fc1-6e55136c18f5"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2885-2"/>
+                  <display value="Protein [Mass/volume] in Serum or Plasma"/>
+               </coding>
+               <text value="Protein [Mass/volume] in Serum or Plasma"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="77.3"/>
+               <unit value="g/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="g/dL"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:117177ce-09fc-4836-ab3a-db4ed5245984"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="61"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="g/dL"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="79"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="g/dL"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:dadfdc36-7689-4dca-a454-00b016553fa5"/>
+      <resource>
+         <Observation>
+            <id value="dadfdc36-7689-4dca-a454-00b016553fa5"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="1751-7"/>
+                  <display value="Albumin [Mass/volume] in Serum or Plasma"/>
+               </coding>
+               <text value="Albumin [Mass/volume] in Serum or Plasma"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="4.9"/>
+               <unit value="g/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="g/dL"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:117177ce-09fc-4836-ab3a-db4ed5245984"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="3.5"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="g/dL"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="5.5"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="g/dL"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:5a0bd2bb-0b2a-43a9-a487-53c5b1ce25f2"/>
+      <resource>
+         <Observation>
+            <id value="5a0bd2bb-0b2a-43a9-a487-53c5b1ce25f2"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="10834-0"/>
+                  <display value="Globulin [Mass/volume] in Serum by calculation"/>
+               </coding>
+               <text value="Globulin [Mass/volume] in Serum by calculation"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="3.2"/>
+               <unit value="g/L"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="g/L"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:6f7361f3-c920-4ee8-88ed-dc684930ebd8"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="2"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="g/L"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="3.9"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="g/L"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:95d932c6-a0d9-451f-ab44-56df03b054db"/>
+      <resource>
+         <Observation>
+            <id value="95d932c6-a0d9-451f-ab44-56df03b054db"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="1975-2"/>
+                  <display value="Bilirubin.total [Mass/volume] in Serum or Plasma"/>
+               </coding>
+               <text value="Bilirubin.total [Mass/volume] in Serum or Plasma"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="1.1"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:117177ce-09fc-4836-ab3a-db4ed5245984"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="0.3"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="1.2"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:763fe913-1828-4f42-a0a9-fb110b86af1b"/>
+      <resource>
+         <Observation>
+            <id value="763fe913-1828-4f42-a0a9-fb110b86af1b"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="6768-6"/>
+                  <display value="Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"/>
+               </coding>
+               <text value="Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="38.2"/>
+               <unit value="U/L"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="U/L"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:117177ce-09fc-4836-ab3a-db4ed5245984"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="32"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="U/L"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="150"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="U/L"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:a954473d-d182-4b6b-a859-07fb1a9d2b35"/>
+      <resource>
+         <Observation>
+            <id value="a954473d-d182-4b6b-a859-07fb1a9d2b35"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="1742-6"/>
+                  <display value="Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"/>
+               </coding>
+               <text value="Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="20.3"/>
+               <unit value="U/L"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="U/L"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:117177ce-09fc-4836-ab3a-db4ed5245984"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="7"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="U/L"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="60"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="U/L"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:0027ea11-2a99-4d74-93a6-51401379fe6a"/>
+      <resource>
+         <Observation>
+            <id value="0027ea11-2a99-4d74-93a6-51401379fe6a"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="1920-8"/>
+                  <display value="Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"/>
+               </coding>
+               <text value="Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="37.4"/>
+               <unit value="U/L"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="U/L"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:117177ce-09fc-4836-ab3a-db4ed5245984"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="10"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="U/L"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="40"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="U/L"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:a19bd339-1a65-45c7-a637-469082a38d4f"/>
+      <resource>
+         <Observation>
+            <id value="a19bd339-1a65-45c7-a637-469082a38d4f"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2093-3"/>
+                  <display value="Cholesterol [Mass/volume] in Serum or Plasma"/>
+               </coding>
+               <text value="Cholesterol [Mass/volume] in Serum or Plasma"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="209.3"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <interpretation>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+                  <code value="H"/>
+                  <display value="High"/>
+               </coding>
+            </interpretation>
+            <specimen>
+               <reference value="urn:uuid:117177ce-09fc-4836-ab3a-db4ed5245984"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="0"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="200"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:81bbe39e-0c09-4537-832f-2c1c0dbce03b"/>
+      <resource>
+         <Observation>
+            <id value="81bbe39e-0c09-4537-832f-2c1c0dbce03b"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2571-8"/>
+                  <display value="Triglyceride [Mass/volume] in Serum or Plasma"/>
+               </coding>
+               <text value="Triglyceride [Mass/volume] in Serum or Plasma"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="190.1"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <interpretation>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+                  <code value="H"/>
+                  <display value="High"/>
+               </coding>
+            </interpretation>
+            <specimen>
+               <reference value="urn:uuid:117177ce-09fc-4836-ab3a-db4ed5245984"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="50"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="150"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:59f37241-8dc6-4ff2-8c77-38a191ffbb5a"/>
+      <resource>
+         <Observation>
+            <id value="59f37241-8dc6-4ff2-8c77-38a191ffbb5a"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="18262-6"/>
+                  <display value="Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"/>
+               </coding>
+               <text value="Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="136.3"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:117177ce-09fc-4836-ab3a-db4ed5245984"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="0"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="159"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:add8c11a-4f64-4ebf-9125-2ccfa15d8666"/>
+      <resource>
+         <Observation>
+            <id value="add8c11a-4f64-4ebf-9125-2ccfa15d8666"/>
+            <meta>
+               <profile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2085-9"/>
+                  <display value="Cholesterol in HDL [Mass/volume] in Serum or Plasma"/>
+               </coding>
+               <text value="Cholesterol in HDL [Mass/volume] in Serum or Plasma"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:87412de1-a8eb-4e49-ac49-b3606214d607"/>
+            </subject>
+            <effectiveDateTime value="2024-11-29"/>
+            <performer>
+               <display value="The Central European Lab"/>
+            </performer>
+            <valueQuantity>
+               <value value="67.8"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <specimen>
+               <reference value="urn:uuid:117177ce-09fc-4836-ab3a-db4ed5245984"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="50"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+            </referenceRange>
+            <referenceRange>
+               <high>
+                  <value value="100"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+</Bundle>

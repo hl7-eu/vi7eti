@@ -1,0 +1,898 @@
+<?xml-stylesheet type="text/xsl" href="primary.xsl"?>
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" />
+      <link rel="stylesheet" href="stylesmain.css" />
+      <link rel="stylesheet" href="styles.css" /><script src="main.js"></script><title>Laboratory Report</title>
+   </head>
+   <body>
+      <section class="accordion container">
+         <div class="accordion__container">
+            <div xmlns="" class="disclaimer">
+               Disclaimer: These web pages are not intended to be used as a source of information
+               on patient care.
+               
+               <div>The laboratory reports are clinically reasonable, but synthetic and contain AI generated
+                  content.</div>
+            </div>
+            <div xmlns="" id="popupDialog"><textarea rows="32" cols="70" id="jsonsource"></textarea><button onclick="togglePopup()">
+                  Close
+                  </button></div>
+            <div xmlns=""><button onclick="togglePopup();">Show source</button><button onclick="location.href=window.location.origin+window.location.pathname;">Back to overview</button></div>
+            <div xmlns="" class="testonly">FOR TEST AND EXAMPLE PURPOSES ONLY! This is a live rendition of the original source
+               file.</div>
+            <header class="preamble__header">
+               <h1>Laboratory Report</h1>
+            </header>
+            <div class="preamble__content">
+               <table class="top__header__table">
+                  <tr>
+                     <td width="33%">
+                        <table xmlns="" class="meta__header">
+                           <tr>
+                              <th colspan="2">Patient</th>
+                           </tr>
+                           <tr>
+                              <td>Name:</td>
+                              <td><strong>Kerver</strong>, Eliane</td>
+                           </tr>
+                           <tr>
+                              <td>DOB:</td>
+                              <td>25-FEB-1969 (Age: 55)</td>
+                           </tr>
+                           <tr>
+                              <td>Gender:</td>
+                              <td>female</td>
+                           </tr>
+                           <tr>
+                              <td>Address:</td>
+                              <td>
+                                 <div>Nieuweweg 134</div>
+                                 <div>4631 TC Hoogerheide (Netherlands)</div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>ID (ECI):</td>
+                              <td>6077-888840-8</td>
+                           </tr>
+                        </table>
+                     </td>
+                     <td width="33%">
+                        <table xmlns="" class="meta__header">
+                           <thead>
+                              <tr>
+                                 <th colspan="2">Report</th>
+                              </tr>
+                           </thead>
+                           <tr>
+                              <td><strong>Date:</strong></td>
+                              <td><strong>30-NOV-2024</strong></td>
+                           </tr>
+                        </table>
+                        <table xmlns="" class="meta__header">
+                           <thead>
+                              <tr>
+                                 <th>Laboratory</th>
+                              </tr>
+                           </thead>
+                           <tr>
+                              <td>dr <strong>Ample</strong>, Ex
+                                 <div>
+                                    <div>Boulevard du Jardin Botanique 32</div>
+                                    <div>1000 Brussels</div>
+                                 </div>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                     <td width="33%">
+                        <table xmlns="" class="meta__header">
+                           <thead>
+                              <tr>
+                                 <th colspan="2">Requested by</th>
+                              </tr>
+                           </thead>
+                           <tr>
+                              <td>
+                                 <div>Liduina</div>
+                                 <div>
+                                    <div>4561 Hulst (nl)</div>
+                                 </div>
+                              </td>
+                           </tr>
+                        </table>
+                        <table xmlns="" class="meta__header">
+                           <thead>
+                              <tr>
+                                 <th colspan="2">Specimen</th>
+                              </tr>
+                           </thead>
+                           <tr>
+                              <td>Collected:</td>
+                              <td>29-NOV-2024</td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+               </table>
+               <section class="accordion container">
+                  <text xmlns="http://hl7.org/fhir">
+                     
+                     <status value="generated"></status>
+                     
+                     <div xmlns="http://www.w3.org/1999/xhtml">
+                        
+                        <h3 id="section-1">Hematology</h3>
+                        
+                        <table class="hl7__eu__lab__report">
+                           
+                           <thead>
+                              
+                              <tr>
+                                 
+                                 <th>Test</th>
+                                 
+                                 <th>29 Nov 2024</th>
+                                 
+                                 <th>Reference Range</th>
+                                 
+                                 <th>Unit</th>
+                                 </tr>
+                              </thead>
+                           
+                           <tbody>
+                              
+                              <tr>
+                                 
+                                 <td>Leukocytes [#/volume] in Blood by Automated count</td>
+                                 
+                                 <td>3.8</td>
+                                 
+                                 <td>3.4 - 10.8</td>
+                                 
+                                 <td>10^3/uL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Erythrocytes [#/volume] in Blood by Automated count</td>
+                                 
+                                 <td>5.2</td>
+                                 
+                                 <td>4.2 - 5.8</td>
+                                 
+                                 <td>10^6/uL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Hemoglobin [Mass/volume] in Blood</td>
+                                 
+                                 <td>12.4</td>
+                                 
+                                 <td>12 - 15.5</td>
+                                 
+                                 <td>g/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Hematocrit [Volume Fraction] of Blood by Automated count</td>
+                                 
+                                 <td>43.7</td>
+                                 
+                                 <td>37 - 52</td>
+                                 
+                                 <td>%</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>MCV [Entitic volume] by Automated count</td>
+                                 
+                                 <td>95.4</td>
+                                 
+                                 <td>80 - 105</td>
+                                 
+                                 <td>fL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>MCH [Entitic mass] by Automated count</td>
+                                 
+                                 <td>32.9</td>
+                                 
+                                 <td>27 - 34</td>
+                                 
+                                 <td>pg</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>MCHC [Mass/volume] by Automated count</td>
+                                 
+                                 <td>31.7</td>
+                                 
+                                 <td>31 - 35</td>
+                                 
+                                 <td>g/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Erythrocyte distribution width [Ratio] by Automated count</td>
+                                 
+                                 <td>14.0</td>
+                                 
+                                 <td>11.5 - 16</td>
+                                 
+                                 <td>%</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Platelets [#/volume] in Blood by Automated count</td>
+                                 
+                                 <td>
+                                    <strong>110.4 L</strong>
+                                    </td>
+                                 
+                                 <td>150 - 450</td>
+                                 
+                                 <td>10^3/uL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Neutrophils/100 leukocytes in Blood by Automated count</td>
+                                 
+                                 <td>40.9</td>
+                                 
+                                 <td>40 - 74.6</td>
+                                 
+                                 <td>%</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Lymphocytes/100 leukocytes in Blood by Automated count</td>
+                                 
+                                 <td>
+                                    <strong>17.3 L</strong>
+                                    </td>
+                                 
+                                 <td>20 - 45</td>
+                                 
+                                 <td>%</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Monocytes/100 leukocytes in Blood by Automated count</td>
+                                 
+                                 <td>7.0</td>
+                                 
+                                 <td>2 - 10</td>
+                                 
+                                 <td>%</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Eosinophils/100 leukocytes in Blood by Automated count</td>
+                                 
+                                 <td>5.6</td>
+                                 
+                                 <td>0 - 7</td>
+                                 
+                                 <td>%</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Basophils/100 leukocytes in Blood by Automated count</td>
+                                 
+                                 <td>
+                                    <strong>3.6 H</strong>
+                                    </td>
+                                 
+                                 <td>0 - 1</td>
+                                 
+                                 <td>%</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Neutrophils [#/volume] in Blood by Automated count</td>
+                                 
+                                 <td>3.4</td>
+                                 
+                                 <td>2 - 7.7</td>
+                                 
+                                 <td>10^3/uL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Lymphocytes [#/volume] in Blood by Automated count</td>
+                                 
+                                 <td>1.1</td>
+                                 
+                                 <td>1 - 4</td>
+                                 
+                                 <td>10^3/uL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Monocytes [#/volume] in Blood by Automated count</td>
+                                 
+                                 <td>
+                                    <strong>1.0 H</strong>
+                                    </td>
+                                 
+                                 <td>0.7 - 0.9</td>
+                                 
+                                 <td>10^3/uL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Eosinophils [#/volume] in Blood by Automated count</td>
+                                 
+                                 <td>0.3</td>
+                                 
+                                 <td>0.1 - 0.5</td>
+                                 
+                                 <td>10^3/uL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Basophils [#/volume] in Blood by Automated count</td>
+                                 
+                                 <td>
+                                    <strong>0.4 H</strong>
+                                    </td>
+                                 
+                                 <td>0.3 - 0.1</td>
+                                 
+                                 <td>10^3/uL</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </text>
+                  <text xmlns="http://hl7.org/fhir">
+                     
+                     <status value="generated"></status>
+                     
+                     <div xmlns="http://www.w3.org/1999/xhtml">
+                        
+                        <h3 id="section-2">Chemistry</h3>
+                        
+                        <table class="hl7__eu__lab__report">
+                           
+                           <thead>
+                              
+                              <tr>
+                                 
+                                 <th>Test</th>
+                                 
+                                 <th>29 Nov 2024</th>
+                                 
+                                 <th>Reference Range</th>
+                                 
+                                 <th>Unit</th>
+                                 </tr>
+                              </thead>
+                           
+                           <tbody>
+                              
+                              <tr>
+                                 
+                                 <td>Oxygen saturation in Arterial blood</td>
+                                 
+                                 <td>
+                                    <strong>75.9 L</strong>
+                                    </td>
+                                 
+                                 <td>95 - 100</td>
+                                 
+                                 <td>%</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Oxygen saturation in Arterial blood</td>
+                                 
+                                 <td>
+                                    <strong>88.9 L</strong>
+                                    </td>
+                                 
+                                 <td>95 - 100</td>
+                                 
+                                 <td>%</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Glucose [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>95.9</td>
+                                 
+                                 <td>70 - 139</td>
+                                 
+                                 <td>mg/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Urea nitrogen [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>7.8</td>
+                                 
+                                 <td>6 - 20</td>
+                                 
+                                 <td>mg/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Creatinine [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>
+                                    <strong>2.5 H</strong>
+                                    </td>
+                                 
+                                 <td>0.6 - 1.1</td>
+                                 
+                                 <td>mg/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Calcium [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>10.1</td>
+                                 
+                                 <td>8.5 - 10.4</td>
+                                 
+                                 <td>mg/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Sodium [Moles/volume] in Serum or Plasma</td>
+                                 
+                                 <td>140.0</td>
+                                 
+                                 <td>135 - 145</td>
+                                 
+                                 <td>mmol/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Potassium [Moles/volume] in Serum or Plasma</td>
+                                 
+                                 <td>5.0</td>
+                                 
+                                 <td>3.5 - 5.3</td>
+                                 
+                                 <td>mmol/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Chloride [Moles/volume] in Serum or Plasma</td>
+                                 
+                                 <td>103.0</td>
+                                 
+                                 <td>98 - 107</td>
+                                 
+                                 <td>mmol/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Carbon dioxide, total [Moles/volume] in Serum or Plasma</td>
+                                 
+                                 <td>25.4</td>
+                                 
+                                 <td>22 - 29</td>
+                                 
+                                 <td>mmol/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Protein [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>6.3</td>
+                                 
+                                 <td>6 - 8.3</td>
+                                 
+                                 <td>g/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Albumin [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>3.5</td>
+                                 
+                                 <td>3.4 - 5</td>
+                                 
+                                 <td>g/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Bilirubin.total [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>
+                                    <strong>12.0 H</strong>
+                                    </td>
+                                 
+                                 <td>0.3 - 1.2</td>
+                                 
+                                 <td>mg/dL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma</td>
+                                 
+                                 <td>81.3</td>
+                                 
+                                 <td>20 - 130</td>
+                                 
+                                 <td>U/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td>
+                                 
+                                 <td>28.4</td>
+                                 
+                                 <td>7 - 33</td>
+                                 
+                                 <td>U/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td>
+                                 
+                                 <td>17.9</td>
+                                 
+                                 <td>10 - 40</td>
+                                 
+                                 <td>U/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Ferritin [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>
+                                    <strong>313.0 H</strong>
+                                    </td>
+                                 
+                                 <td>30 - 150</td>
+                                 
+                                 <td>ug/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Troponin I.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method</td>
+                                 
+                                 <td>2.8</td>
+                                 
+                                 <td>0 - 15</td>
+                                 
+                                 <td>pg/mL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to
+                                    pyruvate reaction</td>
+                                 
+                                 <td>
+                                    <strong>221.9 H</strong>
+                                    </td>
+                                 
+                                 <td>100 - 214</td>
+                                 
+                                 <td>U/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Creatine kinase [Enzymatic activity/volume] in Serum or Plasma</td>
+                                 
+                                 <td>52.1</td>
+                                 
+                                 <td>30 - 170</td>
+                                 
+                                 <td>U/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>C reactive protein [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>8.1</td>
+                                 
+                                 <td>0 - 10</td>
+                                 
+                                 <td>mg/L</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Procalcitonin [Mass/volume] in Serum or Plasma</td>
+                                 
+                                 <td>0.1</td>
+                                 
+                                 <td>0 - 0.5</td>
+                                 
+                                 <td>ng/mL</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </text>
+                  <text xmlns="http://hl7.org/fhir">
+                     
+                     <status value="generated"></status>
+                     
+                     <div xmlns="http://www.w3.org/1999/xhtml">
+                        
+                        <h3 id="section-3">Coagulation</h3>
+                        
+                        <table class="hl7__eu__lab__report">
+                           
+                           <thead>
+                              
+                              <tr>
+                                 
+                                 <th>Test</th>
+                                 
+                                 <th>29 Nov 2024</th>
+                                 
+                                 <th>Reference Range</th>
+                                 
+                                 <th>Unit</th>
+                                 </tr>
+                              </thead>
+                           
+                           <tbody>
+                              
+                              <tr>
+                                 
+                                 <td>Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma</td>
+                                 
+                                 <td>0.2</td>
+                                 
+                                 <td>0 - 0.5</td>
+                                 
+                                 <td>ug/mL</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Prothrombin time (PT)</td>
+                                 
+                                 <td>11.8</td>
+                                 
+                                 <td>11 - 14</td>
+                                 
+                                 <td>sec</td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>INR in Platelet poor plasma by Coagulation assay</td>
+                                 
+                                 <td>1.3</td>
+                                 
+                                 <td>0.9 - 2</td>
+                                 
+                                 <td>{INR}</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </text>
+                  <text xmlns="http://hl7.org/fhir">
+                     
+                     <status value="generated"></status>
+                     
+                     <div xmlns="http://www.w3.org/1999/xhtml">
+                        
+                        <h3 id="section-4">Microbiology</h3>
+                        
+                        <table class="hl7__eu__lab__report">
+                           
+                           <thead>
+                              
+                              <tr>
+                                 
+                                 <th>Test</th>
+                                 
+                                 <th>29 Nov 2024</th>
+                                 
+                                 <th>Reference Range</th>
+                                 
+                                 <th>Unit</th>
+                                 </tr>
+                              </thead>
+                           
+                           <tbody>
+                              
+                              <tr>
+                                 
+                                 <td>Influenza virus A RNA [Presence] in Respiratory system specimen by NAA with probe
+                                    detection</td>
+                                 
+                                 <td>Negative</td>
+                                 
+                                 <td></td>
+                                 
+                                 <td></td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Influenza virus B RNA [Presence] in Respiratory system specimen by NAA with probe
+                                    detection</td>
+                                 
+                                 <td>Negative</td>
+                                 
+                                 <td></td>
+                                 
+                                 <td></td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Respiratory syncytial virus RNA [Presence] in Respiratory system specimen by NAA with
+                                    probe detection</td>
+                                 
+                                 <td>Negative</td>
+                                 
+                                 <td></td>
+                                 
+                                 <td></td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Parainfluenza virus 1 RNA [Presence] in Respiratory system specimen by NAA with probe
+                                    detection</td>
+                                 
+                                 <td>Negative</td>
+                                 
+                                 <td></td>
+                                 
+                                 <td></td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Parainfluenza virus 2 RNA [Presence] in Respiratory system specimen by NAA with probe
+                                    detection</td>
+                                 
+                                 <td>Negative</td>
+                                 
+                                 <td></td>
+                                 
+                                 <td></td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Parainfluenza virus 3 RNA [Presence] in Respiratory system specimen by NAA with probe
+                                    detection</td>
+                                 
+                                 <td>Negative</td>
+                                 
+                                 <td></td>
+                                 
+                                 <td></td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Rhinovirus RNA [Presence] in Respiratory system specimen by NAA with probe detection</td>
+                                 
+                                 <td>Negative</td>
+                                 
+                                 <td></td>
+                                 
+                                 <td></td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Human metapneumovirus RNA [Presence] in Respiratory system specimen by NAA with probe
+                                    detection</td>
+                                 
+                                 <td>Negative</td>
+                                 
+                                 <td></td>
+                                 
+                                 <td></td>
+                                 </tr>
+                              
+                              <tr>
+                                 
+                                 <td>Adenovirus A+B+C+D+E DNA [Presence] in Respiratory system specimen by NAA with probe
+                                    detection</td>
+                                 
+                                 <td>Negative</td>
+                                 
+                                 <td></td>
+                                 
+                                 <td></td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </text>
+                  <text xmlns="http://hl7.org/fhir">
+                     
+                     <status value="generated"></status>
+                     
+                     <div xmlns="http://www.w3.org/1999/xhtml">
+                        
+                        <h3 id="section-5">Microbiology Panel</h3>
+                        
+                        <table class="hl7__eu__lab__report">
+                           
+                           <thead>
+                              
+                              <tr>
+                                 
+                                 <th>Test</th>
+                                 
+                                 <th>29 Nov 2024</th>
+                                 
+                                 <th>Reference Range</th>
+                                 
+                                 <th>Unit</th>
+                                 </tr>
+                              </thead>
+                           
+                           <tbody>
+                              
+                              <tr>
+                                 
+                                 <td>SARS-CoV-2 (COVID-19) RNA panel - Respiratory system specimen by NAA with probe detection</td>
+                                 
+                                 <td>Detected</td>
+                                 
+                                 <td></td>
+                                 
+                                 <td></td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </text>
+               </section>
+            </div>
+         </div>
+      </section>
+   </body>
+</html>

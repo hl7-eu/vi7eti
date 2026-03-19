@@ -1,0 +1,94 @@
+h1 {
+    padding-left: 0;
+    margin-top: 1em;
+}
+h3 {
+    color: maroon;
+    margin-top: 1em;
+}
+
+table.hl7__ips {
+    border: 1px solid #aaa;
+    width: 100%;
+    color: #333;
+}
+table.hl7__ips th {
+    text-align: left;
+    background-color: #aaa;
+    color: #fff;
+}
+table.hl7__ips td {
+    vertical-align: top;
+    padding-top: .4em;
+    padding-bottom: .1em;
+}
+table.hl7__ips th:nth-child(1) {
+    /* 50% focus part */
+    width: 50%;
+}
+table.first25 th:nth-child(1) {
+    /* smaller focus part */
+    width: 25% !important;
+}
+table.hl7__ips th:nth-child(2) {
+    width: 10%;
+}
+table.hl7__ips th:nth-child(3) {
+    width: 10%;
+}
+table.hl7__ips th:nth-child(4) {
+    width: 10%;
+}
+table.hl7__ips th:nth-child(5) {
+    width: 10%;
+}
+
+table.top__header__table {
+    border: none;
+    border-left: 3px solid #aaa;
+}
+table.top__header__table td, table.top__header__table th {
+    vertical-align: top;
+    color: #555;
+}
+table.meta__header {
+    border: none;
+}
+table.meta__header th {
+    text-align: left;
+}
+table.meta__header th:nth-child(1) {
+    border-bottom: 1px solid #aaa;
+}
+table.meta__header td {
+    padding-top: .4em;
+    padding-bottom: .1em;
+    vertical-align: top;
+}
+
+#popupDialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+}
+
+span.nb {
+    /* non-breaking white space content */
+    background-color: #ddd;
+    border-radius: 8px;
+    padding: 3px 5px;
+    white-space: nowrap;
+    font-family: monospace;
+}
+
+span.grayedout {
+    /* grayed out text content */
+    color: #bbb;
+}
